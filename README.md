@@ -3,12 +3,13 @@ Main website of the CHEMeDATA ombrella organization (under construction...)
 
 ***How to make chemistry data [FAIR](https://www.go-fair.org/fair-principles/)?***
 
-## Finding chemistry information on the web (Findable) FINDING AID
+## Finding chemistry information on the web (Findable)
 
 Locating information using:
 - General search tools (google, ...)
 - Chemistry database ([chemspinder](https://chemspider.com/), [pubchem](https://pubchem.ncbi.nlm.nih.gov/)
 - Specialized database (https://www.ccdc.cam.ac.uk/ for X-ray, etc.)
+- Other *finding aids* ...
 
 #### Problem
 Except when data are directly submited to a service (such as CCDC for X-Ray structure) these source of information need to identify **new chemistry [Research Object (RO)](http://www.researchobject.org/) on the web**. For example, NMR spectra in the supplementary data of an article need to be identifyable as such (an NMR spectrum) and provide information about the compound it corresponds to. This will allow hummers to catalogue and integrate them.
@@ -104,18 +105,21 @@ Example 2 dihedral angle in a molecule
 1) includes ./acqus + (./fid or .ser) + ./pdata/**N**/1r OR 
 
 XML too vague.
-
-- [vowl](http://vowl.visualdataweb.org/) part of [w3](https://www.w3.org/standards/about.html)
+More specific may come from:
+- [vowl](http://vowl.visualdataweb.org/) part of [w3](https://www.w3.org/standards/about.html) (seem not relevant to chemistry!?)
 - [RDF](https://www.w3.org/2001/sw/wiki/RDF)
+- [DOI shema](https://www.doi.org/doi_handbook/DOI_Schema_Release_Notes.html)
 
 Entity Relationship Diagram (
 E-R Diagram [example](https://creately.com/diagram/example/h7cw0wrb1/%20E-R%20Diagram%20of%20Library%20Management%20System) )  
 
-Inspiration doi... has a schema... to make parallel.
-USE CASES approach !! 
-Finding pieces... 
-- KIT - steven 's group... ELN... chem motion... https://www.chemotion-repository.net/welcome .
-- nasa... level of processing
-- CERN also level ofprocessing.
-ELECTRONIC NOTBOOK GIVES THE LINKS...
-FINDING AID...
+USE CASES approach for involving others!! 
+KEY CONCEPT: Finding pieces (RO) in .zip files (or elsewhere)
+
+Relevant to our work:
+Electronic lab books because the ata in lab books make the link between RO. Example at [KIT](https://www.chemotion-repository.net/welcome).
+
+Level of processing:
+- in NMR (fid, xf2 data, xfb data - FID, series of spectra, 2D spectra...)
+- with NASA data 
+- CERN data also level of processing.
