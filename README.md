@@ -102,3 +102,7 @@ Example 2 dihedral angle in a molecule
 2) is a 1D spectrum (presence of acqu2s file)
 #### NMR spectrum:
 1) includes ./acqus + (./fid or .ser) + ./pdata/**N**/1r OR 
+
+Interesting link:
+
+[vowl](http://vowl.visualdataweb.org/)
