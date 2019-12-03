@@ -103,7 +103,7 @@ Example 2 dihedral angle in a molecule
 #### NMR spectrum:
 1) includes ./acqus + (./fid or .ser) + ./pdata/**N**/1r OR 
 
-XML too vague
+XML too vague.
 
 - [vowl](http://vowl.visualdataweb.org/) part of [w3](https://www.w3.org/standards/about.html)
 - [RDF](https://www.w3.org/2001/sw/wiki/RDF)
@@ -111,3 +111,8 @@ XML too vague
 
 Entity Relationship Diagram (
 E-R Diagram [example](https://creately.com/diagram/example/h7cw0wrb1/%20E-R%20Diagram%20of%20Library%20Management%20System))  
+
+
+inspiration doi... has a schema... to make parallel.
+
+Finding pieces... 
