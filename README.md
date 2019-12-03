@@ -111,5 +111,5 @@ XML too vague
 
 -[w3](https://www.w3.org/standards/about.html)
 
-Entity Relationship Diagram
-E-R Diagram https://creately.com/diagram/example/h7cw0wrb1/%20E-R%20Diagram%20of%20Library%20Management%20System
+Entity Relationship Diagram (
+E-R Diagram [example](https://creately.com/diagram/example/h7cw0wrb1/%20E-R%20Diagram%20of%20Library%20Management%20System))  
