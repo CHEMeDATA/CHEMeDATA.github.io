@@ -106,7 +106,7 @@ Example 2 dihedral angle in a molecule
 
 XML too vague.
 More specific may come from:
-- [vowl](http://vowl.visualdataweb.org/) part of [w3](https://www.w3.org/standards/about.html) (seem not relevant to chemistry!?)
+- [vowl](http://vowl.visualdataweb.org/) part of [w3](https://www.w3.org/standards/about.html) (seem not relevant to chemistry!?) [see this...](http://vowl.visualdataweb.org/webvowl.html)
 - [RDF](https://www.w3.org/2001/sw/wiki/RDF)
 - [DOI shema](https://www.doi.org/doi_handbook/DOI_Schema_Release_Notes.html)
 
