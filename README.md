@@ -1,7 +1,7 @@
 # CHEMeDATA.github.io
 Main website of the CHEMeDATA ombrella organization (under construction...)
 
-***How to make chemistry [FAIR](https://www.go-fair.org/fair-principles/)?***
+***How to make chemistry data [FAIR](https://www.go-fair.org/fair-principles/)?***
 
 ## Finding chemistry information on the web (Findable)
 
@@ -57,6 +57,7 @@ Chemical informations can be
 #### Problem 
 For single-file document (1 and 2) a simple extension of [FITS](https://projects.iq.harvard.edu/fits) may be enough. For more complex data (file trees), additional work has to be done - except if we convert all non-single files RO into single-file RO as part of the standardisation. For example, a Bruker file tree could be converted into a single .jcamp file.
 
+Note: [NIME/chemical](https://en.wikipedia.org/wiki/Chemical_file_format) seem to be abandonned... should it be (re)used?!
 
 ### How to indentify them
 1. Simple seach of the file extention
