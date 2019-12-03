@@ -3,7 +3,7 @@ Main website of the CHEMeDATA ombrella organization (under construction...)
 
 ***How to make chemistry data [FAIR](https://www.go-fair.org/fair-principles/)?***
 
-## Finding chemistry information on the web (Findable)
+## Finding chemistry information on the web (Findable) FINDING AID
 
 Locating information using:
 - General search tools (google, ...)
@@ -108,11 +108,14 @@ XML too vague.
 - [vowl](http://vowl.visualdataweb.org/) part of [w3](https://www.w3.org/standards/about.html)
 - [RDF](https://www.w3.org/2001/sw/wiki/RDF)
 
-
 Entity Relationship Diagram (
-E-R Diagram [example](https://creately.com/diagram/example/h7cw0wrb1/%20E-R%20Diagram%20of%20Library%20Management%20System))  
+E-R Diagram [example](https://creately.com/diagram/example/h7cw0wrb1/%20E-R%20Diagram%20of%20Library%20Management%20System) )  
 
-
-inspiration doi... has a schema... to make parallel.
-
+Inspiration doi... has a schema... to make parallel.
+USE CASES approach !! 
 Finding pieces... 
+- KIT - steven 's group... ELN... chem motion... https://www.chemotion-repository.net/welcome .
+- nasa... level of processing
+- CERN also level ofprocessing.
+ELECTRONIC NOTBOOK GIVES THE LINKS...
+FINDING AID...
