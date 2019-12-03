@@ -48,16 +48,16 @@ Chemical informations can be
 4. just a small section in a the text of thesis, journal article, table in a book, specialized database, wikipedia (melting temperature, IUPAC name, etc.)
 
 ### How to indentify them
--1. Simple seach of the file extention
--2. File extention + additional information in the file (IR/NMR .jcamp file, isotope acquired) 
--3. Identify a pattern of files alone (./fid + ./pdata/1/1r + ./acqus + ...procs) possibly need to check in the file to identify isotope
--4. Indentify the schema, sentence structure, symbol, etc. of the data in the document
+1. Simple seach of the file extention
+2. File extention + additional information in the file (IR/NMR .jcamp file, isotope acquired) 
+3. Identify a pattern of files alone (./fid + ./pdata/1/1r + ./acqus + ...procs) possibly need to check in the file to identify isotope
+4. Indentify the schema, sentence structure, symbol, etc. of the data in the document
 
 ### How to extract specific information 
--1. Find, in the file, indication about the exact content: 2D structure, 3D, type of spectroscopy in the .jcamp file 
--2. See above. 
--3. Get date in the correct file
--4. Parse and search for a pattern
+1. Find, in the file, indication about the exact content: 2D structure, 3D, type of spectroscopy in the .jcamp file 
+2. See above. 
+3. Get date in the correct file
+4. Parse and search for a pattern
 
 ### project for diverse chemical information, describe how to find it and caracterize it:
 
