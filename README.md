@@ -106,4 +106,4 @@ Example 2 dihedral angle in a molecule
 Interesting link:
 
 [vowl](http://vowl.visualdataweb.org/)
-[w3](w3)
+[w3](https://www.w3.org/standards/about.html)
