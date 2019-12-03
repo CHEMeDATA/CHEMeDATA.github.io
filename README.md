@@ -105,8 +105,8 @@ Example 2 dihedral angle in a molecule
 
 XML too vague
 
--[vowl](http://vowl.visualdataweb.org/) part of [w3](https://www.w3.org/standards/about.html)
--[RDF](https://www.w3.org/2001/sw/wiki/RDF)
+- [vowl](http://vowl.visualdataweb.org/) part of [w3](https://www.w3.org/standards/about.html)
+- [RDF](https://www.w3.org/2001/sw/wiki/RDF)
 
 
 Entity Relationship Diagram (
