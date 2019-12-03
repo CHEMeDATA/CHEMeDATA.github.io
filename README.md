@@ -74,9 +74,9 @@ Example 2 dihedral angle in a molecule
 - Search for 3D structure only
 - Extract the angle
 
-### What is needed ? 
+### What is needed (IUPAC work)
 - List (all the possible) chemical information one may be interested in
-- List the criterion to find them
+- List the criterion to find them (may be provided by manufacturers of instruments...)
 - convert them into open format - pack them into .xml ?
 - display them to human.
  
