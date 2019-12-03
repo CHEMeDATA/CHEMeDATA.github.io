@@ -11,12 +11,12 @@ Locating information using:
 - Specialized database (https://www.ccdc.cam.ac.uk/ for X-ray, etc.)
 
 #### Problem
-Except when data are directly submited to a service (such as CCDC for X-Ray structure) these source of information need to identify **new [Research object?](http://www.researchobject.org/) on the web**. For example, NMR spectra in the supplementary data of an article need to be identifyable as such (an NMR spectrum) and provide information about the compound it corresponds to. This will allow hummers to catalogue and integrate them.
+Except when data are directly submited to a service (such as CCDC for X-Ray structure) these source of information need to identify **new chemistry [Research Object (RO)](http://www.researchobject.org/) on the web**. For example, NMR spectra in the supplementary data of an article need to be identifyable as such (an NMR spectrum) and provide information about the compound it corresponds to. This will allow hummers to catalogue and integrate them.
 
 
 Tool | Role as solution to the problem
 ------------ | -------------
-*to-be-defined* |  Identify **chemistry** Research Objects (possibly extension of FITS (see below)
+*to-be-defined* |  Identify **chemistry** Research Objects (possibly extension of FITS (see below) or as [ro-crate](https://researchobject.github.io/ro-crate/) )
   | ...
 
 ## Downloading chemistry information on the web (Accessible)
