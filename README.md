@@ -11,7 +11,13 @@ Locating information using:
 - Specialized database (https://www.ccdc.cam.ac.uk/ for X-ray, etc.)
 
 #### Problem
-Except when data are directly submited to a service (such as CCDC for X-Ray structure) these source of information need to identify **new data in the web**. For example, NMR spectra in the supplementary data of an article need to be identifyable as such (an NMR spectrum) and provide information about the compound it corresponds to. This will allow hummers to catalogue and integrate them.
+Except when data are directly submited to a service (such as CCDC for X-Ray structure) these source of information need to identify **new [Research object?](http://www.researchobject.org/) on the web**. For example, NMR spectra in the supplementary data of an article need to be identifyable as such (an NMR spectrum) and provide information about the compound it corresponds to. This will allow hummers to catalogue and integrate them.
+
+
+Tool | Role as solution to the problem
+------------ | -------------
+*to-be-defined* |  Identify **chemistry** Research Objects (possibly extension of FITS (see below)
+  | ...
 
 ## Downloading chemistry information on the web (Accessible)
 
@@ -20,6 +26,7 @@ Currently chemistry data are usually stored in archive files, typically .zip fil
 - University repositories, etc.
 - Science database ([Zenodo](https://zenodo.org/), etc.)
 - University repositories ([yareta](https://yareta.unige.ch/) for University of Geneva)
+
 
 #### Problem 1
 These data typically lack metedata: informations about authors, associated publication, funding agencies, identifyer of the compounds analysed etc. These information are implicitely given by the location of the data, but are about to be lost after the user (or robot)  downloads them to re-use them. Indeed, when a user acess such data only his personal memory makes the link between the data and the source - there is no electronic marks in the files.
@@ -46,6 +53,10 @@ Chemical informations can be
 2. located in a type of file able to carry different types of data (.sdf, .log, .out, .dat)
 3. in a set of multiple files (NMR spectra in Bruker format)
 4. just a small section in a the text of thesis, journal article, table in a book, specialized database, wikipedia (melting temperature, IUPAC name, etc.)
+
+#### Problem 
+For single-file document (1 and 2) a simple extension of [FITS](https://projects.iq.harvard.edu/fits) may be enough. For more complex data (file trees), additional work has to be done - except if we convert all non-single files RO into single-file RO as part of the standardisation. For example, a Bruker file tree could be converted into a single .jcamp file.
+
 
 ### How to indentify them
 1. Simple seach of the file extention
