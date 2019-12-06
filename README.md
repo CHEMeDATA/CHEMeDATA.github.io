@@ -1,5 +1,8 @@
 # CHEMeDATA.github.io
-Main website of the CHEMeDATA ombrella organization (under construction...)
+Main website of the CHEMeDATA organization (under construction...)
+
+This website is under structuration 
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
 
 ***How to make chemistry data [FAIR](https://www.go-fair.org/fair-principles/)?***
 
