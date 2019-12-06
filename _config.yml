@@ -3,6 +3,7 @@ title: CHEMeDATA Initiative (in _config.yml file)
 #subtitle: "Version 2.0"
 #author: Damien J.
 theme: jekyll-theme-slate
+name: "name here"
 #teaser: /assets/images/500x300.png
 #logo: "/assets/images/88x88.png"
 masthead_title: "My Custom Title"
