@@ -7,8 +7,6 @@ The core of the CHEMeDATA activity shall be to provide a format for to report th
 
 Running initiative: [NMReDATA.org](NMReDATA.org)
 
-
-
 ## What do we mean by chemistry data?
 
 - Spectra (IR, NMR, UV-Vis, etc.)
