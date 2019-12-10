@@ -5,9 +5,8 @@ Main website of the CHEMeDATA organization
 
 ***How to make chemistry data [FAIR](https://www.go-fair.org/fair-principles/)?***
 
-## Chemistry data
+## What do we mean by chemistry data?
 
-What do we mean by chemistry data?
 - Spectra (IR, NMR, UV-Vis, etc.)
 - Chemical structure files
 - the output of software (geometry optimization, simulation of chemical properties, etc.)
@@ -17,7 +16,7 @@ we don't mean:
 - the supplementary material of reaserach articles (usally pdf) associated with the main article on Journal publisher's web sites)
 
 
-## How to generate good chemical data
+## How to generate good chemical data?
 
 Requirement|type of data
 ----|-----
