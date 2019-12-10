@@ -14,8 +14,7 @@ What do we mean by chemistry data?
 - etc.
 
 we don't mean:
-- the supplementary material of reaserach articls (usally pdf) associated with the main article on Journal publisher's web sites)
-
+- the supplementary material of reaserach articles (usally pdf) associated with the main article on Journal publisher's web sites)
 
 
 ## How to generate good chemical data
