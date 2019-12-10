@@ -21,7 +21,7 @@ we don't mean:
 
 ## How to make chemistry data [FAIR](https://www.go-fair.org/fair-principles/)?
 
-- Recommendations for the [chemists](#chemists)
+- Recommendations for the [chemists](./chemists)
 - Recommendations for the manufacturers of scientific instruments
 - Recommendations for the providers of chemistry information
 - Recommendations for the curator of chemistry information
