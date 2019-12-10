@@ -20,7 +20,7 @@ We don't mean:
 
 One of the activity of the CHEMeDATA Initiative is to encourage the development of a standard to report information extracted from crude data (for example the assignment of NMR spectra, the assignment of IR spectra, the relevant information for output of chemistry software, etc.)
 
-Running initiative: [NMReDATA.org](https//www.NMReDATA.org)
+Running initiative: [NMReDATA.org](https://nmredata.org/)
 
 ## How to make better chemistry data?
 
