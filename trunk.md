@@ -1,4 +1,5 @@
 
+
 ## Finding chemistry information on the web (Findable)
 
 Locating information using:
@@ -17,12 +18,6 @@ Tool | Role as solution to the problem
   | ...
 
 ## Downloading chemistry information on the web (Accessible)
-
-Currently chemistry data are usually stored in archive files, typically .zip files. They are found on:
-- Resercher's personal web site
-- University repositories, etc.
-- Science database ([Zenodo](https://zenodo.org/), etc.)
-- University repositories ([yareta](https://yareta.unige.ch/) for University of Geneva)
 
 
 #### Problem 1
