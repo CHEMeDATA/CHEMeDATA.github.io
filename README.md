@@ -26,7 +26,7 @@ Running initiative: [NMReDATA.org](https://nmredata.org/)
 
 - Recommendations for the [chemists](chemists.md)
 - Recommendations for the manufacturers of scientific instruments
-- Recommendations for the providers of chemistry information
-- Recommendations for the curator of chemistry information
-- Recommendations for the developpers of standards in chemistry
+- Recommendations for the [providers](data_provider.md) of chemistry information
+- Recommendations for the [curator](data_curator.md) of chemistry information
+- Recommendations for the [developpers](data_standards.md) of standards in chemistry
 
