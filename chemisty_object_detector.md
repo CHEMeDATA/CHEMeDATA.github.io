@@ -2,7 +2,7 @@
 
 We describe here a method aiming at listing the [chemistry objects](chemistry_object.md) from an archive file (.zip, BagIt, etc.).
 
-these lists are quite preliminary and (purposively) uneven and (in some cases uncomplete). The aim is to show the underlying ontology which whould be defined (OWL?).
+These lists are quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is mostly to show the underlying ontology which whould need to be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
 
 
 ## Short list
