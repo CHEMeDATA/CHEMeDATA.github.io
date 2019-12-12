@@ -1,18 +1,20 @@
 # Chemistry object detector 
 
 We describe here a method aiming at listing the [chemistry objects](chemisty_object.md) found in an archive file (.zip, BagIt, etc.).
+
 The procedure consists in searching in each folder of the archive for files or patterns of the file and additional criteria on the content. 
 
-This list of criteria is quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
 ## Short list of Chemistry object
-
-This is a short version of the full list. A longer list can be found at the [end of this document](#long-list-of-chemistry-object).
 
 #|Chemistry object | Criteria | Type of visualization
 -|------|---|---
 2|Bruker 1D NMR spectrum (generic)|C1=[file_name=="`1r`" & exist_file:"`../../fid`" & exist_file:"`../../acqus`"]|x/y plot (ppm/intensity)
 7|IR spectrum|file_name=="`*.sp`"|x/y plot (energy in nm non-homogeneous scale/intensity)
 8|X-ray crystallography structure|file_name=="`*.cif`"|3D chemistry structure visualization)
+
+This list of criteria is quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
+
+This is a short version of a [longer list](#long-list-of-chemistry-object) providing more complex cases.
 
 # Criteria
 ## File name
