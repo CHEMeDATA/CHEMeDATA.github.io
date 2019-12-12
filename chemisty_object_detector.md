@@ -1,6 +1,6 @@
 # Chemistry object detector 
 
-We describe here a method aiming at listing the [chemistry objects](chemistry_object.md) or [chemistry object](chemisty_object.md)found in an archive file (.zip, BagIt, etc.).
+We describe here a method aiming at listing the [chemistry object](chemisty_object.md)found in an archive file (.zip, BagIt, etc.).
 The procedure consists in searching in each folder of the archive for files or patterns of the file and additional criteria on the content. 
 
 This list of criteria is quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
