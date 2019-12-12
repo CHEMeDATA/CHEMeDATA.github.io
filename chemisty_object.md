@@ -18,6 +18,8 @@ Eg. a hand-made drawing is not "readable" by a computer program.
 
 ## Relevance 
 
-The (chemistry) object carries information that can be seached for by 
+The (chemistry) objects carry information that can be seached for used by 
 - humans to be learned, taught, cited, or used in other ways
 - computers to be integrated into database, or any used in any type of processing.
+
+Facilited the *use* is the key aspect of open and [FAIR](https://www.go-fair.org/fair-principles/) data.
