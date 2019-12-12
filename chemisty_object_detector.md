@@ -16,7 +16,7 @@ This is a short version of a [longer list](#long-list-of-chemistry-object)(see b
 2|Bruker 1D <sup>1</sup>H NMR spectrum|file_name=="`1r`" & exist_file:"`../../fid`" & exist_file:"`../../acqus`" & find_line="##$NUC1= <1H>" in "`../../acqus`"|x/y plot (ppm/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
 7|IR spectrum|file_name=="`*.sp`"|x/y plot (energy in nm non-homogeneous scale/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
 8|X-ray crystallography structure|file_name=="`*.cif`"|3D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc.
-9|2D molecular structure|file_name=="`*.cdx`"|2D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc. after conversion!
+9|2D molecular structure|file_name=="`*.cdx`"|2D chemistry structure visualization)|[JSme](https://atom.calpoly.edu/viewer/), etc. after conversion!
 
 Examples of the above-mentionned objects can be found in the files:
 ```
@@ -67,8 +67,8 @@ This allows to distinguish different (sub)types of objects. Inthis specific case
 6|Bruker 2D NMR HSQC spectrum|C2 & find_line="##$NUC1= <13C>" in "../../acqus" & find_line="##$NUC2= <1H>" in "`../../acqus`"|mesh plot (ppm/ppm/intensity)|[2D JCAMP-DX](http://jcamp-dx.org/), ??
 7|IR spectrum|file_name=="`*.sp`"|x/y plot (energy in nm non-homogeneous scale/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
 8|X-ray crystallography structure|file_name=="`*.cif`"|3D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc.
-9|2D molecular structure|file_name=="`*.cdx`"|2D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc. after conversion!
-10|2D molecular structure|file_name=="`*.mol`" & presence of "2D" at specific location in the file|2D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc.
+9|2D molecular structure|file_name=="`*.cdx`"|2D chemistry structure visualization)|[JSme](https://atom.calpoly.edu/viewer/), etc. after conversion!
+10|2D molecular structure|file_name=="`*.mol`" & presence of "2D" at specific location in the file|2D chemistry structure visualization)|[JSme](https://atom.calpoly.edu/viewer/), etc.
 11|3D molecular structure|file_name=="`*.mol`"  & presence of "3D" at specific location in the file|3D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc.
 
 The list of examples is quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
