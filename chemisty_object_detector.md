@@ -8,7 +8,7 @@ The procedure consists in searching in each folder of the archive for files or p
 
 ## Short list of Chemistry object
 
-This is a short version of the full list. A longer list can be found at the [end of this document](#Long list of Chemistry object).
+This is a short version of the full list. A longer list can be found at the [end of this document](#long-list-of-chemistry-object).
 
 #|Chemistry object | Criteria | Type of visualization
 -|------|---|---
