@@ -1,7 +1,5 @@
 This page is under development...
 
-## Format of the archive file
-- Use BagIt instead of simple .zip files.
-- Apply [FITS analyser](https://projects.iq.harvard.edu/fits) to identify file types.
-
-## Complement FITS an localizer of [chemistry object](chemisty_object.md)
+## Add a layer of open/FAIR data 
+- For any file in a proprietary format add data in open format (or API to make them...and use visualize them ...).
+-add smiles/inchi to chemistry ...
