@@ -1,15 +1,15 @@
 # Definition of "chemistry object"
 
-There is no clear or autoritatian definition of chemistry object (CO). 
+There is no clear or autoritarian definition of a chemistry object (CO). 
 
 In this context it refers to any piece of information relevant to chemistry. 
 - the structure of a compound (drawing, .xcd file, flat representation or 3D representation, etc.)
 - the output of a computer program of scientic instrument (spectrum, list of the energy of molecular orbitals, etc)
 - the result of an experiment
 
-The word *object* has a [special meaning](object.md) in computer sciences indicating that it has an electronic form meaning that it is computer understandable. A .jpg image of a spectrum, for example, cannot be understood by a computer to be a spectrum. It is an *image* object, not a chemistry or spectrum object. 
+The word [*object*](object.md) has a special meaning in computer sciences indicating that it has an electronic form meaning that it is computer understandable. A .jpg image of a spectrum, for example, cannot be understood by a computer to be a spectrum. It is an *image* object, not a chemistry or spectrum object. 
 
-The formal definition of "research object" (RO) has a lot of relevance. Parts of what should cover the definition of "chemistry object" may be part of the chemistry reaserch objects (CRO). 
+The formal definition of [Research Object](https://researchobject.github.io/ro-crate/) (RO) has a lot of relevance. Parts of what should cover the definition of "chemistry object" may be part of the chemistry reaserch objects (CRO). 
 
 Exactly what is common and different between the two concepts (CO *versus* CRO) has be studied in some detail to avoid misunderstanding.
 
