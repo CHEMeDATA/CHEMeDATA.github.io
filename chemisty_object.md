@@ -1,11 +1,13 @@
 # Definition of "chemistry object"
 
-There is no clear or final definition of chemistry object. 
+There is no clear or autoritatian definition of chemistry object. 
 
-What we have in mind is broadly speaking any electronic piece of information relevant to chemistry. 
+In this context it refers to any piece of information relevant to chemistry. 
 - the structure of a compound (drawing, .xcd file, flat representation or 3D representation, etc.)
 - the output of a computer program of scientic instrument (spectrum, list of the energy of molecular orbitals, etc)
 - the result of an experiment
+
+The word object has a [special meaning](object.md) in computer sciences.
 
 ## key aspects
 
