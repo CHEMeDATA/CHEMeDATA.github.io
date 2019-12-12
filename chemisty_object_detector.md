@@ -56,9 +56,9 @@ This allows to distinguish different (sub)types of objects. Inthis specific case
 5|Bruker 2D NMR spectrum(generic)|C2=[file_name=="2rr" & exist_file:"../../ser" & exist_file:"`../../acqus`" & & exist_file:"`../../acqu2s`"]|mesh plot (ppm/ppm/intensity)|[2D JCAMP-DX](http://jcamp-dx.org/), ??
 6|Bruker 2D NMR HSQC spectrum|C2 & find_line="##$NUC1= <13C>" in "../../acqus" & find_line="##$NUC2= <1H>" in "`../../acqus`"|mesh plot (ppm/ppm/intensity)|[2D JCAMP-DX](http://jcamp-dx.org/), ??
 7|IR spectrum|file_name=="`*.sp`"|x/y plot (energy in nm non-homogeneous scale/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
-8|X-ray crystallography structure|file_name=="`*.cif`"|3D chemistry structure visualization|
-9|2D molecular structure|file_name=="`*.cdx`"|2D chemistry structure visualization|[JSmol](https://atom.calpoly.edu/viewer/), etc.
-10|2D molecular structure|file_name=="`*.mol`" & presence of "2D" at specific location in the file|2D chemistry structure visualization|[JSmol](https://atom.calpoly.edu/viewer/), etc.
-11|3D molecular structure|file_name=="`*.mol`"  & presence of "3D" at specific location in the file|3D chemistry structure visualization|[JSmol](https://atom.calpoly.edu/viewer/), etc.
+8|X-ray crystallography structure|file_name=="`*.cif`"|[JSmol](https://atom.calpoly.edu/viewer/), etc.
+9|2D molecular structure|file_name=="`*.cdx`"|[JSmol](https://atom.calpoly.edu/viewer/), etc.
+10|2D molecular structure|file_name=="`*.mol`" & presence of "2D" at specific location in the file|[JSmol](https://atom.calpoly.edu/viewer/), etc.
+11|3D molecular structure|file_name=="`*.mol`"  & presence of "3D" at specific location in the file|[JSmol](https://atom.calpoly.edu/viewer/), etc.
 
 The list of examples is quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
