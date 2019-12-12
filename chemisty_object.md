@@ -18,7 +18,7 @@ Exactly what is common and different between the two concepts (CO *versus* CRO) 
 - Ability of humans to understand and determine the context of the occurance of the object
 - Ability of a computer to identify the object and put it in relation to others objects or other relevant information (author, date of publication, etc.)
 
-Eg. a hand-made drawing is not "readable" by a computer program.
+Eg. A hand-made drawing is not "readable" by a computer program, a .cdx is readable by commercial software, .mol files can be read my multiple type of free sofware and web tools.
 
 ## Relevance 
 
