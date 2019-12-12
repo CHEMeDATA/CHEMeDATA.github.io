@@ -26,22 +26,22 @@ The criteria (third column) are discussed [below](#criteria). The list is quite 
 ## File name
 In the simplest cases, the only criterion is the presence of a specific file (file_name=="`1r`") or filename extention (file_name=="`*.sp`"). 
 ## Presence of associated files
-In some cases, we want to test the presence of additional files in the same or other folders relative to the main file.
-For example: 
+In some cases, the presence of additional files has to be tested.
+This is done with: 
 ```
 exist_file:"./procs" 
 exist_file:"../../acqus" 
 exist_file:"../../fid" 
 ```
-Note that associated files may be in a separate folder. The location is relative to the reference file (file_name).
+Note that associated files may be in a separate folder (see the path before the file name). The locations are relative to the reference file (see above).
 ## Presence of a specific string in a file
-Additional conditions may be necessary such as the presence of a magic key (or other [file signature](https://en.wikipedia.org/wiki/List_of_file_signatures)). This can be used to test the value for a parameter. For example: 
+Additional conditions may be necessary to refine the identification. For example the presence of a magic key or other [file signature](https://en.wikipedia.org/wiki/List_of_file_signatures). This can be used to test the value for a parameter. For example: 
 ```
 find_line="##$NUC1= <13C>" in "`../../acqus`
 ```
-means that a file located at the given position relative to the main file (see above).
-This allows to distinguish different type of objects. (here a <sup>13</sup>C 1D from other NMR spectra).
+means that a given string of characters if found in a give file.
 
+This allows to distinguish different (sub)types of objects. Inthis specific case, to disthinguish a 1D <sup>13</sup>C NMR spectra from 1D spectra of other isotope). We need to make this distinction to make a precise list of the content of the archive.
 
 ## Long list of Chemistry object
 
