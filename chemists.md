@@ -2,7 +2,7 @@
 
 ## How to generate good chemical data?
 
-In most cases, you will be generating .zip files.
+In most cases supplementary data are combined into .zip files.
 
 Requirement|type of data
 ----|-----
