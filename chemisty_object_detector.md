@@ -4,8 +4,19 @@ We describe here a method aiming at listing the [chemistry objects](chemistry_ob
 
 These lists are quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
 
+The procedure consists in searching in each folder of the archive for files or patterns of the file and additional criteria on the content. 
+
+## Short list of Chemistry object
+
+This is a short version of the full list. A longer list can be found at the [end of this document](#Long list of Chemistry object).
+
+#|Chemistry object | Criteria | Type of visualization
+-|------|---|---
+2|Bruker 1D NMR spectrum (generic)|C1=[file_name=="`1r`" & exist_file:"`../../fid`" & exist_file:"`../../acqus`"]|x/y plot (ppm/intensity)
+7|IR spectrum|file_name=="`*.sp`"|x/y plot (energy in nm non-homogeneous scale/intensity)
+8|X-ray crystallography structure|file_name=="`*.cif`"|3D chemistry structure visualization)
+
 # Criteria
-The procedure consists in searching in each folder of the archive for files or patterns of the file and additional criterion on the content. 
 ## File name
 In the simplest cases, the only criterion is the presence of a specific file (defined in the table below by the condition file_name=="`1r`") or filename extention (file_name=="`*.sp`"). On some cases, multiple conditions have to be fulfilled.
 ## Presence of associated files
@@ -24,15 +35,7 @@ find_line="##$NUC1= <13C>" in "`../../acqus`
 ```
 means that a file located at the given position relative to the main file (see above).
 
-## Short list of Chemistry object
 
-This is a short version of the full list. A longer list can be found at the [end of this document](#Long list of Chemistry object).
-
-#|Chemistry object | Criteria | Type of visualization
--|------|---|---
-2|Bruker 1D NMR spectrum (generic)|C1=[file_name=="`1r`" & exist_file:"`../../fid`" & exist_file:"`../../acqus`"]|x/y plot (ppm/intensity)
-7|IR spectrum|file_name=="`*.sp`"|x/y plot (energy in nm non-homogeneous scale/intensity)
-8|X-ray crystallography structure|file_name=="`*.cif`"|3D chemistry structure visualization)
 
 ## Long list of Chemistry object
 
