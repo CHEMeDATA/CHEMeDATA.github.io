@@ -2,10 +2,9 @@
 
 We describe here a method aiming at listing the [chemistry objects](chemistry_object.md) found in an archive file (.zip, BagIt, etc.).
 
-These lists are quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
-
 The procedure consists in searching in each folder of the archive for files or patterns of the file and additional criteria on the content. 
 
+This list of criteria is quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
 ## Short list of Chemistry object
 
 This is a short version of the full list. A longer list can be found at the [end of this document](#long-list-of-chemistry-object).
