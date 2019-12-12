@@ -16,7 +16,5 @@ Running initiative: [NMReDATA.org](https://nmredata.org/)
 ### How to make better chemistry data?
 
 - Recommendations for the [chemists](chemists.md)
-- Recommendations for the manufacturers of scientific instruments
-- Recommendations for the [generator](generator.md) of chemistry information
 - Recommendations for the [providers](data_provider.md) of standards in chemistry
 
