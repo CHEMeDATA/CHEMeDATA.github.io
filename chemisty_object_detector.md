@@ -18,7 +18,7 @@ This is a short version of a [longer list](#long-list-of-chemistry-object) provi
 8|X-ray crystallography structure|file_name=="`*.cif`"|3D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc.
 9|2D molecular structure|file_name=="`*.cdx`"|2D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc. after conversion!
 
-Examples of the above-mentionned files can be found in the files:
+Examples of the above-mentionned objects can be found in the files:
 ```
 /researchdata/NMR Files per compound/3r_(R)-Me-FBn-18C6/2/pdata/1/1r
 /researchdata/Other Data per compound/3n_(S)-Me-1-naphth-18C6/3n_X-Ray/3n_(S)-Me-1-naphth-18C6-NaBArF.cif
