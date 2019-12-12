@@ -22,7 +22,7 @@ Examples of the above-mentionned files can be found in the files:
 ```
 from this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6). 
 
-The criteria (third column in the table) are discussed [below](#criteria). The list of examples is quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
+The criteria (third column in the table) are discussed [below](#criteria). 
 
 # Criteria
 ## File name
@@ -57,3 +57,5 @@ This allows to distinguish different (sub)types of objects. Inthis specific case
 6|Bruker 2D NMR HSQC spectrum|C2 & find_line="##$NUC1= <13C>" in "../../acqus" & find_line="##$NUC2= <1H>" in "`../../acqus`"|mesh plot (ppm/ppm/intensity)|[2D JCAMP-DX](http://jcamp-dx.org/), ??
 7|IR spectrum|file_name=="`*.sp`"|x/y plot (energy in nm non-homogeneous scale/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
 8|X-ray crystallography structure|file_name=="`*.cif`"|3D chemistry structure visualization)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
+
+The list of examples is quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
