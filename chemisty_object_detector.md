@@ -1,6 +1,6 @@
 # Chemistry object detector 
 
-We describe here a method aiming at listing the [chemistry objects](chemistry_object.md) found in an archive file (.zip, BagIt, etc.).
+We describe here a method aiming at listing the [chemistry objects](./chemistry_object.md) found in an archive file (.zip, BagIt, etc.).
 
 The procedure consists in searching in each folder of the archive for files or patterns of the file and additional criteria on the content. 
 
