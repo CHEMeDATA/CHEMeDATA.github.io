@@ -30,6 +30,11 @@ from this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44
 The criteria (third column in the table) are discussed [below](#criteria). 
 
 # Criteria
+We defined three test/functions:
+- file_name (test presence of file)
+- exist_file (test presence of additional files)
+- find_line (test presence of a string in a text file)
+See below for more details.
 ## File name
 In the simplest cases, the only criterion is the presence of a specific file (file_name=="`1r`") or filename extention (file_name=="`*.sp`"). 
 ## Presence of associated files
