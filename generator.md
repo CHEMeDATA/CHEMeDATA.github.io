@@ -6,4 +6,4 @@ But better options.
 
 - Use BagIt instead of simple .zip files to include additional information about date, checksum, etc.
 - Apply [FITS analyser](https://projects.iq.harvard.edu/fits) to identify file types.
-- Complement FITS with an detector of [chemistry object](chemisty_object_detector.md)
+- Complement FITS with a detector of [chemistry object](chemisty_object_detector.md)
