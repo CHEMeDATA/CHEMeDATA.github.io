@@ -19,7 +19,8 @@ Examples of the above-mentionned files can be found in the files:
 ```
 /researchdata/NMR Files per compound/3r_(R)-Me-FBn-18C6/2/pdata/1/1r
 /researchdata/Other Data per compound/3n_(S)-Me-1-naphth-18C6/3n_X-Ray/3n_(S)-Me-1-naphth-18C6-NaBArF.cif
-/researchdata/Other Data per compound//3n_(S)-Me-1-naphth-18C6/2nd eluted/3n_(S)-Me-1-naphth-18C6_2nd elt_FT-IR.sp 
+/researchdata/Other Data per compound/3n_(S)-Me-1-naphth-18C6/2nd eluted/3n_(S)-Me-1-naphth-18C6_2nd elt_FT-IR.sp 
+/researchdata/Other Data per compound/3n_(S)-Me-1-naphth-18C6/3n_(S)-Me-1-naphth-18C6.cdx
 ```
 from this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6). 
 
