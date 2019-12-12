@@ -13,7 +13,7 @@ This is a short version of a [longer list](#long-list-of-chemistry-object) provi
 2|Bruker 1D <sup>1</sup>H NMR spectrum|file_name=="`1r`" & exist_file:"`../../fid`" & exist_file:"`../../acqus`" & find_line="##$NUC1= <1H>" in "`../../acqus`"|x/y plot (ppm/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
 7|IR spectrum|file_name=="`*.sp`"|x/y plot (energy in nm non-homogeneous scale/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
 8|X-ray crystallography structure|file_name=="`*.cif`"|3D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc.
-9|2D molecular structure|file_name=="`*.cdx`"|3D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc. after conversion!
+9|2D molecular structure|file_name=="`*.cdx`"|2D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc. after conversion!
 
 Examples of the above-mentionned files can be found in the files:
 ```
