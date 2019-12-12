@@ -8,16 +8,25 @@ These lists are quite preliminary and (purposively) uneven and (in some cases in
 The procedure consists in searching in each folder of the archive for files or patterns of the file and additional criterion on the content. 
 ## File name
 In the simplest cases, the only criterion is the presence of a specific file (defined in the table below by the condition file_name=="`1r`") or filename extention (file_name=="`*.sp`"). On some cases, multiple conditions have to be fulfilled.
+## Presence of associated files
+In some cases, we want to test the presence of additional files in the same or other folders relative to the main file.
+
+For example: 
+```
+exist_file:"./procs" 
+exist_file:"../../acqus" 
+exist_file:"../../fid" 
+```
 ## Presence of a specific string in a file
 Additional conditions may be necessary such as the presence of a magic key (or other [file signature](https://en.wikipedia.org/wiki/List_of_file_signatures)). This can be used to test the value for a parameter. For example: 
 ```
-find_line="##$NUC1= <1H>" in "./acqus" 
+find_line="##$NUC1= <13C>" in "`../../acqus`
 ```
-means that the text of the first argument is found in the file of the second argument.
+means that a file located at the given position relative to the main file (see above).
 
 ## Short list of Chemistry object
 
-This is a short version of the full list 
+This is a short version of the full list. A longer list can be found at the (end of this document)(## Long list of Chemistry object).
 
 #|Chemistry object | Criteria | Type of visualization
 -|------|---|---
