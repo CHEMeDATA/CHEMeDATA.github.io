@@ -2,8 +2,8 @@
 
 We describe here a method aiming at listing the [chemistry objects](chemisty_object.md) found in an archive file (.zip, BagIt, etc.).
 
-The procedure consists in searching, in each folder of the archive, for a specific file name of pattern of files 
-and (sometime also) fulfil additional criteria. 
+The procedure consists in searching, in each folder of the archive, for a specific file name or a pattern of files 
+and fulfil additional criteria. 
 
 ## Short list of Chemistry object
 This is a short version of a [longer list](#long-list-of-chemistry-object) providing more complex examples.
