@@ -2,15 +2,15 @@
 
 We describe here a method aiming at listing the [chemistry objects](chemisty_object.md) found in an archive file (.zip, BagIt, etc.).
 
-The procedure consists in searching in each folder of the archive for a specific file name of pattern of files 
-and (sometime) fulfil additional criteria. 
+The procedure consists in searching, in each folder of the archive, for a specific file name of pattern of files 
+and (sometime also) fulfil additional criteria. 
 
 ## Short list of Chemistry object
 This is a short version of a [longer list](#long-list-of-chemistry-object) providing more complex examples.
 
 #|Chemistry object | Criteria | Type of data |visualization
 -|------|---|---|--
-2|Bruker 1D NMR spectrum (generic)|file_name=="`1r`" & exist_file:"`../../fid`" & exist_file:"`../../acqus`"|x/y plot (ppm/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
+2|Bruker 1D <sup>1</sup>H NMR spectrum|file_name=="`1r`" & exist_file:"`../../fid`" & exist_file:"`../../acqus`" & find_line="##$NUC1= <1H>" in "`../../acqus`"|x/y plot (ppm/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
 7|IR spectrum|file_name=="`*.sp`"|x/y plot (energy in nm non-homogeneous scale/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
 8|X-ray crystallography structure|file_name=="`*.cif`"|3D chemistry structure visualization)|[JSmol](https://atom.calpoly.edu/viewer/), etc.
 
