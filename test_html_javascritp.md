@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Sea Ice and Snow Cover Extent | Snow and Ice |  National Centers for Environmental Information (NCEI)</title>
 
-
-</head>
-<body>
 <table id="data">
   <caption>
     Download:
@@ -353,53 +346,4 @@
       <td>-32.22</td>
     </tr>
   </tbody>
-</table><script type="text/javascript">
-$(document).ready(function(){
-  $.tablesorter.addParser({
-    id:    "numericSort",
-    is:     function(s){return false;},
-    format: function(s) {
-      return $.tablesorter.formatFloat(s.replace(new RegExp(/[^-0-9\.]/g),""));
-    },
-    type:   "numeric"
-  });
-  $("#data").tablesorter({
-    headers: {
-      0:{sorter:"numericSort"},
-      1:{sorter:"numericSort"}
-    }
-  }).bind("sortEnd",function() {
-    $("#data tr").removeClass("even");
-    $("#data tr").removeClass("odd");
-    var odd = true;
-    $("#data tr").each(function(index) {
-      if (index > 0) {
-        $(this).addClass(odd?"odd":"even");
-        odd = !odd;
-      }
-    });
-  });
-  $('#parameter').change(function(){fillRegions($('#parameter').val());});
-});
-function fillRegions (parameter) {
-  var region = $("#region").val();
-  var regions = {};
-  regions['sea-ice'] = {};
-  regions['sea-ice']['N'] = 'Northern Hemisphere';
-  regions['sea-ice']['S'] = 'Southern Hemisphere';
-  regions['sea-ice']['G'] = 'Globe';
-  regions['snow-cover'] = {};
-  regions['snow-cover']['namgnld'] = 'North America + Greenland';
-  regions['snow-cover']['nhland'] = 'Northern Hemisphere';
-  regions['snow-cover']['eurasia'] = 'Eurasia';
-  regions['snow-cover']['nam'] = 'North America';
-  $('#region option').remove();
-  for (var val in regions[parameter]) $("#region").append($("<option />\n").val(val).text(regions[parameter][val]));
-  $("#region option[value='"+region+"']").attr("selected","selected");
-}
-$("#plot-data").submit(function() {
-  window.location = '/snow-and-ice/extent/'+$("#parameter").val()+'/'+$("#region").val()+'/'+$("#month").val();
-  return false;
-});
-</script>
-</body>
+</table>
