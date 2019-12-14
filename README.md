@@ -18,3 +18,4 @@ Running initiative: [NMReDATA.org](https://nmredata.org/)
 - Recommendations for the [chemists](chemists.md).
 - Recommendations for the [providers](data_provider.md) of chemistry data (University repositoies, Journal editors, etc.).
 
+[t](test_html_javascritp.html)
