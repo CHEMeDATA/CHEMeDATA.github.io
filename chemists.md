@@ -40,7 +40,8 @@ Prefer to group them by compounds/sample ...
           └structure.mol (provide the structure file!)
 ```
 The number following "compound" should correspond to the compound number in the publication/thesis. This is bettern than name folders by compound names. 
-
+#### Demo of inline molecules... 
  <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=100"></script>
- 
- <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&image2d&inline"></script>
+
+ <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&image2d&inline&width=100"></script>
+[more info](https://chemapps.stolaf.edu/jmol/jmol.php?&amp;model=caffeine&amp;inline&amp;width=360&amp;height=360)
