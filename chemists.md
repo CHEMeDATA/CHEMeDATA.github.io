@@ -44,12 +44,7 @@ The number following "compound" should correspond to the compound number in the 
  <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150"></script>
 
  <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&image2d&inline&width=150"></script>
-[more info](https://chemapps.stolaf.edu/jmol/jmol.php)
-
-
-<script 
-src="https://chemapps.stolaf.edu/jmol/jmol.php?model=caffeine&amp;i
-nline;width=360;height=360 " type="text/javascript"></script>
+ 
 
 <script>
 jmolCheckbox('display add (not _H)', 'hide add (not _H)', 'heavy atoms', true, 
@@ -61,3 +56,7 @@ jmolCheckbox('display add _N', 'hide add _N', 'nitrogen', true, 'nitro','titel')
 
 jmolSetCheckboxGroup('heavy', ['carb', 'oxy', 'nitro']);
 </script>
+ 
+[more info](https://chemapps.stolaf.edu/jmol/jmol.php)
+
+
