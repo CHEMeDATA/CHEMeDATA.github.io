@@ -48,8 +48,8 @@ The number following "compound" should correspond to the compound number in the 
 
 
 <script 
-src="https://chemapps.stolaf.edu/jmol/jmol.php?&amp;model=caffeine&amp;i
-nline&amp;width=360&amp;height=360 " type="text/javascript"></script>
+src="https://chemapps.stolaf.edu/jmol/jmol.php?model=caffeine&amp;i
+nline;width=360;height=360 " type="text/javascript"></script>
 
 <script>
 jmolCheckbox('display add (not _H)', 'hide add (not _H)', 'heavy atoms', true, 
