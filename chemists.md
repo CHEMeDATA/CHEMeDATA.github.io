@@ -41,3 +41,6 @@ Prefer to group them by compounds/sample ...
 ```
 The number following "compound" should correspond to the compound number in the publication/thesis. This is bettern than name folders by compound names. 
 
+ <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline"></script>
+ 
+ <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&image2d&inline"></script>
