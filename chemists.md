@@ -41,9 +41,9 @@ Prefer to group them by compounds/sample ...
 ```
 The number following "compound" should correspond to the compound number in the publication/thesis. This is bettern than name folders by compound names. 
 #### Demo of inline molecules... 
- <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=100"></script>
+ <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150"></script>
 
- <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&image2d&inline&width=100"></script>
+ <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&image2d&inline&width=150"></script>
 [more info](https://chemapps.stolaf.edu/jmol/jmol.php)
 
 
