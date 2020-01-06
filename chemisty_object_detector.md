@@ -13,7 +13,7 @@ Perspective: Develop methods to allow visitor of a repository to direclty visual
 
 
 ## Short list of Chemistry object
-This is a preliminary short version of a [longer list](#long-list-of-chemistry-object)(see below) providing more complex examples.
+This is a preliminary short version of a [longer list](#long-list-of-chemistry-object) (see below) providing more complex examples.
 
 #|Chemistry object | Criteria | Type of data |visualization
 -|------|---|---|--
@@ -34,10 +34,10 @@ from this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44
 The criteria (third column in the table) are discussed [below](#criteria). 
 
 # Criteria
-We defined three test/functions:
+We consider (thus far) three tests functions:
 - file_name (test presence of file)
-- exist_file (test presence of additional files)
-- find_line (test presence of a string in a text file)
+- exist_file (test the presence of additional files)
+- find_line (test the presence of a specific string in a text file)
 
 See below for more details.
 ## File name
