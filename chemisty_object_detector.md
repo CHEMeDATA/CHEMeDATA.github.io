@@ -13,7 +13,7 @@ Perspective: Develop methods to allow visitor of a repository to direclty visual
 
 
 ## Short list of Chemistry object
-This is a short version of a [longer list](#long-list-of-chemistry-object)(see below) providing more complex examples.
+This is a preliminary short version of a [longer list](#long-list-of-chemistry-object)(see below) providing more complex examples.
 
 #|Chemistry object | Criteria | Type of data |visualization
 -|------|---|---|--
