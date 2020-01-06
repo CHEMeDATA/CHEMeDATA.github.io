@@ -1,8 +1,6 @@
 ## CHEMeDATA.github.io
 Main website of the CHEMeDATA organization
-<!--- 
-<h3 style="background-color:DodgerBlue;">This website is under construction</h3>
- ---> 
+<!--- <h3 style="background-color:DodgerBlue;">This website is under construction</h3> ---> 
 The core activity of the CHEMeDATA initiative is contributing to making chemistry data more [FAIR](https://www.go-fair.org/fair-principles/).
 
 We consider it as an umbrella organization because it is expected to combine diverse efforts to aim at the same goals. 
@@ -25,6 +23,4 @@ We consider here the supplementary data (typically .zip files) that are produced
 - Recommendations for the [providers](data_provider.md) of chemistry data (University repositories, Journal editors, etc.).
 
 
-<!--- 
-[t](test_html_javascritp.html)
- ---> 
+<!--- [t](test_html_javascritp.html) ---> 
