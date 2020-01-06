@@ -3,19 +3,22 @@ Main website of the CHEMeDATA organization
 
 <h3 style="background-color:DodgerBlue;">This website is under construction</h3>
 
-The core activity of the CHEMeDATA initiative is contribute to make chemistry data more [FAIR](https://www.go-fair.org/fair-principles/).
+The core activity of the CHEMeDATA initiative is contributing to making chemistry data more [FAIR](https://www.go-fair.org/fair-principles/).
 
-
+We consider it as an umbrella organization because it is expected to combine diverse efforts to aim at the same goals. 
+Currently only the NMR community is a member via the [NMReDATA Initiative](https://nmredata.org/).
 
 ### Format for data
 
-One of the activity of the CHEMeDATA Initiative is to encourage the development of a standard to report information extracted from crude data (for example the assignment of NMR spectra, the assignment of IR spectra, the relevant information for output of chemistry software, etc.)
+One of the activities of the CHEMeDATA Initiative is to encourage the development of a standard to report information extracted from crude data (for example the assignment of NMR spectra, the assignment of IR spectra, the relevant information for output of chemistry software, etc.)
 
-Running initiative: [NMReDATA.org](https://nmredata.org/)
+Running initiative: 
 
 ### How to make better chemistry data?
 
+We consider here the moment when supplementary data (typically .zip files) are produced in association to publication or to fulfil the requirements of funding agencies to make data open.
+
 - Recommendations for the [chemists](chemists.md).
-- Recommendations for the [providers](data_provider.md) of chemistry data (University repositoies, Journal editors, etc.).
+- Recommendations for the [providers](data_provider.md) of chemistry data (University repositories, Journal editors, etc.).
 
 [t](test_html_javascritp.html)
