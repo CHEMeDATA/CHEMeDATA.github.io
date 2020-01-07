@@ -1,5 +1,7 @@
 
-*<p style="color:#800080">This page is under development...</p>*
+<p style="color:#800080">This page is under development...</p>
+<p style='color:red'>This is some red text.</p>
+<font color="red">This is some text!</font>
 ## Identify file types
 - Apply [FITS analyser](https://projects.iq.harvard.edu/fits) to identify file types.
 - Complement FITS with a [detector of chemistry object (CO)](chemisty_object_detector.md)
