@@ -1,10 +1,13 @@
 
 <p style="color:#CC9900">This page is under development...</p>
+How to make archive files (typically .zip files) including chemistry information more [FAIR](https://www.go-fair.org/fair-principles/)?
 
-## Identify file types
+## Identify file types of the content of archives
 - Apply [FITS analyser](https://projects.iq.harvard.edu/fits) to identify file types.
 
 But FITS is not identifying complex data types (such as a "Full NMR analysis" of chemical compound). 
+
+A good identification mechanism is a prerequisite make the data usable. It opens the possibility to offer a choice of methods to visualize the data, automatically extract information, etc. 
 
 A [detector of chemistry object (CO)](chemisty_object_detector.md) could be developped.
 
