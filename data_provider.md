@@ -8,7 +8,7 @@ But FITS is not identifying complex data types (such as a "Full NMR analysis" of
 
 A [detector of chemistry object (CO)](chemisty_object_detector.md) could be developped.
 
-It may be based on an onthology which may also be developped. The onthology would defined the type of data, their structure. For example, in NMR, a `"Full" NMR analysis`" is a set of `spectra` each of which are base on time-domain `FID`.
+It may be based on an onthology which may also be developped. The onthology would defined the type of data, their structure. For example, in NMR, a `"Full" NMR analysis`" consists in a set of `spectra` each of which are base on time-domain data called `FID's`.
 
 ## Format of the archive file
 The obvious way to group a set of file including chemistry objects is to compressed or archive them in the form of a (typically) .zip file. This is what authors of scientific publication do when submitting supplementary data.
