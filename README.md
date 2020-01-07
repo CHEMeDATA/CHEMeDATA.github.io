@@ -13,12 +13,12 @@ One of the activities of the CHEMeDATA Initiative is to encourage the developmen
 Currently only the NMR community is a part of the CHEMeDATA Initiative via the [NMReDATA Initiative](https://nmredata.org/). Their main outcome is to associate the NMR assignment of an organic compound to a chemical structure file. This is done using so-called "tags" included in .sdf files, the latter being  compatible with the commonly used .mol format.
 
 Potential developments:
-- produce a format for the assignment of IR data in a form similar to the one of NMR (i.e. as TAGs in .sdf files reporting the assignment of a IR spectrum to the bonds of the structure)
+- produce a format for the assignment of other types of spectroscopies and analytical methods. For example, IR assignement could also be stored using the SD format. 
 - ... "please make comments via the "GitHub Issues" if you are interested to contribute or make comments.*
 
 ### How to make better chemistry data?
 
-The supplementary data (typically .zip files) that are produced in association to publication or to fulfil the requirements of funding agencies to make data available can be improved.
+The supplementary data (typically .zip files) that are produced in association to publication or to fulfil the requirements of funding agencies to make data available can be improved. This is the key to make [FAIR](https://www.go-fair.org/fair-principles/) data!
 
 - [Recommendations](chemists.md) for chemists.
 - [Recommendations and possible developments](data_provider.md) for the providers of chemistry data (University repositories, Journal editors, etc.).
