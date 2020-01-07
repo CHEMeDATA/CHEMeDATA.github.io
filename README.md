@@ -20,8 +20,8 @@ Potential developments:
 
 The supplementary data (typically .zip files) that are produced in association to publication or to fulfil the requirements of funding agencies to make data available can be improved.
 
-- Recommendations for the [chemists](chemists.md).
-- Recommendations and developments for the [providers](data_provider.md) of chemistry data (University repositories, Journal editors, etc.).
+- [Recommendations](chemists.md) for chemists.
+- [Recommendations and possible developments](data_provider.md) for the providers of chemistry data (University repositories, Journal editors, etc.).
 
 <!---
 [t](test_html_javascritp.html) 
