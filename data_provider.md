@@ -1,5 +1,5 @@
 
-*<p style="color:#808080">This page is under development...</p>*
+*<p style="color:#800080">This page is under development...</p>*
 ## Identify file types
 - Apply [FITS analyser](https://projects.iq.harvard.edu/fits) to identify file types.
 - Complement FITS with a [detector of chemistry object (CO)](chemisty_object_detector.md)
