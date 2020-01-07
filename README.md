@@ -4,7 +4,7 @@
 
 *Making chemistry data more [FAIR](https://www.go-fair.org/fair-principles/).*
 
-CHEMeDATA should become an umbrella organization combining efforts by diverse communities adressing FAIRness and chemistry data format in a simlar manner. 
+CHEMeDATA should become an umbrella organization combining efforts by diverse communities adressing the FAIRness and chemistry data in a similar and yet-to-be clearly defined manner. 
 
 ### Format for chemistry data
 
