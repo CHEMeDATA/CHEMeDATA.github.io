@@ -4,7 +4,9 @@ We sketch here a method aiming at identifying the [Chemistry Objects](chemisty_o
 
 The procedure consists in searching, in each folder of the archive, for a specific file name (possibly including a given magic number, specific string, etc.), or a pattern of files and fulfil additional criteria (see "Short list" Table). 
 
-For .zip files one may need to extract the list of the files. For [BagIt](https://en.wikipedia.org/wiki/BagIt) archive, reading the manifest should be enough. The manifest (manifest-XXX.txt where XXX is md5, sha1, *etc.*) is one of the *tags* (metadata about the *payload*) of the *bag*.
+For .zip files one may need to extract the list of the files. For [BagIt](https://en.wikipedia.org/wiki/BagIt) archive, reading a manifest should be enough (The BagIt manifest file may not be accessible). 
+
+<!--- The manifest (manifest-XXX.txt where XXX is md5, sha1, *etc.*) is one of the *tags* (metadata about the *payload*) of the *bag*. --->
 
 Perspective: Develop methods to allow visitor of a repository to direclty visualize the Chemistry Objects listed for a given record. This will require to develop a resource providing a automated mecanism (API) to visualize the chemistry objects. 
 
@@ -80,3 +82,24 @@ This allows to distinguish different (sub)types of objects. Inthis specific case
 11|3D molecular structure|file_name=="`*.mol`"  & presence of "3D" at specific location in the file|3D chemistry structure visualization)|[JSmol](http://wiki.jmol.org/index.php/Main_Page), etc.
 
 The list of examples is quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
+
+## Chemistry Objects Onthology
+
+Why an onthology:
+
+In NMR (for example), we often use "Full analysis" of compounds. It is composed of a set of experiment, which are themself composed of smaller elements (FID's).
+
+* Full analysis 
+  * 1D 1H spectrum
+    * Fid of the above spectrum
+  * 1D 13CH spectrum
+    * Fid of the above spectrum
+  * 2D 1H-13C HSQC spectrum
+    * Fid of the above spectrum
+  * etc.
+  
+  The onthology will facilitate the generation of the criteria for a full analysis. Instead of listing all the conditions to fullfill, it would inhirit the conditions of the siblings.
+
+- The condition for spectrum object will includes the conditions of FID
+- The conditions about the "full analysis" could be defined based on the list of spectra, without needing to care about the conditions to fullfill for each spectrum.
+- 1D 1H spectra would be a subclass of 1D spectra
