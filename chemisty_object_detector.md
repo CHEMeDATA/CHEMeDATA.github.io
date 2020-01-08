@@ -1,9 +1,9 @@
 # Chemistry object detector 
 
-We describe here a method aiming at listing the [Chemistry Objects](chemisty_object.md) found in an archive file (.zip, BagIt, etc.).
+We sketch here a method aiming at listing the [Chemistry Objects](chemisty_object.md) found in an archive file (.zip, BagIt, etc.).
 
-The procedure consists in searching, in each folder of the archive, for a specific file name or a pattern of files 
-and fulfil additional criteria (see "Short list" Table).
+The procedure consists in searching, in each folder of the archive, for a specific file name, magic number, etc, or a pattern of files 
+and fulfil additional criteria (see "Short list" Table). For .zip files one may need to extract the list of the files. For [BagIt](https://en.wikipedia.org/wiki/BagIt) archive, reading the manifest should be enough. The manifest (manifest-XXX.txt where XXX is md5, sha1, *etc.*) is one of the *tags* (metadata about the *payload*) of the *bag*.
 
 Perspective: Develop methods to allow visitor of a repository to direclty visualize the Chemistry Objects listed for a given record. This will require to develop a resource providing a automated mecanism (API) to visualize the chemistry objects. 
 
