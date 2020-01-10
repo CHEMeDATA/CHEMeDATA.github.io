@@ -40,9 +40,9 @@ The criteria (third column in the table) are discussed [below](#criteria).
 
 # Criteria
 We consider (thus far) three tests functions:
-- file_name (test presence of file)
-- exist_file (test the presence of additional files)
-- find_line (test the presence of a specific string in a text file)
+- [file_name](#file-name) (test the presence of given file - full file name or by extension extension using wildcard).
+- [exist_file](#presence-of-associated-files) (test the presence of additional files related to file_name. They may contain parameters). 
+- [find_line](#presence-of-a-specific-string-in-a-file) (test the presence of a specific string in a text file). 
 
 See below for more details.
 ## File name
@@ -87,7 +87,7 @@ The list of examples is quite preliminary and (purposively) uneven and (in some 
 
 Why an onthology:
 
-In NMR (for example), we often use "Full analysis" of compounds. It is composed of a set of experiment, which are themself composed of smaller elements (FID's).
+In chemistry (for example), we often record the "Full analysis" of compounds. It is composed of a set of experiment, which are themself composed of smaller elements (FID's that are processed into spectra).
 
 * Full analysis 
   * 1D 1H spectrum
@@ -98,8 +98,8 @@ In NMR (for example), we often use "Full analysis" of compounds. It is composed 
     * Fid of the above spectrum
   * etc.
   
-  The onthology will facilitate the generation of the criteria for a full analysis. Instead of listing all the conditions to fullfill, it would inhirit the conditions of the siblings.
+  The onthology will facilitate the generation of the criteria for a full analysis. Instead of listing all the conditions to fullfill, it would inherit the conditions of the siblings.
 
 - The condition for spectrum object will includes the conditions of FID
 - The conditions about the "full analysis" could be defined based on the list of spectra, without needing to care about the conditions to fullfill for each spectrum.
-- 1D 1H spectra would be a subclass of 1D spectra
+- 1D <sup>1</sup>H,<sup>13</sup>C, etc. spectra would be a subclass of 1D spectra
