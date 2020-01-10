@@ -4,7 +4,7 @@ A method aiming at identifying the [Chemistry Objects](chemisty_object.md) found
 
 The procedure consists in searching, in each folder of the archive, for a specific file name (possibly including a given magic number, specific string, etc.), or a pattern of files and fulfil additional criteria (see "Short list" Table). 
 
-For .zip files one may need to extract the list of the files. For [BagIt](https://en.wikipedia.org/wiki/BagIt) archive, reading a manifest should be enough (The BagIt manifest file may not be accessible). 
+For .zip files one may need to extract the list of the files. For [BagIt](https://en.wikipedia.org/wiki/BagIt) archive, reading a manifest should be enough, provided it is easily acessible from the portail. 
 
 <!--- The manifest (manifest-XXX.txt where XXX is md5, sha1, *etc.*) is one of the *tags* (metadata about the *payload*) of the *bag*. --->
 
