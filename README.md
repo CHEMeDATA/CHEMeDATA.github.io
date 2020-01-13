@@ -3,8 +3,16 @@
 <!--- <h3 style="background-color:DodgerBlue;">This website is under construction</h3> ---> 
 
 *Making chemistry data more [FAIR](https://www.go-fair.org/fair-principles/).*
+### General recommendations
 
-CHEMeDATA should become an umbrella organization combining efforts by diverse communities addressing the FAIRness and chemistry data in a similar and yet-to-be clearly defined manner. 
+- Include the crude/original data (chemdraw files, log files from commercial software, spreadsheets, spectra in the spectrometers format, pictures, etc.) in archive files.
+- Include a FAIR version of these data (tools may need to be developed to add them - typically convert .cdx into .mol, generate Jcamp spectra, etc.). This should be mandatory when the data are in in any software specific and their files cannot be converted to open format by software freely accessible to the community.
+- Include assignment data: the annotation/extracted information/scientific data obtained from these crude data (peak-picking, etc.) See NMReDATA Initiative.
+- Include metadata about the author, instruments, date, link to journal articles, etc. (IUPAC will be requested to make recommendations.)
+
+**To be called CHEMeDATA the data will need to fulfil some requirement with respect to openness (free access of the content).**
+
+CHEMeDATA should become the umbrella organization combining efforts by diverse communities addressing the FAIRness and chemistry data in a similar (and yet-to-be clearly defined) manner. 
 
 ### Format for chemistry data
 
@@ -13,7 +21,7 @@ One of the activities of the CHEMeDATA Initiative is to encourage the developmen
 Currently only the NMR community is a part of the CHEMeDATA Initiative via the [NMReDATA Initiative](https://nmredata.org/). Their main outcome is to associate the NMR assignment of an organic compound to a chemical structure file. This is done using so-called "tags" included in .sdf files, the latter being  compatible with the commonly used .mol format.
 
 Potential developments:
-- produce a format for the assignment of other types of spectroscopies and analytical methods. For example, IR assignement could also be stored using the SD format. 
+- Produce a format for the assignment of other types of spectroscopies and analytical methods. For example, IR assignment could also be stored using the SD format. 
 - ... "please make comments via the "GitHub Issues" if you are interested to contribute or make comments.*
 
 ### How to make better chemistry data?
