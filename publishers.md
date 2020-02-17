@@ -24,6 +24,7 @@ Since 2019, all major [NMR software producers](https://nmredata.org/wiki/Compati
 More [information](https://nmredata.org/wiki/Submission_NMReDATA) ...
 
 [ACS support of FAIR data](https://pubs.acs.org/doi/10.1021/acs.orglett.0c00383)
+
 [Henry's take on ACS's annoncement](https://www.ch.imperial.ac.uk/rzepa/blog/?p=21928)
 
 ### Reach us...
