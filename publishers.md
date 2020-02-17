@@ -18,7 +18,8 @@ For examples NMR spectra should be submitted in an electronic format (.mnova, zi
 etc. - Include the crude/original data (chemdraw files, log files from commercial software, spreadsheets, spectra in the spectrometers format, pictures, etc.) in archive files.
 These files should be ordered in a file arborescence to make their relations implict. For example, the chemical structure file and the  spectroscopid data of the compound numbered 1 in the article can be saved in a folder *compound1*. 
 
-**Note concerning NMR data.** Since 2019, all major [NMR software producers](https://nmredata.org/wiki/Compatible_software) introduced the NMReDATA format in their software. Exporting NMR data in this format faciliates reviewing because data in this format include the spectra, but also the assignment data and the result of the automatic evaluation of the consistency and quality of these data.
+### NMReDATA
+Since 2019, all major [NMR software producers](https://nmredata.org/wiki/Compatible_software) introduced the NMReDATA format in their software. Exporting NMR data in this format faciliates reviewing because data in this format include the spectra, but also the assignment data and the result of the automatic evaluation of the consistency and quality of these data. Besides the commercial solutions, free [web-based tools](https://nmredata.org/wiki/Compatible_software)are also available for use and integration in new tools to be developped.
 
 ### Reach us...
 If you have comment, suggestions, contributions, etc. please raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues)
