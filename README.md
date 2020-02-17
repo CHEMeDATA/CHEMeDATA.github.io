@@ -22,17 +22,19 @@ Currently only the NMR community is a part of the CHEMeDATA Initiative via the [
 
 Potential developments:
 - Produce a format for the assignment of other types of spectroscopies and analytical methods. For example, IR assignment could also be stored using the SD format. 
-- ... "please make comments via the "GitHub Issues" if you are interested to contribute or make comments.*
+
 
 ### How to make better chemistry data?
 
 The supplementary data (typically .zip files) that are produced in association to publication or to fulfil the requirements of funding agencies to make data available can be improved. This is the key to make [FAIR](https://www.go-fair.org/fair-principles/) data!
 
-- [Recommendations](chemists.md) for chemists.
-- [Recommendations and possible developments](data_provider.md) for the providers of chemistry data (University repositories, Journal editors, etc.).
+- Recommendations for [chemists](chemists.md).
+- Recommendations for [publishers] of chemistry journals(publisher.md).
+- Recommendations for [chemistry data providers](data_provider.md) for the providers of chemistry data (University repositories, Journal editors, etc.).
+- [Recommendations for the developers of new solutions](developer.md) for chemists.
 
 <!---
 [t](test_html_javascritp.html) 
 ---> 
-### How to participate, comment, etc.
-If you have comment, wish to propose contributions, etc. raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues)
+### How to participate?
+If you have comment, suggestions, contributions, etc. raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues)
