@@ -8,14 +8,22 @@ Encourage (or require) the submission of all electronic data supporting the clai
 
 Help the Author to disthinguish the supplementary information which should be submitted as text (.pdf or .doc) files from the data which should be submitted in their native electronic forms.
 
-Propose third-party archiving solution (such as Zenodo) if the publisher's server cannot accomodate the files submitted by the Authors. They offer solutions using private links to limit the restrict acces to the data to reviewers only until the final submission. A REST-API allows to fully authomatize this process so that the authors do not have to re-enter information such as author names, affiliation, etc. 
+Propose third-party archiving solution (such as Zenodo, FigShare, etc.) if the publisher's server cannot accomodate the files submitted by the Authors. These repositories offer solutions based on private links to restrict acces to the data to reviewers only until the publications of manuscripts. With Zenodo, a REST-API allows to fully authomatize this process from the publisher's website so that the authors do not have to re-enter information such as author names, affiliation, reference to the manuscript, etc.
+
+An alternative is to create an chemistry data after publication. A workflow taking the data of a publication (DOI, authors, affiliatios, funding, etc.) from a Journal page (or other sources of publication data such as Researchgate.org) would only require (say) the corresponding author of an article to drop a .zip file in an pre-filled submission. 
 
 ### Tentative instructions for the Authors
-Images of NMR spectra, chemical structures, etc. can be included as pictures in a .pdf or .doc files when a they are discussed. But in all cases, they should be submitted in their native electronic format. 
-For example, chemical structures should be submitted as .cdx, .mol, format.
-For examples NMR spectra should be submitted in an electronic format (.mnova, zip of the Bruker files tree, etc.). Low-resolution images of 1D and 2D spectra pasted into are of very little use.
-etc. - Include the crude/original data (chemdraw files, log files from commercial software, spreadsheets, spectra in the spectrometers format, pictures, etc.) in archive files.
-These files should be ordered in a file arborescence to make their relations implict. For example, the chemical structure file and the  spectroscopid data of the compound numbered 1 in the article can be saved in a folder *compound1*. 
+(to be improved...)
+
+Images of NMR spectra, chemical structures, etc. can be included as pictures in a .pdf or .doc files when a they are discussed. But in general, these data are not computer readable and of very little use for humans.
+
+Spectra, chemical structures, should be submitted in their **native electronic format**:
+- Chemical structures should be submitted as .cdx, .mol, format.
+- NMR spectra should be submitted in an electronic format (.mnova, zip of the Bruker files tree, etc.). Low-resolution images of 1D and 2D spectra pasted into are of very little use.
+etc. 
+- Tables, should be submitted as preadsheets files.
+
+These individual files should be ordered in a file tree to make their relations implict. For example, the chemical structure file and the  spectroscopid data of the compound numbered 1 in the article can be saved in a folder named *compound1*. 
 
 ### NMReDATA
 Since 2019, all major [NMR software producers](https://nmredata.org/wiki/Compatible_software) introduced the NMReDATA format in their software. Exporting NMR data in this format faciliates reviewing because data in this format include the spectra, but also the assignment data and the result of the automatic evaluation of the consistency and quality of these data. Besides the commercial solutions, free [web-based tools](https://nmredata.org/wiki/Compatible_software)are also available for use and integration in new tools to be developped.
