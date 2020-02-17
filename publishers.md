@@ -21,6 +21,8 @@ These files should be ordered in a file arborescence to make their relations imp
 ### NMReDATA
 Since 2019, all major [NMR software producers](https://nmredata.org/wiki/Compatible_software) introduced the NMReDATA format in their software. Exporting NMR data in this format faciliates reviewing because data in this format include the spectra, but also the assignment data and the result of the automatic evaluation of the consistency and quality of these data. Besides the commercial solutions, free [web-based tools](https://nmredata.org/wiki/Compatible_software)are also available for use and integration in new tools to be developped.
 
+More [information](https://nmredata.org/wiki/Submission_NMReDATA) ...
+
 ### Reach us...
 If you have comment, suggestions, contributions, etc. please raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues)
 
