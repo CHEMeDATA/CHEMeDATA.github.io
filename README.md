@@ -1,8 +1,7 @@
-## CHEMeDATA.github.io
-
+## Goal and scope
+The main goal of the CHEMeDATA Initiative is to improve the quality of chemistry data in publications and databases: *make chemistry data more [FAIR](https://www.go-fair.org/fair-principles/).*
 <!--- <h3 style="background-color:DodgerBlue;">This website is under construction</h3> ---> 
 
-*Making chemistry data more [FAIR](https://www.go-fair.org/fair-principles/).*
 ### General recommendations
 
 - Include the crude/original data (chemdraw files, log files from commercial software, spreadsheets, spectra in the spectrometers format, pictures, etc.) in archive files.
@@ -10,19 +9,18 @@
 - Include assignment data: the annotation/extracted information/scientific data obtained from these crude data (peak-picking, etc.) See NMReDATA Initiative.
 - Include metadata about the author, instruments, date, link to journal articles, etc. (IUPAC will be requested to make recommendations.)
 
-**To be called CHEMeDATA the data will need to fulfil some requirement with respect to openness (free access of the content).**
+**To be called CHEMeDATA the data should fulfil some requirement with respect to openness (free access of the content).**
 
-CHEMeDATA should become the umbrella organization combining efforts by diverse communities addressing the FAIRness and chemistry data in a similar (and yet-to-be clearly defined) manner. 
+CHEMeDATA is the umbrella organization combining efforts by diverse communities addressing the FAIRness and chemistry data in a similar (and yet-to-be clearly defined) manner. It is spinoff of the [NMReDATA Initiative](https://www.nmredata.org), inheriting its general principles.
 
 ### Format for chemistry data
 
-One of the activities of the CHEMeDATA Initiative is to encourage the development of new standards to report information extracted from crude data. For example, the [assignment of NMR spectra](https://nmredata.org/), IR spectra, etc. Extract some relevant information from the output of chemistry software, *etc.*)
+One of the activities of the CHEMeDATA Initiative is to encourage the development of standards to report information extracted from crude data (when such format is not already existing). For example, the [assignment of NMR spectra](https://nmredata.org/), IR spectra, etc. Extract the relevant information from the output of chemistry software, *etc.*)
 
-Currently only the NMR community is a part of the CHEMeDATA Initiative via the [NMReDATA Initiative](https://nmredata.org/). Their main outcome is to associate the NMR assignment of an organic compound to a chemical structure file. This is done using so-called "tags" included in .sdf files, the latter being  compatible with the commonly used .mol format.
+Currently only the NMR community is a part of the CHEMeDATA Initiative via the [NMReDATA Initiative](https://nmredata.org/). Their main outcome is a format to associate the NMR assignment of an organic compound to a chemical structure file. This is done using so-called "tags" included in .sdf files, the latter being  compatible with the commonly used .mol format.
 
 Potential developments:
 - Produce a format for the assignment of other types of spectroscopies and analytical methods. For example, IR assignment could also be stored using the SD format. 
-
 
 ### How to make better chemistry data?
 
