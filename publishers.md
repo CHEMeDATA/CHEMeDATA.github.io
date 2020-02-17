@@ -1,9 +1,8 @@
-## CHEMeDATA.github.io
 *Making chemistry data more [FAIR](https://www.go-fair.org/fair-principles/).*
 
 <!--- <h3 style="background-color:DodgerBlue;">This page is under construction</h3> ---> 
-<h3 style="background-color:DodgerBlue;">This page is under construction</h3> 
 
+## Recommendations for publishers of chemistry journals
 
 Encourage (or require) the submission of all electronic data supporting the claims of the articles. This include spectroscopic information, spreadsheets of data, etc.
 
