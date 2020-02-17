@@ -25,7 +25,7 @@ More [information](https://nmredata.org/wiki/Submission_NMReDATA) ...
 
 [ACS support of FAIR data](https://pubs.acs.org/doi/10.1021/acs.orglett.0c00383)
 
-[Henry's take on ACS's annoncement](https://www.ch.imperial.ac.uk/rzepa/blog/?p=21928)
+[Henry Rzepa's take on ACS's annoncement](https://www.ch.imperial.ac.uk/rzepa/blog/?p=21928)
 
 ### Reach us...
 If you have comment, suggestions, contributions, etc. please raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues)
