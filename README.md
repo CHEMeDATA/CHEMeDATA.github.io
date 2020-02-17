@@ -29,7 +29,7 @@ Potential developments:
 The supplementary data (typically .zip files) that are produced in association to publication or to fulfil the requirements of funding agencies to make data available can be improved. This is the key to make [FAIR](https://www.go-fair.org/fair-principles/) data!
 
 - Recommendations for [chemists](chemists.md).
-- Recommendations for [publishers](publisher.md) of chemistry journals.
+- Recommendations for [publishers](publishers.md) of chemistry journals.
 - Recommendations for [chemistry data providers](data_provider.md) for the providers of chemistry data (University repositories, Journal editors, etc.).
 - [Recommendations for the developers of new solutions](developer.md) for chemists.
 
