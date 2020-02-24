@@ -27,7 +27,7 @@ etc.
 These individual files should be ordered in a file tree to make their relations implicit. For example, the chemical structure file and the  spectroscopic data of the compound numbered 1 in the article can be saved in a folder named *compound1*. 
 
 ### NMReDATA
-Since 2019, all major [NMR software producers](https://nmredata.org/wiki/Compatible_software) introduced the NMReDATA format in their software. Exporting NMR data in this format facilitates reviewing because data in this format include the spectra, but also the assignment data and the result of the automatic evaluation of the consistency and quality of these data. Besides the commercial solutions, free [web-based tools](https://nmredata.org/wiki/Compatible_software)are also available for use and integration in new tools to be developed.
+Since 2019, all major [NMR software producers](https://nmredata.org/wiki/Compatible_software) introduced the NMReDATA format in their software. Exporting NMR data in this format facilitates reviewing because data in this format include the spectra, but also the assignment data and the result of the automatic evaluation of the consistency and quality of these data. Besides the commercial solutions, free [web-based tools](https://nmredata.org/wiki/Compatible_software) are also available for use and integration in new tools to be developed.
 
 More [information](https://nmredata.org/wiki/Submission_NMReDATA) ...
 
