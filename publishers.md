@@ -10,12 +10,12 @@ Help the Author to disthinguish the supplementary information which should be su
 
 Propose third-party archiving solution (such as Zenodo, FigShare, etc.) if the publisher's server cannot accomodate the files submitted by the Authors. These repositories offer solutions based on private links to restrict acces to the data to reviewers only until the publications of manuscripts. With Zenodo, a REST-API allows to fully authomatize this process from the publisher's website so that the authors do not have to re-enter information such as author names, affiliation, reference to the manuscript, etc.
 
-An alternative is to create an chemistry data after publication. A workflow taking the data of a publication (DOI, authors, affiliatios, funding, etc.) from a Journal page (or other sources of publication data such as Researchgate.org) would only require (say) the corresponding author of an article to drop a .zip file in an pre-filled submission. 
+An alternative is to create a chemistry data archive after publication. A workflow taking the (meta)data of a publication (DOI, authors, ORCID, affiliations, funding, etc.) from a Journal page (or other sources of publication data such as Researchgate.org, Institutional list of publication) would be particularily practical. An electronic invitation to submit data could be send to the corresponding author or the principal investogator of a reserch group. A pre-filled data submission page would only require to drop a .zip file in an pre-filled submission. 
 
 ### Tentative instructions for the Authors
 (to be improved...)
 
-Images of NMR spectra, chemical structures, etc. can be included as pictures in a .pdf or .doc files when a they are discussed. But in general, these data are not computer readable and of very little use for humans.
+Images of NMR spectra, chemical structures, etc. can be included as pictures in a .pdf or .doc files to consitute supplementary material complementing the main article. But in general, these data are not computer readable and only for use by human. It important to understand that image inserted in .doc or .pdf files do not consitute reusable data in the FAIR sense. It is important to distinguish supplementary material (or supplementary information) from supplementary data discussed in the following paragraph.
 
 Spectra, chemical structures, should be submitted in their **native electronic format**:
 - Chemical structures should be submitted as .cdx, .mol, format.
