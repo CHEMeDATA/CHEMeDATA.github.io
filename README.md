@@ -29,7 +29,7 @@ The supplementary data (typically .zip files) that are produced in association t
 - Recommendations for [chemists](chemists.md).
 - Recommendations for [publishers](publishers.md) of chemistry journals.
 - Recommendations for [chemistry data providers](data_provider.md) for the providers of chemistry data (University repositories, Journal editors, etc.).
-- [Recommendations for the developers of new solutions](developer.md) for chemists.
+- Recommendations for [developers of new solutions](developer.md) for chemists.
 
 <!---
 [t](test_html_javascritp.html) 
