@@ -12,7 +12,7 @@ Propose third party archiving solution (such as Zenodo, FigShare, etc.) if the p
 
 ### Submitting supplementary data after publication
 
-An alternative is the submission of supplementary data at the submission of a manuscript is to create a chemistry data archive after publication. A workflow taking the metadata of a publication (DOI, authors, ORCID, affiliations, funding, etc.) from a Journal page (or other sources of publication data such as Researchgate.org, Institutional list of publication, etc.) would be particularly practical for the author. An electronic invitation to submit associated data files could be sent to the corresponding author or the principal investigator of a research group when a new publication record is identified. A pre-filled data submission page would only require the author to drop a .zip file to satisfy the requirement to share data requested by public institutions and funding agencies. 
+An alternative is the submission of supplementary data at the submission of a manuscript is to create a chemistry data archive after publication. A workflow taking the metadata of a manuscript (DOI, authors, ORCID, affiliations, funding, etc.) from a Journal page (or other sources of publication data such as Researchgate.org, Institutional list of publication, etc.) would be particularly practical for the author to avoid entering any information. An electronic invitation to submit associated data files could be sent to the corresponding author or the principal investigator of a research group when a new publication record is identified. A pre-filled data submission page would only require the author to drop a .zip file to satisfy the requirement to share data requested by public institutions and funding agencies.
 
 ### Tentative instructions for the Authors (to be improved...)
 
@@ -25,6 +25,16 @@ etc.
 - Tables, should be submitted a spreadsheet files.
 
 These individual files should be ordered in a file tree to make their relations implicit. For example, the chemical structure file and the  spectroscopic data of the compound numbered 1 in the article can be saved in a folder named *compound1*. 
+
+### Helping chemist submit well organized and complete 
+
+Instead of having the chemist prepare a .zip file on his own, a simple webpage could help him, making sure that structure files are submitted and the spectroscopic data are sorted by compounds.
+|.cdx or .mol file | spectroscopic data | other files 
+|-----------|------|-------|
+|[*drop structure file for compound 1 here*] | [*drop files or folder here*]|[*drop files or folder here*]|
+|[*drop structure file for compound 2 here*] | [*drop files or folder here*]|[*drop files or folder here*]|
+|Other files | [*drop files or folder here*]|[**Generate .zip file**]|
+
 
 ### NMReDATA
 Since 2019, all major [NMR software producers](https://nmredata.org/wiki/Compatible_software) introduced the NMReDATA format in their software. Exporting NMR data in this format facilitates reviewing because data in this format include the spectra, but also the assignment data and the result of the automatic evaluation of the consistency and quality of these data. Besides the commercial solutions, free [web-based tools](https://nmredata.org/wiki/Compatible_software) are also available for use and integration in new tools to be developed.
