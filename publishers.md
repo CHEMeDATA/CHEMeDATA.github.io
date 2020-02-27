@@ -30,10 +30,11 @@ These individual files should be ordered in a file tree to make their relations 
 
 Instead of having the chemist prepare a .zip file on his own, a simple webpage could help him, making sure that structure files are submitted and the spectroscopic data are sorted by compounds.
 
-|.cdx or .mol file | spectroscopic data | other files|
+|Structure | spectroscopic data | other files|
 |-----------|-----------|-----------|
-|[*drop structure file for compound 1 here*] | [*drop files or folder here*]|[*drop files or folder here*]|
-|[*drop structure file for compound 2 here*] | [*drop files or folder here*]|[*drop files or folder here*]|
+|[*drop .cdx or .mol file of compound 1 here*] | [*drop files or folder here*]|[*drop files or folder here*]|
+|[*drop .cdx or .mol file of compound 2 here*] | [*drop files or folder here*]|[*drop files or folder here*]|
+|... |  |  |
 |Other files | [*drop files or folder here*] | [**Generate .zip file**](publishers.md)|
 
 
