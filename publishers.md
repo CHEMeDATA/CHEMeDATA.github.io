@@ -33,7 +33,7 @@ Instead of having the chemist prepare a .zip file on his own, a simple webpage c
 |-----------|------|-------|
 |[*drop structure file for compound 1 here*] | [*drop files or folder here*]|[*drop files or folder here*]|
 |[*drop structure file for compound 2 here*] | [*drop files or folder here*]|[*drop files or folder here*]|
-|Other files | [*drop files or folder here*]|[**Generate .zip file**]|
+|Other files | [*drop files or folder here*]|[**Generate .zip file**](publishers.md)|
 
 
 ### NMReDATA
