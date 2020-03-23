@@ -23,3 +23,8 @@ Better alternatives:
 ## Add a layer of open/FAIR data 
 - For any file in a proprietary format add data in open format (or API to make them...and use visualize them ...).
 -add smiles/inchi to chemistry ...
+
+## visualizion of 2D and 3D molecules 
+[Examples using JSmol and Kekude](https://gr-jeannerat-unige.github.io/macrolide-antibiotics/page1)
+[Demo using React](https://zakodium.github.io/react-ocl)
+
