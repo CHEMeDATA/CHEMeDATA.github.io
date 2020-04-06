@@ -10,19 +10,20 @@ In this context it refers to any piece of information relevant to chemistry.
 The word [*object*](object.md) has a special meaning in computer sciences indicating that it has an electronic form meaning that it is computer understandable. A .jpg image of a spectrum, for example, cannot be understood by a computer to be a spectrum. It is an *image* object, not a chemistry or spectrum object. 
 # Ontology of chemistry object
 Prelimary list of chemistry objects (to be refiined by the chemistry community):
+ - Chemical structure
+   - 2D (mol, cdx, etc.)
+   - 3D (mol, ...)
+ - Chemical reaction (includes chemical structure of the reactants and products and conditions... see ....)
+ - Chemical property
+   - Single data (Example: the mass of an element : A<sub>r,std</sub>(Y) = 88.90584.
+   - Array of data **this may simply a [collection](https://schema.org/Collection) of** ***single data***. 
  - Spectrum (generic)
-   - NMR spectrum 
+   - NMR spectrum (subcategory of *spectrum*)
      - 1D NMR spectrum (image, jcamp, Spectrometer data)
      - 2D NMR spectrum (image, jcamp, Spectrometer data)
  - Full NMR analysis (including a set of spectra of different nature of the same sample) **this may be simply a [collection](https://schema.org/Collection) of spectra**
  - series of spectra (diff temp, diff concentration of ligand...) **this not just a set of spectra, the varied parameter has to be documented**
- - Chemical structure
-   - 2D (mol, cdx, etc.)
-   - 3D (mol, ...)
- - Chemical reaction (includes chemical strucutres and conditions... see ....)
- - Data
-   - single data (Example: the mass of an element)
-   - array of data **this may be simply a set of spectra** 
+
  - NMR assignment (NMReDATA, "ACS assignment text")
 Existing schema the should be integrated:
  - [author](https://schema.org/Person)
