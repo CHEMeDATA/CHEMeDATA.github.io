@@ -9,19 +9,18 @@ In this context it refers to any piece of information relevant to chemistry.
 
 The word [*object*](object.md) has a special meaning in computer sciences indicating that it has an electronic form meaning that it is computer understandable. A .jpg image of a spectrum, for example, cannot be understood by a computer to be a spectrum. It is an *image* object, not a chemistry or spectrum object. 
 # Ontology of chemistry object
-An ontology of chemistry objects should be proposed by the chemistry community.
-Examples: 
- - spectrum (generic)
+Prelimary list of chemistry objects (to be refiined by the chemistry community):
+ - Spectrum (generic)
    - NMR spectrum 
      - 1D NMR spectrum (image, jcamp, Spectrometer data)
      - 2D NMR spectrum (image, jcamp, Spectrometer data)
  - Full NMR analysis (including a set of spectra of different nature of the same sample) **this may be simply a [collection](https://schema.org/Collection) of spectra**
  - series of spectra (diff temp, diff concentration of ligand...) **this not just a set of spectra, the varied parameter has to be documented**
- - chemical structure
+ - Chemical structure
    - 2D (mol, cdx, etc.)
    - 3D (mol, ...)
- - chemical reaction (includes chemical strucutres and conditions... see ....)
- - data
+ - Chemical reaction (includes chemical strucutres and conditions... see ....)
+ - Data
    - single data (Example: the mass of an element)
    - array of data **this may be simply a set of spectra** 
  - NMR assignment (NMReDATA, "ACS assignment text")
