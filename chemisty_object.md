@@ -9,6 +9,9 @@ In this context it refers to any piece of information relevant to chemistry.
 
 The word [*object*](object.md) has a special meaning in computer sciences indicating that it has an electronic form meaning that it is computer understandable. A .jpg image of a spectrum, for example, cannot be understood by a computer to be a spectrum. It is an *image* object, not a chemistry or spectrum object. 
 # Ontology of chemistry object
+Objects will have [schema](https://schema.org/) representation.
+We would probably use RDF to link elements (part of a OWL ontology).
+
 Prelimary list of chemistry objects (to be refiined by the chemistry community):
  - Chemical structure
    - 2D (mol, cdx, etc.)
