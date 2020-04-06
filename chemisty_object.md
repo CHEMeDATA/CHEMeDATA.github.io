@@ -1,15 +1,15 @@
-# Definition of "chemistry object"
-
+# Introduction
 There is no clear or autoritarian definition of a chemistry object (CO). 
 
 In this context it refers to any piece of information relevant to chemistry. 
 - the structure of a compound (drawing, .xcd file, flat representation or 3D representation, etc.)
 - the output of a computer program of scientic instrument (spectrum, list of the energy of molecular orbitals, etc)
-- the result of an experiment
+- the crude result from a scientific instrument
+- the interpreted results of an experiment 
 
 The word [*object*](object.md) has a special meaning in computer sciences indicating that it has an electronic form meaning that it is computer understandable. A .jpg image of a spectrum, for example, cannot be understood by a computer to be a spectrum. It is an *image* object, not a chemistry or spectrum object. 
-
-An ontology of objects should be defined by the chemistry community.
+# Ontology of chemistry object
+An ontology of chemistry objects should be proposed by the chemistry community.
 Examples: 
  - spectrum (generic)
    - NMR spectrum 
@@ -32,14 +32,19 @@ Existing schema the should be integrated:
  - funding agencies
  - funding agencies
  
-For each type of object, we should stata which property is mandatory/optional.
+For each type of object, we should state which property is mandatory/optional.
 Consider if we should have out own schema (in hirited from "official" ones - with [XSLT](https://en.wikipedia.org/wiki/XSLT) .
 Each main schema should have flavors (in parenthesis)
+...
 
 Set of objects will use existing schema
+# Use cases
+## chemistry data in ZIP files
+By nature, the XML format allows to combine the XML of a set of objects. For .zip file including chemistry files the list of objects should be included a manifest file (say chemObjmanifest.xml) listing all the identified objects included in the file with a link to each file.
+## chemistry objects uploaded from database
+When chemist download data (say a spectrum, a chemical structure, etc) a manifest file could be associated to the object (in the zip file including the paylowad) If the file is dowloaded "alone" the metadate about the object could be included in the file (for jcamp, one could include fields corresponding to the metadate of the object - origin, in particular- Pdf also allows to include metadata). Even more general, an alternative would be for database to calculated the .md5 of all downloadable files (spectra, mol files, etc.) and have a registry of files so that the origin of a file could be retraced back using a RESTfull-API or a centralized service (datacite ?) to offers such a service.
 
 
-**Note:** that [Research Object](https://researchobject.github.io/ro-crate/) (RO) has no relevance to the specifically chemical ontology presented here.
 
 ## Key aspects
 
@@ -55,3 +60,6 @@ The (chemistry) objects carry information that can be seached for used by
 - computers to be integrated into database, or any used in any type of processing.
 
 Facilited the *use* is the key aspect of open and [FAIR](https://www.go-fair.org/fair-principles/) data.
+
+
+**Note:** that [Research Object](https://researchobject.github.io/ro-crate/) (RO) has no relevance to the specifically chemical ontology presented here.
