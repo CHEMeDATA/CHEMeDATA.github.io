@@ -9,9 +9,37 @@ In this context it refers to any piece of information relevant to chemistry.
 
 The word [*object*](object.md) has a special meaning in computer sciences indicating that it has an electronic form meaning that it is computer understandable. A .jpg image of a spectrum, for example, cannot be understood by a computer to be a spectrum. It is an *image* object, not a chemistry or spectrum object. 
 
-The formal definition of [Research Object](https://researchobject.github.io/ro-crate/) (RO) has a lot of relevance. Parts of what should cover the definition of "chemistry object" may be part of the chemistry reaserch objects (CRO). 
+An ontology of objects should be defined by the chemistry community.
+Examples: 
+ - spectrum (generic)
+   - NMR spectrum 
+     - 1D NMR spectrum (image, jcamp, Spectrometer data)
+     - 2D NMR spectrum (image, jcamp, Spectrometer data)
+ - Full NMR analysis (including a set of spectra of different nature of the same sample) **this may be simply a [collection](https://schema.org/Collection) of spectra**
+ - series of spectra (diff temp, diff concentration of ligand...) **this not just a set of spectra, the varied parameter has to be documented**
+ - chemical structure
+   - 2D (mol, cdx, etc.)
+   - 3D (mol, ...)
+ - chemical reaction (includes chemical strucutres and conditions... see ....)
+ - data
+   - single data (Example: the mass of an element)
+   - array of data **this may be simply a set of spectra** 
+ - NMR assignment (NMReDATA, "ACS assignment text")
+Existing schema the should be integrated:
+ - [author](https://schema.org/Person)
+ - reference to article/book section
+ - reference to institution
+ - funding agencies
+ - funding agencies
+ 
+For each type of object, we should stata which property is mandatory/optional.
+Consider if we should have out own schema (in hirited from "official" ones - with [XSLT](https://en.wikipedia.org/wiki/XSLT) .
+Each main schema should have flavors (in parenthesis)
 
-Exactly what is common and different between the two concepts (CO *versus* CRO) has be studied in some detail to avoid misunderstanding.
+Set of objects will use existing schema
+
+
+**Note:** that [Research Object](https://researchobject.github.io/ro-crate/) (RO) has no relevance to the specifically chemical ontology presented here.
 
 ## Key aspects
 
