@@ -2,7 +2,7 @@
 
 A method aiming at identifying the [Chemistry Objects](chemisty_object.md) found in an archive file (.zip, BagIt, etc.) is sketched below.
 
-The procedure consists in searching, in each folder of the archive, for a specific file name (possibly including a given magic number, specific string, etc.), or a pattern of files and fulfil additional criteria (see "Short list" Table). 
+The procedure consists in searching, in each folder of the archive, for a specific file name, or a pattern of files and fulfil additional criteria (see "Short list" Table). 
 
 For .zip files one may need to extract the list of the files. For [BagIt](https://en.wikipedia.org/wiki/BagIt) archive, reading a manifest should be enough, provided it is easily acessible from the portail. 
 
