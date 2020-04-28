@@ -83,16 +83,16 @@ This allows to distinguish different (sub)types of objects. Inthis specific case
 
 The list of examples is quite preliminary and (purposively) uneven and (in some cases incomplete). The aim is only to show the underlying ontology which should be defined (possibly using [OWL](https://www.w3.org/TR/owl2-primer/)?).
 
-## Chemistry Objects Onthology
+## Chemistry Objects Ontology
 
-Why an onthology:
+Why an ontology:
 
 In chemistry (for example), we often record the "Full analysis" of compounds. It is composed of a set of experiment, which are themself composed of smaller elements (FID's that are processed into spectra).
 
 * Full analysis 
   * 1D 1H spectrum
     * Fid of the above spectrum
-  * 1D 13CH spectrum
+  * 1D 13C spectrum
     * Fid of the above spectrum
   * 2D 1H-13C HSQC spectrum
     * Fid of the above spectrum
