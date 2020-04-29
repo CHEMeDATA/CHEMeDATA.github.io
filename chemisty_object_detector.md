@@ -11,10 +11,11 @@ Repository service typically use [FITS](https://projects.iq.harvard.edu/fits/hom
 Listing chemical structures, NMR spectra, *etc.* would allow the visitor to:
  - visualize the chemical structures,
  - have a look at an NMR spectrum, or the assignment data
+ 
 whithoug having to download the entire archive. 
 He could be be able to download only the part of interest.
  
-In order to be able to list chemical structures, NMR spectra, etc. criteria need to be listed to identify them. A method aiming at identifying the [Chemistry Objects](chemisty_object.md) found in an archive file (.zip) is the object of the ["Chemistry research object identification"](https://chemedata.github.io/ResearchObjectFinder/). In short, the procedure consists in searching, in each folder of the archive, for a specific file name, or a pattern of files and fulfil additional criteria (see "Short list" Table). 
+In order to be able to list chemical structures, NMR spectra, *etc.* criteria need to be listed to identify them. A method aiming at identifying the [Chemistry Objects](chemisty_object.md) found in an archive file (.zip) is the object of the ["Chemistry research object identification"](https://chemedata.github.io/ResearchObjectFinder/). In short, the procedure consists in searching, in each folder of the archive, for a specific file name, or a pattern of files and fulfil additional criteria (see "Short list" Table). 
 
 <!--- For .zip files one may need to extract the list of the files. For [BagIt](https://en.wikipedia.org/wiki/BagIt) archive, reading a manifest should be enough, provided it is easily acessible from the portail. The manifest (manifest-XXX.txt where XXX is md5, sha1, *etc.*) is one of the *tags* (metadata about the *payload*) of the *bag*. --->
 
@@ -22,43 +23,6 @@ In order to be able to list chemical structures, NMR spectra, etc. criteria need
 
 Allowing to extact part of an archived makes the loss of context possible problematic downstream, when the the researcher will need to refer to the source of the data, or find related information later on. The donwloaded "chemistry objects" could include additional information (for example, the chemical shifts for each carbon) with the 3D structure of the compound. It should also carry with it, metadata about its origin, how to cite the work, its INCHI (to faciliate search of additional information about the compound, etc.)
 
-# ResearchObjectFinder
-Develop method to identify chemistry objects (CO) within archive files
-## Digital Objects
- - FairSpec digital.finding.aid Object
-     - Properties:
- 
-### Compound (Meta)Data
-  - FairSpec chemical.identifier.metadata Object
-     - Properties:
-        - Inchi
-        - Formula(s)
-        - SMILE(s) 
-        - Meltng Point
-        - [selected spectroscopy extracted data]
-  - 2D SDF Object(s)
-  - 3D SDF Object(s)
-  - Computational Results Object(s)
-  - Experimental Procedure()
-  
-### Spectroscopy Data
-  - FairSpec spectroscopy.data.metadata Object
-     - Properties:
-  - Vendor-Specific Digital Object(s)
-  - JDX Digital Object(s)
-  - Spectrum PDF Object
-  - Spectrum image Object
-
-### Assignment Data
-  - FairSpec assignment.data.metadata Object
-     - Properties:
-  - NMReData Object
-  - Spinus Analysis Object
-  - NMRDB Object
-
-## Digital Entities
-  - Additional Uncatalogued Digital Entities
-  
 ## Short list of Chemistry object
 This is just a short list for illustration purpose. More info can be found in the ["Chemistry research object identification"](https://chemedata.github.io/ResearchObjectFinder/) project.
 
