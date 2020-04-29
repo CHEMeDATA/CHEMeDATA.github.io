@@ -1,13 +1,10 @@
 ## Format of the archive file
 The most commonly used method to share chemistry objects is to compressed or archive them in the form of a .zip file. This is what authors of scientific publication do when submitting supplementary data.
 
-Alternatives to zip files for the back end:
-- Use BagIt instead of simple .zip files to include additional information about date, checksum, etc. This facilitates the management of the date on the service provider side.
-- Consider make the BagIt manifesto file available via [REST API](https://restfulapi.net/). This could be used by automated harvesting based on the pattern of file or file names and avoid downloading a full record when only one type of files (or file pattern) is searched for.
-
 ## Identify file types
 - Apply [FITS analyser](https://projects.iq.harvard.edu/fits) to identify file types. Here also, make the results of this analysis accessible by [REST API](https://restfulapi.net/) 
-- Possible futur developement: Complement FITS with a [detector of chemistry objects (CO)](chemisty_object_detector.md)
+
+- Make a list of Chemistry Objects [detector of chemistry objects (CO)](chemisty_object_detector.md)
 
 # Propose OAI-PMH service
 - They allow harvesting based on the author name, list only recently added records, etc.
