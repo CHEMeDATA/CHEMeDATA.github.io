@@ -1,5 +1,42 @@
-# Introduction
-There is no clear or autoritarian definition of a chemistry object (CO). 
+There is no clear or autoritarian definition of a chemistry object (CO) or mappin into any specific ontology. This may come at the later stage (and a few words are mentionned below). It is currently based on a use-case needs, in particular the need to identify chemistry *stuff* from chemistry data stored in .zip files. 
+
+# ResearchObjectFinder
+Develop method to identify chemistry objects (CO) within archive files
+## Digital Objects
+ - FairSpec digital.finding.aid Object
+     - Properties:
+ 
+### Compound (Meta)Data
+  - FairSpec chemical.identifier.metadata Object
+     - Properties:
+        - Inchi
+        - Formula(s)
+        - SMILE(s) 
+        - Meltng Point
+        - [selected spectroscopy extracted data]
+  - 2D SDF Object(s)
+  - 3D SDF Object(s)
+  - Computational Results Object(s)
+  - Experimental Procedure()
+  
+### Spectroscopy Data
+  - FairSpec spectroscopy.data.metadata Object
+     - Properties:
+  - Vendor-Specific Digital Object(s)
+  - JDX Digital Object(s)
+  - Spectrum PDF Object
+  - Spectrum image Object
+
+### Assignment Data
+  - FairSpec assignment.data.metadata Object
+     - Properties:
+  - NMReData Object
+  - Spinus Analysis Object
+  - NMRDB Object
+
+## Digital Entities
+  - Additional Uncatalogued Digital Entities
+  
 
 In this context it refers to any piece of information relevant to chemistry. 
 - the structure of a compound (drawing, .xcd file, flat representation or 3D representation, etc.)
@@ -8,7 +45,9 @@ In this context it refers to any piece of information relevant to chemistry.
 - the interpreted results of an experiment 
 
 The word [*object*](object.md) has a special meaning in computer sciences indicating that it has an electronic form meaning that it is computer understandable. A .jpg image of a spectrum, for example, cannot be understood by a computer to be a spectrum. It is an *image* object, not a chemistry or spectrum object. 
+
 # Ontology of chemistry object
+
 Objects will have [schema](https://schema.org/) representation.
 We would probably use RDF to link elements (part of a OWL ontology).
 
