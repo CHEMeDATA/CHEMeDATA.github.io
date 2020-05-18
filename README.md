@@ -35,4 +35,4 @@ The supplementary data (typically .zip files) that are produced in association t
 [t](test_html_javascritp.html) 
 ---> 
 ### How to participate?
-If you have comment, suggestions, contributions, etc. raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues)
+If you have comment, suggestions, contributions, *etc.* raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues)
