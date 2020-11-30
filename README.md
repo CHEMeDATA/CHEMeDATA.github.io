@@ -18,7 +18,7 @@ This involves:
 Chemistry should know that structure files (.cdx, .mol, etc.) are extremely important to make any data involving organic compounds computer understandable. This should appear in the instructions to the authors submitting *supplementary chemistry information* to journal editors.
 
 - Making guidelines for the creators of tools to generate fair data. 
-<figure>
+<figure  border="1px #cccccc solid" >
 	<img src="images/FillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
  	<figcaption>Well designed data generation tools can replace wordy *instructions for authors*</figcaption>
 </figure> 
