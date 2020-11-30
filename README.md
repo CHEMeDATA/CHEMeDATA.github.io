@@ -9,11 +9,11 @@ We are addressing the questions of how to make the content of these .zip files [
 
 ### For example ...
 
-Let's be specific and say that you want to share the 1D <sup>1</sup>H spectrum of a compound you identified during your PhD. First, it has to be ***accessible***: be somewhere on the web. But to make it reliably ***findable***, using common web search tools, or *via* specialized chemistry data services is more difficult. It cannot be a simple link to a dropbox for example, but should be saved in an data repository, which should insure stability, usually with a DOI. But even there, how will a search engine know that there is an NMR spectrum there, and know to what compounds it corresponds to?
+Let's be specific and say that you want to share the 1D <sup>1</sup>H spectrum of a compound you analysed. First, it has to be ***accessible***: be somewhere on the web. But making it reliably ***findable*** using common web search tools or *via* specialized chemistry data services is more difficult. It cannot be a simple link to a dropbox for example, but should be saved in an data repository. Usually providing DOI is a sign of stability. But even there, how will a search engine know that there is an NMR spectrum there, and know to what compounds it corresponds to?
 
 <img style="border:1px solid black;" src="images/FindData.png" width="300" alt="How search engine can find chemistry data on the web" />
 
-Organized metadata such as *linked data* will make the spectrum and the compound visible to search engines. You will need [tools](tools) to make this automatically behind the scene so that you don't have to know what linked data are! This will also allow others to easily cite your work when they (re)use your data.
+Organized metadata such as *linked data* will make the spectrum and the compound visible to search engines. You will need [tools](tools) to make this automatically (so that you don't have to know what linked data are)! This will also allow others to easily cite your work when they (re)use your data.
 
 # The CHEMeDATA Initiative involves ...
 
