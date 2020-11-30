@@ -6,7 +6,7 @@ We are considering, in particular, the problem of archive files, usually .zip fi
 
 <img style="border:1px solid black;" src="images/chemBox.png" width="300" alt="Image chemistry archive" />
 
-We are addressing the questions of how to make these .zip files including chemistry data [FAIR](https://en.wikipedia.org/wiki/FAIR_data)? In other words: How to make them their content Findable, Accessible, Interoperable and Reusable.
+We are addressing the questions of how to make these .zip files including chemistry data [FAIR](https://en.wikipedia.org/wiki/FAIR_data)? In other words: How to make their contents Findable, Accessible, Interoperable and Reusable.
 
 More specifically, how to make the 1D <sup>1</sup>H spectrum of a compound synthesized during a PhD, easily findable with common web search tools, or *via* specialized chemistry data services.
 
