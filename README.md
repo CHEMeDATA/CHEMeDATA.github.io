@@ -1,4 +1,4 @@
-## Goal and scope
+# Goal and scope
 The main goal of the CHEMeDATA Initiative is to improve the quality of chemistry data in publications and databases.
 <!--- <h3 style="background-color:DodgerBlue;">This website is under construction</h3> ---> 
 
@@ -15,7 +15,7 @@ Let's say that you want to make the 1D <sup>1</sup>H spectrum of a compound synt
 
 Organized metadata such as *linked data* (you don't need to know what they are) will make the spectrum and the compound visible to search engines. You will need tools to make this automatic and transparent. This will also allow others to easily cite your work when they (re)use your data.
 
-## This involves:
+# This involves:
 
 - **Making recommendations** to all stakeholders of the chain of data (from chemistry to database providers). 
 
