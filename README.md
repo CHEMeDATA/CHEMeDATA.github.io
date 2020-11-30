@@ -15,21 +15,22 @@ Let's say that you want to make the 1D <sup>1</sup>H spectrum of a compound synt
 
 Organized metadata such as *linked data* (you don't need to know what they are) will make the spectrum and the compound visible to search engines. You will need [tools](tools) to make this automatic and transparent. This will also allow others to easily cite your work when they (re)use your data.
 
-# This involves:
+# This involves ...
 
 - **Making recommendations** to all stakeholders of the chain of data (from chemistry to database providers). 
 
 <img style="border:1px solid black;" src="images/chainRev.png" width="300" alt="From Chemist to database" />
 
-For example, chemistry should know that structure files (.cdx, .mol, etc.) are extremely important to make any data involving organic compounds computer understandable. Instructions for authors submitted articles to specialized journals should should mention it in the instructions to the authors submitting *supplementary chemistry information*, or even better, provide tools to generate exemplary data (see next point).
+For example, chemists should know that structure files (.cdx, .mol, etc.) are extremely important to make any data involving organic compounds computer understandable. Instructions for authors submitted articles to specialized journals should should mention it in the instructions to the authors submitting *supplementary chemistry information*, or even better, provide tools to generate exemplary data (see next point).
 
 - **Making guidelines** for the creators of [tools](tools) to generate fair data
 
 <img src="images/FillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
 
-A well designed data generation tool can replace wordy *instructions for authors*. (A project to lay the ground of such a tool has been submitted in Nov. 2020 to a swiss [Open Research Data Hackathon](https://www.ord-hackathon.ch/) taking place in early 2021.) 
+A well designed data generation [tool](tools) can replace wordy *Instructions for authors*. (A project to lay the ground of such a tool has been submitted in Nov. 2020 to a swiss [Open Research Data Hackathon](https://www.ord-hackathon.ch/) taking place in early 2021.) 
 
-- **Initiate a culture of curation** of one's own public data
+- **Initiate a culture of curation** of one's own public data. 
+Platform dedicated to [curation](curation) of one's own, or other's data should be developed.
 - **Support the creation of web platform to facilite the creation of FAIR chemistry data** from pre-computer era publications (scientific articles, thesis, books, websites, *etc.*). A PhD student should be able to associate the structure files (.mol) of the compounds he identified in a plant to his PhD.
 - Interact with [IUPAC](https://iupac.org/projects/project-details/?project_nr=2016-023-2-300) to propose file format and best practice and test the implementation of envisioned recommendations. 
 
