@@ -11,11 +11,15 @@ We are addressing the questions of how to make these .zip files including chemis
 More specifically, how to make the 1D <sup>1</sup>H spectrum of a compound synthesized during a PhD, easily findable with common web search tools, or *via* specialized chemistry data services.
 
 This involves:
-- Making recommendations to all stakeholders of the chain of data (from chemistry to database providers). Chemistry should know that structure files (.cdx, .mol, etc.) are extremely important to make any data involving organic compounds computer understandable. This should appear in the instructions to the authors submitting *supplementary chemistry information* to journal editors.
+- Making recommendations to all stakeholders of the chain of data (from chemistry to database providers). 
+<img style="border:1px solid black;" src="images/ChainRev.png" width="200" alt="From Chemist to database" />
+
+
+Chemistry should know that structure files (.cdx, .mol, etc.) are extremely important to make any data involving organic compounds computer understandable. This should appear in the instructions to the authors submitting *supplementary chemistry information* to journal editors.
 
 - Making guidelines for the creators of tools to generate fair data. 
 
-<img style="border:1px solid black;" src="images/fillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
+<img style="border:1px solid black;" src="images/FillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
 
 - Initiate a culture of curation of one's own public data
 - Support the creation of web platform to facilite the creation of FAIR chemistry data from pre-computer era publications (scientific articles, thesis, books, websites, *etc.*). Typically, a PhD student should be able to associate the structure files (.mol) of the compounds he identified in a plant to his PhD.
