@@ -9,24 +9,25 @@ We are addressing the questions of how to make these .zip files including chemis
 
 ### For example...
 
-Let's say that you want to make the 1D <sup>1</sup>H spectrum of a compound synthesized during your PhD reusable. First, it has to be *accessible*, to be somewhere on the web. But to make it reliably ***findable***, using common web search tools, or *via* specialized chemistry data services is more difficult. It cannot but a simple link to a dropbox, but should be saved in an data repository, which may insure stability, possibly having a DOI. But even there, how will a search engine know that there is an NMR spectrum, and to what compounds it corresponds to?
+Let's say that you want to make the 1D <sup>1</sup>H spectrum of a compound synthesized during your PhD reusable. First, it has to be *accessible*: be somewhere on the web. But to make it reliably ***findable***, using common web search tools, or *via* specialized chemistry data services is more difficult. It cannot be a simple link to a dropbox for example, but should be saved in an data repository, which should insure stability, usually with a DOI. But even there, how will a search engine know that there is an NMR spectrum there, and know to what compounds it corresponds to?
 
 <img style="border:1px solid black;" src="images/FindData.png" width="300" alt="How search engine can find chemistry data on the web" />
 
-Organized metadata such as *linked data* will make the spectrum and the compound visible to search engines. 
+Organized metadata such as *linked data* (you don't need to know what they are) will make the spectrum and the compound visible to search engines. You will need tools to make this automatic and transparent. This will also allow others to easily cite your work when they (re)use your data.
+
 ## This involves:
 
 - **Making recommendations** to all stakeholders of the chain of data (from chemistry to database providers). 
 
 <img style="border:1px solid black;" src="images/chainRev.png" width="300" alt="From Chemist to database" />
 
-Chemistry should know that structure files (.cdx, .mol, etc.) are extremely important to make any data involving organic compounds computer understandable. This should appear in the instructions to the authors submitting *supplementary chemistry information* to journal editors.
+For example, chemistry should know that structure files (.cdx, .mol, etc.) are extremely important to make any data involving organic compounds computer understandable. Instructions for authors submitted articles to specialized journals should should mention it in the instructions to the authors submitting *supplementary chemistry information*, or even better, provide tools to generate exemplary data (see next point).
 
 - **Making guidelines** for the creators of tools to generate fair data
 
 <img src="images/FillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
 
-A well designed data generation tools can replace wordy *instructions for authors*
+A well designed data generation tool can replace wordy *instructions for authors*. (A project to lay the ground of such a tool has been submitted in Nov. 2020 to a swiss [Open Research Data Hackathon](https://www.ord-hackathon.ch/) taking place in early 2021.) 
 
 - **Initiate a culture of curation** of one's own public data
 - **Support the creation of web platform to facilite the creation of FAIR chemistry data** from pre-computer era publications (scientific articles, thesis, books, websites, *etc.*). A PhD student should be able to associate the structure files (.mol) of the compounds he identified in a plant to his PhD.
