@@ -22,9 +22,9 @@ Chemistry should know that structure files (.cdx, .mol, etc.) are extremely impo
 
 <img src="images/FillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
 
-- Initiate a culture of curation of one's own public data
+- Initiate a culture of curation of one's own public data.
 - Support the creation of web platform to facilite the creation of FAIR chemistry data from pre-computer era publications (scientific articles, thesis, books, websites, *etc.*). Typically, a PhD student should be able to associate the structure files (.mol) of the compounds he identified in a plant to his PhD.
-- Interract with IUPAC to propose file format and best practice and test the implementation of envisioned recommendations. 
+- Interact with [IUPAC](https://iupac.org/projects/project-details/?project_nr=2016-023-2-300) to propose file format and best practice and test the implementation of envisioned recommendations. 
 
 ### General recommendations
 
