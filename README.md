@@ -9,8 +9,11 @@ We are addressing the questions of how to make these .zip files including chemis
 
 ### For example...
 
-For example: How to make the 1D <sup>1</sup>H spectrum of a compound synthesized during a PhD, easily findable with common web search tools, or *via* specialized chemistry data services. Having it available as a .zip file on any website does it make it "findable"... We are working on how to make it easy for you to make it findable... 
+Let's say that you want to make the 1D <sup>1</sup>H spectrum of a compound synthesized during your PhD reusable. First, it has to be *accessible*, to be somewhere on the web. But to make it reliably ***findable***, using common web search tools, or *via* specialized chemistry data services is more difficult. It cannot but a simple link to a dropbox, but should be saved in an data repository, which may insure stability, possibly having a DOI. But even there, how will a search engine know that there is an NMR spectrum, and to what compounds it corresponds to?
 
+<img style="border:1px solid black;" src="images/FindData.png" width="300" alt="How search engine can find chemistry data on the web" />
+
+Organized metadata such as *linked data* will make the spectrum and the compound visible to search engines. 
 ## This involves:
 
 - **Making recommendations** to all stakeholders of the chain of data (from chemistry to database providers). 
@@ -42,6 +45,13 @@ The supplementary data (typically .zip files) that are produced in association t
 [t](test_html_javascritp.html) 
 ---> 
 
+### Technical information
+
+In short, we shall recommend using linked data, as a manner to faciliate the use of any existing ontologies (For author, institution, funding, and key *Chemistry objects*). These linked data may be enclosed in RO-crate frames.
+Tools generating chemistry archives may direcly use these format, or any other xml with accessible schema with appropriate data to allow for the generation of more "searchable" standards.
+
+OAP-
+
 ### General recommendations
 
 - Include the crude/original data (chemdraw files, log files from commercial software, spreadsheets, spectra in the spectrometers format, pictures, etc.) in archive files.
@@ -62,6 +72,10 @@ Currently only the NMR community is a part of the CHEMeDATA Initiative via the [
 Potential developments:
 - Produce a format for the assignment of other types of spectroscopies and analytical methods. For example, [IR assignment](https://chemedata.github.io/IReDATA/) could also be stored using the SD format. 
 
+### Funding
+
+From Oct. 2019 to Nov. 2020, the funding of Damien Jeannerat was covered by a 20% activity at the [DLCM](https://www.dlcm.ch/)/[E-research](https://www.unige.ch/eresearch/en/) group at the University of Geneva.
+Since the  
 
 ### How to participate?
 If you have comment, suggestions, contributions, *etc.* raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues)
