@@ -17,14 +17,13 @@ This involves:
 
 Chemistry should know that structure files (.cdx, .mol, etc.) are extremely important to make any data involving organic compounds computer understandable. This should appear in the instructions to the authors submitting *supplementary chemistry information* to journal editors.
 
-- Making guidelines for the creators of tools to generate fair data. 
-<figure  border="1px #cccccc solid" >
-	<img src="images/FillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
- 	<figcaption>Well designed data generation tools can replace wordy *instructions for authors*</figcaption>
-</figure> 
+- **Making guidelines for the creators of tools to generate fair data** 
 
-- Initiate a culture of curation of one's own public data.
-- Support the creation of web platform to facilite the creation of FAIR chemistry data from pre-computer era publications (scientific articles, thesis, books, websites, *etc.*). Typically, a PhD student should be able to associate the structure files (.mol) of the compounds he identified in a plant to his PhD.
+<img src="images/FillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
+A well designed data generation tools can replace wordy *instructions for authors*
+
+- **Initiate a culture of curation of one's own public data**
+- **Support the creation of web platform to facilite the creation of FAIR chemistry data from pre-computer era publications** (scientific articles, thesis, books, websites, *etc.*). A PhD student should be able to associate the structure files (.mol) of the compounds he identified in a plant to his PhD.
 - Interact with [IUPAC](https://iupac.org/projects/project-details/?project_nr=2016-023-2-300) to propose file format and best practice and test the implementation of envisioned recommendations. 
 
 ### General recommendations
