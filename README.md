@@ -12,6 +12,7 @@ More specifically, how to make the 1D <sup>1</sup>H spectrum of a compound synth
 
 This involves:
 - Making recommendations to all stakeholders of the chain of data (from chemistry to database providers). 
+
 <img style="border:1px solid black;" src="images/ChainRev.png" width="200" alt="From Chemist to database" />
 
 
@@ -19,7 +20,7 @@ Chemistry should know that structure files (.cdx, .mol, etc.) are extremely impo
 
 - Making guidelines for the creators of tools to generate fair data. 
 
-<img style="border:1px solid black;" src="images/FillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
+<img src="images/FillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
 
 - Initiate a culture of curation of one's own public data
 - Support the creation of web platform to facilite the creation of FAIR chemistry data from pre-computer era publications (scientific articles, thesis, books, websites, *etc.*). Typically, a PhD student should be able to associate the structure files (.mol) of the compounds he identified in a plant to his PhD.
