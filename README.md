@@ -6,14 +6,19 @@ We are considering, in particular, the problem of archive files, usually .zip fi
 
 <img style="border:1px solid black;" src="images/chemBox.png" width="300" alt="Image chemistry archive" />
 
-We are adressing the question of how to make these .zip files including chemistry data [FAIR](https://en.wikipedia.org/wiki/FAIR_data)? In other words: How to make them their content Findable, Accessible, Interoperable and Reusable.
+We are addressing the questions of how to make these .zip files including chemistry data [FAIR](https://en.wikipedia.org/wiki/FAIR_data)? In other words: How to make them their content Findable, Accessible, Interoperable and Reusable.
 
-More specifically, how to make, say, the 1D <sup>1</sup>H spectrum of a compound synthetized during a PhD, easily findable with common web search tools, or *via* other specialized chemistry data service.
+More specifically, how to make the 1D <sup>1</sup>H spectrum of a compound synthesized during a PhD, easily findable with common web search tools, or *via* specialized chemistry data services.
 
 This involves:
-- Making recommendations to all stakeholders of the chain of data (from chemistry to database providers).
+- Making recommendations to all stakeholders of the chain of data (from chemistry to database providers). Chemistry should know that structure files (.cdx, .mol, etc.) are extremely important to make any data involving organic compounds computer understandable. This should appear in the instructions to the authors submitting *supplementary chemistry information* to journal editors.
+
 - Making guidelines for the creators of tools to generate fair data. 
-- Instoring curation platforms for create computer-readable data for the pre-computer era.
+<img style="border:1px solid black;" src="images/fillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
+
+- Initiate a culture of curation of one's own public data
+- Support the creation of web platform to facilite the creation of FAIR chemistry data from pre-computer era publications (scientific articles, thesis, books, websites, *etc.*). Typically, a PhD student should be able to associate the structure files (.mol) of the compounds he identified in a plant to his PhD.
+- Interract with IUPAC to propose file format and best practice and test the implementation of envisioned recommendations. 
 
 ### General recommendations
 
