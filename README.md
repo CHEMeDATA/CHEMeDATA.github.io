@@ -7,9 +7,11 @@ We are considering, in particular, the problem of archive files, usually .zip fi
 
 We are addressing the questions of how to make these .zip files including chemistry data [FAIR](https://en.wikipedia.org/wiki/FAIR_data)? In other words: How to make their contents Findable, Accessible, Interoperable and Reusable.
 
-More specifically, how to make the 1D <sup>1</sup>H spectrum of a compound synthesized during a PhD, easily findable with common web search tools, or *via* specialized chemistry data services.
+### For example...
 
-**This involves:**
+For example: How to make the 1D <sup>1</sup>H spectrum of a compound synthesized during a PhD, easily findable with common web search tools, or *via* specialized chemistry data services. Having it available as a .zip file on any website does it make it "findable"... We are working on how to make it easy for you to make it findable... 
+
+## This involves:
 
 - **Making recommendations** to all stakeholders of the chain of data (from chemistry to database providers). 
 
@@ -26,6 +28,19 @@ A well designed data generation tools can replace wordy *instructions for author
 - **Initiate a culture of curation** of one's own public data
 - **Support the creation of web platform to facilite the creation of FAIR chemistry data** from pre-computer era publications (scientific articles, thesis, books, websites, *etc.*). A PhD student should be able to associate the structure files (.mol) of the compounds he identified in a plant to his PhD.
 - Interact with [IUPAC](https://iupac.org/projects/project-details/?project_nr=2016-023-2-300) to propose file format and best practice and test the implementation of envisioned recommendations. 
+
+### How to make better chemistry data?
+
+The supplementary data (typically .zip files) that are produced in association to publication or to fulfil the requirements of funding agencies to make data available can be improved. This is the key to make [FAIR](https://www.go-fair.org/fair-principles/) data!
+
+- Recommendations for [chemists](chemists.md).
+- Recommendations for [publishers](publishers.md) of chemistry journals.
+- Recommendations for [chemistry data providers](data_provider.md) (University repositories, Journal editors, etc.).
+- Recommendations for [developers of new solutions](developer.md) for chemistry.
+
+<!---
+[t](test_html_javascritp.html) 
+---> 
 
 ### General recommendations
 
@@ -47,17 +62,6 @@ Currently only the NMR community is a part of the CHEMeDATA Initiative via the [
 Potential developments:
 - Produce a format for the assignment of other types of spectroscopies and analytical methods. For example, [IR assignment](https://chemedata.github.io/IReDATA/) could also be stored using the SD format. 
 
-### How to make better chemistry data?
 
-The supplementary data (typically .zip files) that are produced in association to publication or to fulfil the requirements of funding agencies to make data available can be improved. This is the key to make [FAIR](https://www.go-fair.org/fair-principles/) data!
-
-- Recommendations for [chemists](chemists.md).
-- Recommendations for [publishers](publishers.md) of chemistry journals.
-- Recommendations for [chemistry data providers](data_provider.md) (University repositories, Journal editors, etc.).
-- Recommendations for [developers of new solutions](developer.md) for chemistry.
-
-<!---
-[t](test_html_javascritp.html) 
----> 
 ### How to participate?
 If you have comment, suggestions, contributions, *etc.* raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues)
