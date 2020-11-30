@@ -14,6 +14,7 @@ This involves:
 - Making recommendations to all stakeholders of the chain of data (from chemistry to database providers). Chemistry should know that structure files (.cdx, .mol, etc.) are extremely important to make any data involving organic compounds computer understandable. This should appear in the instructions to the authors submitting *supplementary chemistry information* to journal editors.
 
 - Making guidelines for the creators of tools to generate fair data. 
+
 <img style="border:1px solid black;" src="images/fillMe.png" width="200" alt="Making intuitive what needs to be dropped in a web page to make a fulfill requirements" />
 
 - Initiate a culture of curation of one's own public data
