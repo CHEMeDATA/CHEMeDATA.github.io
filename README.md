@@ -49,7 +49,7 @@ The supplementary data (typically .zip files) that are produced in association t
 
 # Technical information
 
-We shall recommend using linked data, as a manner to facilitate the use of any existing ontologies, for author, institution, funding, and key *Chemistry objects*. These linked data may be enclosed in [RO-crate](http://www.researchobject.org/ro-crate/) frames.
+We shall recommend using *linked data*, as a manner to facilitate the use of any existing ontologies, for author, institution, funding, and key *Chemistry objects*. These *linked data* may be enclosed in [RO-crate](http://www.researchobject.org/ro-crate/) frames.
 Tools generating chemistry archives may directly use these format, or any other XML with accessible schema with appropriate data to allow for the generation of more "searchable" standards.
 
 ### General recommendations
