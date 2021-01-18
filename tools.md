@@ -1,10 +1,12 @@
 # Generation of good data
-This page is not about chemistry only. It addresses the general problem of the generation of "good" archive data.
+This page is not specific to chemistry. It addresses the general problem of the generation of "good" archive data.
+
+## Goal 
+Facilitate the generation of structured archived files (.zip) by researchers. 
 
 <img style="border:1px solid black;" src="images/forger.png" width="600" alt="Example of archive forger." />
 
-## Goal 
-Facilitate the generation of structured archived files (.zip) by researchers. It will use domain-specific (or journal-specific) template to make it clear what data are mandatory, optional, etc. It will generate linked data for these files, but also about the author, related publication, *etc.*
+It will use domain-specific (or journal-specific) template to make it clear what data are mandatory, optional, etc. It will generate linked data for these files, but also about the author, related publication, *etc.*
 ## Problem
 Currently scientists structure their files differently and include no field-specific metadata in the .zip files.
 ## To do
