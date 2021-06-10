@@ -78,4 +78,4 @@ From Oct. 2019 to Nov. 2020, the funding of Damien Jeannerat was covered by a 20
 Since the  
 
 ### How to participate?
-If you have comment, suggestions, contributions, *etc.* raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues)
+If you have comment, suggestions, contributions, *etc.* raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues).
