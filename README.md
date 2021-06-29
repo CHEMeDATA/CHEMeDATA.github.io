@@ -76,7 +76,8 @@ Potential developments:
 
 Some information and example of data extraction given (in a random and uneven manner) for the following:
 
-* [Crossref](https://github.com/CHEMeDATA/Repository-crossref/blob/main/README.md)
+* [Crossref](https://chemedata.github.io/Repository-crossref/)
+* [FigShare](https://chemedata.github.io/Repository-Figshare/)
 
 ### Funding
 
