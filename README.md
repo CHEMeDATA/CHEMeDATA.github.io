@@ -78,7 +78,7 @@ Some information and example of data extraction given (in a random and uneven ma
 
 * [Crossref](https://chemedata.github.io/Repository-crossref/)
 * [FigShare](https://chemedata.github.io/Repository-Figshare/)
-
+coming up info about datacite. ... https://blog.datacite.org/citation-formatting-service-upgrade/
 ### Funding
 
 From Oct. 2019 to Nov. 2020, the funding of Damien Jeannerat was covered by a 20% activity at the [DLCM](https://www.dlcm.ch/)/[E-research](https://www.unige.ch/eresearch/en/) group at the University of Geneva.
