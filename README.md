@@ -72,6 +72,12 @@ Currently only the NMR community is a part of the CHEMeDATA Initiative via the [
 Potential developments:
 - Produce a format for the assignment of other types of spectroscopies and analytical methods. For example, [IR assignment](https://chemedata.github.io/IReDATA/) could also be stored using the SD format. 
 
+### Dealing with repositories
+
+Some information and example of data extraction given (in a random and uneven manner) for the following:
+
+* [Crossref](https://github.com/CHEMeDATA/Repository-crossref/blob/main/README.md)
+
 ### Funding
 
 From Oct. 2019 to Nov. 2020, the funding of Damien Jeannerat was covered by a 20% activity at the [DLCM](https://www.dlcm.ch/)/[E-research](https://www.unige.ch/eresearch/en/) group at the University of Geneva.
