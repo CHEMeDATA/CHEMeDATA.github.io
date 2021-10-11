@@ -7,6 +7,8 @@ The Initiative is focusing on the problem of archive files, usually .zip files i
 
 We are addressing the questions of how to make the content of these .zip files [FAIR](https://en.wikipedia.org/wiki/FAIR_data)? In other words: How to make the chemistry-rich contents Findable, Accessible, Interoperable and Reusable.
 
+One aspect will be to develop a [minimal ontology](https://chemedata.github.io/ontologies/) for the key chemistry objects.
+
 ### For example ...
 
 Let's be specific and say that you want to share the 1D <sup>1</sup>H spectrum of a compound you analysed. First, it has to be ***accessible***: be somewhere on the web. But making it reliably ***findable*** using common web search tools or *via* specialized chemistry data services is more difficult. It cannot be a simple link to a dropbox for example, but should be saved in an data repository. Usually providing DOI is a sign of stability. But even there, how will a search engine know that there is an NMR spectrum there, and know to what compounds it corresponds to?
@@ -82,7 +84,9 @@ coming up info about datacite. ... https://blog.datacite.org/citation-formatting
 ### Funding
 
 From Oct. 2019 to Nov. 2020, the funding of Damien Jeannerat was covered by a 20% activity at the [DLCM](https://www.dlcm.ch/)/[E-research](https://www.unige.ch/eresearch/en/) group at the University of Geneva.
-  
+### Related activity
+
+IUPAC work group on the [development of a standard for FAIR data mangement of spectroscopic data](https://iupac.org/projects/project-details/?project_nr=2019-031-1-024).
 
 ### How to participate?
 If you have comment, suggestions, contributions, *etc.* raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues).
