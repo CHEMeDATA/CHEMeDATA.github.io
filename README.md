@@ -17,7 +17,9 @@ Let's be specific and say that you want to share the 1D <sup>1</sup>H spectrum o
 
 Organized metadata such as *linked data* will make the spectrum and the compound visible to search engines. You will need [tools](tools) to make this automatically (so that you don't have to know what linked data are)! This will also allow others to easily cite your work when they (re)use your data.
 
-# Export for ELN and Chemistry data management systems
+# Export for ELN 
+
+The CHEMeDATA project may be seens as the effort to introduce a common format for all ELN and Chemistry data management systems.
 
 <img style="border:1px solid black;" src="images/nmr2chem.png" width="500" alt="CHEMeDATA is an extension of NMReDATA" />
 
