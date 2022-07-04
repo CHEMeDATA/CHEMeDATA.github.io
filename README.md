@@ -23,7 +23,7 @@ The CHEMeDATA project may be seens as the effort to introduce a common format fo
 
 <img style="border:1px solid black;" src="images/nmr2chem.png" width="500" alt="CHEMeDATA is an extension of NMReDATA" />
 
-# The CHEMeDATA Initiative involves ...
+# The CHEMeDATA Initiative involves:
 
 - **Making recommendations** to all stakeholders of the chain of data (from chemistry to database providers). 
 
