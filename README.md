@@ -23,7 +23,7 @@ The CHEMeDATA project may be seens as the effort to introduce a common format fo
 
 <img style="border:1px solid black;" src="images/nmr2chem.png" width="500" alt="CHEMeDATA is an extension of NMReDATA" />
 
-It may be that the work would mostly involve mapping the data of the different sources to a set of schema based concepts such as those listed the [minimal ontology](https://chemedata.github.io/ontologies/).
+It may be that the work would mostly involve mapping the data of the different sources (ELN, etc.) to a set of schema based concepts such as those listed the [minimal ontology](https://chemedata.github.io/ontologies/).
 # The CHEMeDATA Initiative involves:
 
 - **Making recommendations** to all stakeholders of the chain of data (from chemistry to database providers). 
