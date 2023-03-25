@@ -1,4 +1,7 @@
 # Goal and scope
+
+[smash page](smash.md)
+
 The goal of the CHEMeDATA Initiative is to improve the quality of chemistry data generated in support of scientific discoveries.
 <!--- <h3 style="background-color:DodgerBlue;">This website is under construction</h3> ---> 
 

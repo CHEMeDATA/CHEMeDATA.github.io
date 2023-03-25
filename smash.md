@@ -1,4 +1,6 @@
-This is the Lading page for The smash conference
+This is the Lading page for The smash conference.
+It is still under development.
+If you want to register to our mailing list to be updated, sign up here:
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
