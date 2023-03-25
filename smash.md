@@ -1,7 +1,6 @@
 This is the Lading page for The smash conference.
 It is still under development.
 If you want to register to our mailing list to be updated, sign up here:
-
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -20,6 +19,7 @@ If you want to register to our mailing list to be updated, sign up here:
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
 	<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
 </div>
+<div hidden="true"><input type="hidden" name="tags" value="3340590"></div>
 	<div id="mce-responses" class="clear foot">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
