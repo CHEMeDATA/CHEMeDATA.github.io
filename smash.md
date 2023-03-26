@@ -1,7 +1,6 @@
-This is the Landing page for The smash conference.
-It is still under development.
+# CHEMeDATA at the SMASH conference
 
-Some information about the NMReDATA project can be found [on the main page](README.md)
+D. Jeannerat will represent the [CHEMeDATA initiative](README.md) at the venue of the 2023 Baveno [SMASH conference](https://smashnmr.org/).
 
-If you want to register to our mailing list , signup [here](https://dashboard.mailerlite.com/forms/379952/83698043057079544/share).
+If you want to updated about our activity, sign up for [the mailing list](https://dashboard.mailerlite.com/forms/379952/83698043057079544/share).
 
