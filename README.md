@@ -1,7 +1,5 @@
 # Goal and scope
 
-[smash page](smash.md)
-
 The goal of the CHEMeDATA Initiative is to improve the quality of chemistry data generated in support of scientific discoveries.
 <!--- <h3 style="background-color:DodgerBlue;">This website is under construction</h3> ---> 
 
@@ -14,7 +12,7 @@ We are addressing the questions of how to make the content of these .zip files [
 One aspect will be to develop a [minimal ontology](https://chemedata.github.io/ontologies/) for the key chemistry objects.
 ### For example ...
 
-Let's be specific and say that you want to share the 1D <sup>1</sup>H spectrum of a compound you analysed. First, it has to be ***accessible***: be somewhere on the web. But making it reliably ***findable*** using common web search tools or *via* specialized chemistry data services is more difficult. It cannot be a simple link to a dropbox for example, but should be saved in an data repository. Usually providing DOI is a sign of stability. But even there, how will a search engine know that there is an NMR spectrum there, and know to what compounds it corresponds to?
+Let's say that you want to share the 1D <sup>1</sup>H spectrum of a compound you analysed. First, it has to be ***accessible***: be somewhere on the web. But making it reliably ***findable*** using common web search tools or *via* specialized chemistry data services is more difficult. It cannot be a simple link to a dropbox for example, but should be saved in an data repository. Usually providing DOI is a sign of stability. But even there, how will a search engine know that there is an NMR spectrum there, and know to what compounds it corresponds to?
 
 <img style="border:1px solid black;" src="images/FindData.png" width="300" alt="How search engine can find chemistry data on the web" />
 
@@ -64,7 +62,7 @@ The supplementary data (typically .zip files) that are produced in association t
 We shall recommend using *linked data*, as a manner to facilitate the use of any existing ontologies, for author, institution, funding, and key *Chemistry objects*. These *linked data* may be enclosed in [RO-crate](http://www.researchobject.org/ro-crate/) frames.
 Tools generating chemistry archives may directly use these format, or any other XML with accessible schema with appropriate data to allow for the generation of more "searchable" standards.
 
-### General recommendations
+## General recommendations
 
 - Include the crude/original data (chemdraw files, log files from commercial software, spreadsheets, spectra in the spectrometers format, pictures, etc.) in archive files.
 - Include a FAIR version of these data (tools may need to be developed to add them - typically convert .cdx into .mol, generate Jcamp spectra, etc.). This should be mandatory when the data are in in any software specific and their files cannot be converted to open format by software freely accessible to the community.
@@ -75,7 +73,7 @@ Tools generating chemistry archives may directly use these format, or any other 
 
 CHEMeDATA is the umbrella organization combining efforts by diverse communities addressing the FAIRness and chemistry data in a similar (and yet-to-be clearly defined) manner. It is spinoff of the [NMReDATA Initiative](https://www.nmredata.org), inheriting its general principles.
 
-### Format for chemistry data
+## Format for chemistry data
 
 One of the activities of the CHEMeDATA Initiative is to encourage the development of standards to report information extracted from crude data (when such format is not already existing). For example, the [assignment of NMR spectra](https://nmredata.org/), IR spectra, etc. Extract the relevant information from the output of chemistry software, *etc.*)
 
@@ -84,19 +82,27 @@ Currently only the NMR community is a part of the CHEMeDATA Initiative via the [
 Potential developments:
 - Produce a format for the assignment of other types of spectroscopies and analytical methods. For example, [IR assignment](https://chemedata.github.io/IReDATA/) could also be stored using the SD format. 
 
-### Dealing with repositories
+## Dealing with repositories
 
 Some information and example of data extraction given (in a random and uneven manner) for the following:
 
 * [Crossref](https://chemedata.github.io/Repository-crossref/)
 * [FigShare](https://chemedata.github.io/Repository-Figshare/)
 coming up info about datacite. ... https://blog.datacite.org/citation-formatting-service-upgrade/
-### Funding
+## Funding
 
 From Oct. 2019 to Nov. 2020, the funding of Damien Jeannerat was covered by a 20% activity at the [DLCM](https://www.dlcm.ch/)/[E-research](https://www.unige.ch/eresearch/en/) group at the University of Geneva.
-### Related activity
+
+Starting in Oct. 2022, the [PANACEA consortium](https://panacea-nmr.eu/) including [Mestrelab](https://panacea-nmr.eu/about/consortium/mestrelab) may develop open data solutions relevant to the CHEMeDATA Initiative.
+
+## Related activity
 
 IUPAC work group on the [development of a standard for FAIR data mangement of spectroscopic data](https://iupac.org/projects/project-details/?project_nr=2019-031-1-024).
 
-### How to participate?
+## How to participate?
+
 If you have comment, suggestions, contributions, *etc.* raise an [Issue on Github](https://github.com/CHEMeDATA/CHEMeDATA.github.io/issues).
+
+## Visibility
+
+CHEMeDATA at the [SMASH 2023 conference](smash.md).
