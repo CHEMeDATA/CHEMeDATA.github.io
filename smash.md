@@ -1,4 +1,4 @@
-This is the Lading page for The smash conference.
+This is the Landing page for The smash conference.
 It is still under development.
 
 Some information about the NMReDATA project can be found [on the main page](README.md)
