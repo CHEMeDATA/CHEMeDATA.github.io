@@ -93,7 +93,7 @@ coming up info about datacite. ... https://blog.datacite.org/citation-formatting
 
 From Oct. 2019 to Nov. 2020, the funding of Damien Jeannerat was covered by a 20% activity at the [DLCM](https://www.dlcm.ch/)/[E-research](https://www.unige.ch/eresearch/en/) group at the University of Geneva.
 
-Starting in Oct. 2022, the [PANACEA consortium](https://panacea-nmr.eu/) including [Mestrelab](https://panacea-nmr.eu/about/consortium/mestrelab) may develop open data solutions relevant to the CHEMeDATA Initiative.
+Starting in Sept. 2021, the [PANACEA consortium](https://panacea-nmr.eu/) including [Mestrelab](https://panacea-nmr.eu/about/consortium/mestrelab) may develop open data solutions relevant to the CHEMeDATA Initiative.
 
 ## Related activity
 
