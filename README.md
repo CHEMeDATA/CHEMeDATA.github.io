@@ -106,3 +106,7 @@ If you have comment, suggestions, contributions, *etc.* raise an [Issue on Githu
 ## Visibility
 
 CHEMeDATA at the [SMASH 2023 conference](smash.md).
+
+## Relevant schema
+
+[Provenance ontology](prov.md)
