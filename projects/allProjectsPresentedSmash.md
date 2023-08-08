@@ -69,6 +69,14 @@ Input: Article, thesis in pdf format
 
 Output: extracted data in the CHEMeDATA schema format.
 
+## ChemE-Leaks
+
+Make collections of chemistry data public. Whether they are personal, institutional, industrial collections may require processing, filtering, annonimization, before they can be made public. The project will propose services and tools to facilitated the publication of collections of NMR spectra in a legal manner (unlike what the name of the project may ). 
+
+Audience: institution with collection of NMR spectra, chemical componds producers with quality control including NMR, etc.
+
+
+
 ### Examples of extracted data
 
 The list of carbon chemical shifts for a compound described in a paper
