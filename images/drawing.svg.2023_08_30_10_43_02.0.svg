@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg950"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview952"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2432572"
+     inkscape:cx="120.65082"
+     inkscape:cy="221.9975"
+     inkscape:window-width="1250"
+     inkscape:window-height="906"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs947">
+    <rect
+       x="224.20697"
+       y="323.68954"
+       width="90.573675"
+       height="26.726658"
+       id="rect1127" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#e6e6e6;stroke:#000080;stroke-width:0.264583;image-rendering:auto"
+       id="rect1071"
+       width="49.107143"
+       height="19.642857"
+       x="21.214285"
+       y="75.035713" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-19.839081,-2.4554592)"
+       id="text1125"
+       style="white-space:pre;shape-inside:url(#rect1127);fill:#e6e6e6;stroke:#000080;image-rendering:auto;stroke-width:0.53333334;stroke-dasharray:none"
+       inkscape:highlight-color="#dbee3b"
+       onclick=""
+       onmouseover="style.opacity = 0.5;"
+       onmouseout="style.opacity = 1.0;"><tspan
+         sodipodi:role="line"
+         id="tspan1129"
+         style="stroke:#1e8000;stroke-opacity:1;stroke-width:0.53333334;stroke-dasharray:none">SAMPLE
+</tspan></text>
+  </g>
+</svg>

@@ -2,9 +2,16 @@
 
 ## CHEMeDATA-Schema
 
+Goal: Produce general chemistry schema-based data description of chemistry data files. This will define the structure of json describing the content of : .mol files, of Bruker nmr spectra. Combined, the json will consitute a manifest file describing the content of an archive file (electronic supplementary information file, Zenodo, ...) 
+
+The diversity of chemistry objects is build on three levels:
+
+![missing inage](../images/drawing.svg)
+
+
 ### CHEMeDATA-Schema/Concepts
 
-Schema for key chemical concepts (Sample, transformation, analytics...). See ... for more details.
+Schema for key chemical concepts called ChemE-Concepts: (Sample, transformation, analytics...). See ... for more details.
 
 ```json
 "ChemE-Concepts" : ["sample",
