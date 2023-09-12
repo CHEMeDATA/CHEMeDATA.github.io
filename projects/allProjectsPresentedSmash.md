@@ -17,7 +17,7 @@ Tentative examples:
 |etc.||||
 
 
-Each **json objects** will have a badge to faciliate visualization, pass a status and allow for interaction, such as visualation of the object, *etc.*
+Each **json objects** will have a badge to faciliate identification, pass a status and allow for interaction, such as visualation of the object, *etc.*
 
 [![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance) 
 
@@ -44,6 +44,8 @@ Examples of visualization:
 - *etc.*
 
 See also *CHEMeDATA-Standard*.
+
+Why do this? TO make sure that when an object is identified (from a repository, for example, interaction are possible with a simple click)
 
 ### CHEMeDATA-Standard
 
