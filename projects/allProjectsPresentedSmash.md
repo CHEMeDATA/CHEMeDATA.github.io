@@ -4,27 +4,38 @@
 
 Goal: Produce general chemistry schema-based data description of chemistry data files. This will define the structure of json describing the content of : .mol files, of Bruker nmr spectra. Combined, the json will consitute a manifest file describing the content of an archive file (electronic supplementary information file, Zenodo, ...) 
 
-The diversity of chemistry objects is build on three levels:
-
-![missing inage](../images/drawing.svg)
-
-
 ### CHEMeDATA-Schema/Concepts
 
-Schema for key chemical concepts called ChemE-Concepts: (Sample, transformation, analytics...). See ... for more details.
+Schema for key chemical concepts called CHEMeDATA-Schema/Concepts: (Sample, transformation, analytics...). See ... for more details.
 
 ```json
-"ChemE-Concepts" : ["sample",
-"transformation",
-"ADDDDD THE OTHERS"
+"CHEMeDATA-Schema-Concepts" : ["substance",
+"equation",
+"sample",
+"process",
+"analytics",
+"assignment"
 ]
 ```
+Each will have a badge:
 
-The exhaustive list of Concepts and a list of mandatory/optional fields is defined by a pannel of experts during the elaboration of ChemE-Concepts.
+[![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance)
+
+[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/sample.json)](./sample)
+
+[![reaction](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/processReaction.json)](./process/reaction) 
+[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/analysisNMRspectra.json)](./analysis/NMR)
+
+[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRspectra.json)](./assignment/NMR) [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRdata.json)](./assignment/NMR) 
+    * IR
+
+The exhaustive list of Concepts and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
+More [details](../ontologies).
 
 ### CHEMeDATA-Schema/Types
 
-Schema for instances chemical instances on the ChemE-Concepts.
+The *types* will specify the type of (say) **sample**. There will be a list of schema for instances chemical Concepts.
+
 
 Example: Solvent* (is simply a type of Compound* at the liquid state. It will be used for the description of liquid-state Sample*)
 
@@ -45,14 +56,31 @@ Required-fields : [
 ]
 #### Key Types
 
-Schema types validated by the CHEMeDATA pannel. The key types may need to fullfil requirements, for example have an existing visualizer.
+The key types will be defined by at the initial stage of the introduction of CHEMeDATA-Schema in order to provide a general and browd basis. It will impose some requirements in particular with respect to the visualization and conversion of data into open format.
 
+The exhaustive list of Concepts and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
+
+Example of a possible "Key type": 
+
+- the CHEMeDATA-Schema/equation/oxydation: 
+[![Oxidation](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/equation2Ox.json)](./equation) 
+
+
+[See also.](../ontologies)
+[Comments and suggestions](https://github.com/CHEMeDATA/ontologies/issues/new)
 #### Derived Types
 
+We want to allow anybody to introduce derived types. This will allow to refine the description of the existing types. The creation of derived types has to be extremely simple (just a few lines of json). 
 Schema for community-based types (automatic introduction by pull request)
+
+
+[Illustration of derivation](./derivation)
+
 
 The community submit "ChemE-Types" on a repository. If a type is "valid" it is introduced. The pertinence is not judged (?), it is the responsability of the person who commits the data.
 
+[See also.](../ontologies)
+[Comments and suggestions](https://github.com/CHEMeDATA/ontologies/issues/new)
 ### CHEMeDATA-Schema/View
 
 Schema for the visualization of CHEMeDATA-Schema/Types. 
