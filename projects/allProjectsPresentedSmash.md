@@ -1,30 +1,44 @@
-# All projects
+# CHEMeDATA projects
+
+Comments and contributions about these tentative projects would be much appreciated. 
+
+
+See also : [ontologies](../ontologies). 
+[Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
+
+
 
 ## CHEMeDATA-Schema
 
-Goal: Produce general chemistry schema-based data description of chemistry data files. This will define the structure of json describing the content of : .mol files, of Bruker nmr spectra. Combined, the json will consitute a manifest file describing the content of an archive file (electronic supplementary information file, Zenodo, ...) 
+Goal: 
+
+Produce general chemistry schema-based data description of chemistry data files. This project will define the structure of **json objects** describing the content of .mol files, of Bruker nmr spectra, *etc.* They will include the *key data* and *metadata* of common chemistry files in a structured manner. The collection of a set of such **json objects**  will consitute a manifest file, *i.e.* describe the content of an archive files (electronic supplementary information file typically submitted as supplementary data at publication or deposition on science repositories.)
+
+The CHEMeDATA-Schema formalism has three layers detailed below.
+- 1 Concepts
+- 2 Key types
+- 3 Derived types
 
 ### CHEMeDATA-Schema/Concepts
 
 Schema for key chemical concepts called CHEMeDATA-Schema/Concepts: (Sample, transformation, analytics...). See ... for more details.
 
-```json
-"CHEMeDATA-Schema-Concepts" : [
-	"substance",
-	"equation",
-	"sample",
-	"process",
-	"analytics",
-	"assignment"
-]
-```
-Each will have a badge: 
+	- Substance
+	- Equation
+	- Sample
+	- Process
+	- Analytics
+	- Assignment (Another term may be more appropriate!)
+
+
+Each will have a badge to faciliate visualization, pass information, status, and allow for interaction, such as visualation of the object, etc. 
 
 [![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance)    [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/sample.json)](./sample)
 
 
-The exhaustive list of Concepts and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
-[See also.](../ontologies)
+The exhaustive list of *Concepts* and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
+[See also : ontologies.](../ontologies) [Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
+
 
 ### CHEMeDATA-Schema/Types
 
@@ -50,9 +64,9 @@ Required-fields : [
 ]
 #### Key Types
 
-The key types will be defined by at the initial stage of the introduction of CHEMeDATA-Schema in order to provide a general and browd basis. It will impose some requirements in particular with respect to the visualization and conversion of data into open format.
+The key types will be defined by at the initial stage of the introduction of CHEMeDATA-Schema in order to provide a general and broad basis. It will impose some requirements in particular with respect to the visualization and conversion of data into open format (see *CHEMeDATA-Viewer* and *CHEMeDATA-Standard*)
 
-The exhaustive list of Concepts and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
+The exhaustive list of *key Types* and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
 
 Examples of possible *key types*: 
 
@@ -73,7 +87,7 @@ Schema for community-based types (automatic introduction by pull request)
 
 [Illustration of derivation](./derivation)
 
-The community submit "ChemE-Types" on a repository. If a type is "valid" it is introduced. The pertinence is not judged (?), it is the responsability of the person who commits the data.
+Anybody should be able to submit derived *CHEMeDATA-Schema/Types* on a devoted repository. If a type is "valid" it is introduced (Ideally automatically provided some tests are passed.). The pertinence is not judged (?), it is the responsability of the person who commits the data.
 
 Example of a possible *Derived types*: 
 
@@ -82,18 +96,25 @@ Example of a possible *Derived types*:
 [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRdata.json)](./assignment/NMR) 
 
 [Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
-### CHEMeDATA-Schema/View
+### CHEMeDATA-Viewer
 
-Schema for the visualization of CHEMeDATA-Schema/Types. 
+This project will define a list of validated visualizers of the *Key CHEMeDATA-Schema/Types*.
 
-Example: visualization of the 3D structure of a compound, visualization of an NMR spectrum.
+Examples of visualization: 
+- the 3D structures of compounds
+- *flat* 2D structures of organic compounds
+- 1D NMR spectra
+- *etc.*
 
-name : js-view??
-url : "http.... point to the visualization tool"
-compatibility : [type: molecu]
+See also *CHEMeDATA-Standard*.
 
+### CHEMeDATA-Standard
 
-Example: visualization of a 
+This project will define a list of standard file format for the *Key CHEMeDATA-Schema/Types*.
+
+The role of a standard for the Key types is to facilitate the visualization. For example, many file format code 3D structures of organic compounds. Having a defined standard allows the visualizer to rely on a stable basis to visualize all 3D structures. If a new format is introduced, the integration in the CHEMeDATA world only requires the author provide a converter to a unique default format.
+
+See also *CHEMeDATA-Viewer*.
 
 ## CHEMeDATA-Archeology
 
@@ -110,7 +131,7 @@ Output: extracted data in the CHEMeDATA schema format.
 ### *Goal*
 Make collections of chemistry data public. Whether they are personal, institutional, or industrial collections of chemistry data may require processing, filtering, anonymization, before they can be made public. The project will propose services and tools to facilitated the publication of collections of NMR spectra in a legal manner - this is not a CHEMeDATA-leaks project. 
 
-**Target audience**: Curators of NMR spectra collections, quality control managers in chemical compound production, *etc.*
+**Audience**: Curators of NMR spectra collections, quality control managers in chemical compound production, *etc.*
 
 **Help needed**: Python developper (A language avoiding compilation, clearly showing the code of the processing and avoiding a browser should reassure the user that data are not leaking but under the tight control speak in favor of python.)
 
