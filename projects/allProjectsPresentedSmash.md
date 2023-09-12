@@ -54,15 +54,16 @@ The key types will be defined by at the initial stage of the introduction of CHE
 
 The exhaustive list of Concepts and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
 
-Example of a possible "Key type": 
+Examples of possible *key types*: 
 
 - the CHEMeDATA-Schema/equation/oxydation: 
+
 [![Oxidation](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/equation2Ox.json)](./equation) 
 
+- the CHEMeDATA-Schema/analytics/spectroscopy/nmr: 
 
 [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/analysisNMRspectra.json)](./analysis/NMR)
 
-[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRspectra.json)](./assignment/NMR) [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRdata.json)](./assignment/NMR) 
 
 [Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
 #### Derived Types
@@ -70,11 +71,15 @@ Example of a possible "Key type":
 We want to allow anybody to introduce derived types. This will allow to refine the description of the existing types. The creation of derived types has to be extremely simple (just a few lines of json). 
 Schema for community-based types (automatic introduction by pull request)
 
-
 [Illustration of derivation](./derivation)
 
-
 The community submit "ChemE-Types" on a repository. If a type is "valid" it is introduced. The pertinence is not judged (?), it is the responsability of the person who commits the data.
+
+Example of a possible *Derived types*: 
+
+[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRspectra.json)](./assignment/NMR)
+
+[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRdata.json)](./assignment/NMR) 
 
 [Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
 ### CHEMeDATA-Schema/View
@@ -90,7 +95,7 @@ compatibility : [type: molecu]
 
 Example: visualization of a 
 
-## ChemE-Archeology
+## CHEMeDATA-Archeology
 
 Automatize the extraction of chemical information from publication, thesis. 
 
@@ -100,11 +105,14 @@ Input: Article, thesis in pdf format
 
 Output: extracted data in the CHEMeDATA schema format.
 
-## ChemE-Leaks
+## CHEMeDATA-Release
 
-Make collections of chemistry data public. Whether they are personal, institutional, industrial collections may require processing, filtering, annonimization, before they can be made public. The project will propose services and tools to facilitated the publication of collections of NMR spectra in a legal manner (unlike what the name of the project may ). 
+### *Goal*
+Make collections of chemistry data public. Whether they are personal, institutional, or industrial collections of chemistry data may require processing, filtering, anonymization, before they can be made public. The project will propose services and tools to facilitated the publication of collections of NMR spectra in a legal manner - this is not a CHEMeDATA-leaks project. 
 
-Audience: institution with collection of NMR spectra, chemical componds producers with quality control including NMR, etc.
+**Target audience**: Curators of NMR spectra collections, quality control managers in chemical compound production, *etc.*
+
+**Help needed**: Python developper (A language avoiding compilation, clearly showing the code of the processing and avoiding a browser should reassure the user that data are not leaking but under the tight control speak in favor of python.)
 
 
 
