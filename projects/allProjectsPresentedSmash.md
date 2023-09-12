@@ -1,32 +1,35 @@
 # CHEMeDATA projects
 
-Comments and contributions about these tentative projects would be much appreciated. 
+Comments and contributions about these tentative projects would be much appreciated!
 ## CHEMeDATA-Schema
 
-Introduce **json objects** containing *key data* and *metadata* of common chemistry files in a structured manner.
+We want to introduce **json objects** containing *key data* and *metadata* of common chemistry files in a structured manner.
 
-Examples (tentative):
+Tentative examples:
 |file or foler|Key information and metadata|visualizer|standard|
 |---|----|---|--|
-|.cdx file|molecular formula, INCHI, *etc.*|jsmol|.mol|
+|.cdx file|molecular formula, INCHI code, *etc.*|jsmol|.mol|
 |Bruker NMR file folder|Observed nucleus, SNR, *etc.*|nmrium|x/y json|
 |etc.||||
 
- The collection of a set of such **json objects**  will consitute a manifest file, *i.e.* describe the content of an archive files (electronic supplementary information file typically **.ZIP** files submitted as supplementary data at publication or deposition on science repositories.)
+The collection of a **json objects**  will constitute a manifest file, *i.e.* describe the content of an archive files (electronic supplementary information file typically **.ZIP** files submitted as supplementary data at publication or deposition on science repositories).
 
 Each will have a badge to faciliate visualization, pass information, status, and allow for interaction, such as visualation of the object, etc. 
 
-[![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance)    [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/sample.json)](./sample)
-
-
-The exhaustive list of *Concepts* and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
-[See also : ontologies.](../ontologies) [Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
+[![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance) 
 
 
 [More details...](./schema.md)
 
 
 Schema are not for general chemists to work with, they serve in the background and allow for chemistry-data projects below:
+
+### CHEMeDATA-Finder
+
+Crowling the web in the search of data. With the manifest, much easier...
+
+Repository of certified CHEMeDATA?
+Findability is essential ....
 ### CHEMeDATA-Viewer
 
 This project will define a list of validated visualizers of the *Key CHEMeDATA-Schema/Types*.
@@ -43,7 +46,7 @@ See also *CHEMeDATA-Standard*.
 
 This project will define a list of standard file format for the *Key CHEMeDATA-Schema/Types*.
 
-The role of a standard for the Key types is to facilitate the visualization. For example, many file format code 3D structures of organic compounds. Having a defined standard allows the visualizer to rely on a stable basis to visualize all 3D structures. If a new format is introduced, the integration in the CHEMeDATA world only requires the author provide a converter to a unique default format.
+The role of a standard for the *Key Types* is to facilitate the visualization of chemistry data. For example, many file format code 3D structures of organic compounds. Having a defined standard allows the visualizers to rely on a stable basis to visualize any 3D structures. If a new format is introduced, the integration in the CHEMeDATA world only requires the author provide a converter to a single format.
 
 See also *CHEMeDATA-Viewer*.
 
