@@ -1,28 +1,31 @@
 # CHEMeDATA projects
 
-Comments and contributions about these tentative projects would be much appreciated!
+Here is a tentative list of projects presented at the Smash conference 2023. It should be considered as *Work in progress!* which will evolve depending on the interest expressed by the visitors of our booth. Note that is, currently completely non-profit activity. 
+
+Some projects may be developed with industrial partners and public funding agencies, notably the PANACEA project involving Mestrelab, but anything called CHEMeDATA will remain an "open" initiative with MIT licensing.
+
 ## CHEMeDATA-Schema
 
-We want to introduce **json objects** containing *key data* and *metadata* of common chemistry files in a structured manner.
+We introduce **json objects** to contain *key data* and *metadata* of common chemistry files in a structured manner.
 
 Tentative examples:
+
 |file or foler|Key information and metadata|visualizer|standard|
 |---|----|---|--|
 |.cdx file|molecular formula, INCHI code, *etc.*|jsmol|.mol|
 |Bruker NMR file folder|Observed nucleus, SNR, *etc.*|nmrium|x/y json|
 |etc.||||
 
-The collection of a **json objects**  will constitute a manifest file, *i.e.* describe the content of an archive files (electronic supplementary information file typically **.ZIP** files submitted as supplementary data at publication or deposition on science repositories).
 
-Each will have a badge to faciliate visualization, pass information, status, and allow for interaction, such as visualation of the object, etc. 
+Each **json objects** will have a badge to faciliate visualization, pass a status and allow for interaction, such as visualation of the object, *etc.*
 
 [![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance) 
 
+A collection of **json objects**  will constitute a manifest file, *i.e.* describe the content of an archive files, typically a **.ZIP** files of "electronic supplementary information" submitted with articles for publication or deposited on science repositories such as figshare, Zenodo, *etc.*
 
 [More details...](./schema.md)
 
-
-Schema are not for general chemists to work with, they serve in the background and allow for chemistry-data projects below:
+**Note:** Schema are not for general chemists to work with, they serve in the background and allow for chemistry-data projects below:
 
 ### CHEMeDATA-Finder
 

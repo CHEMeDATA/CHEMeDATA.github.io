@@ -1,5 +1,3 @@
-
-
 ## CHEMeDATA-Schema
 
 The goal is to produce general chemistry schema-based data description of chemistry data files. This project will define the structure of **json objects** describing the content of chemistry files.
@@ -11,7 +9,8 @@ The CHEMeDATA-Schema formalism has three layers detailed below.
 - 3 Derived types
 
 See also : [ontologies](../ontologies). 
-[Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
+[Comments and suggestions would be much appreciated!](https://github.com/CHEMeDATA/ontologies/issues/new)
+
 ### CHEMeDATA-Schema/Concepts
 
 Schema for key chemical concepts called CHEMeDATA-Schema/Concepts: (Sample, transformation, analytics...). See ... for more details.
