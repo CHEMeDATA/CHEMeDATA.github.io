@@ -9,28 +9,22 @@ Goal: Produce general chemistry schema-based data description of chemistry data 
 Schema for key chemical concepts called CHEMeDATA-Schema/Concepts: (Sample, transformation, analytics...). See ... for more details.
 
 ```json
-"CHEMeDATA-Schema-Concepts" : ["substance",
-"equation",
-"sample",
-"process",
-"analytics",
-"assignment"
+"CHEMeDATA-Schema-Concepts" : [
+	"substance",
+	"equation",
+	"sample",
+	"process",
+	"analytics",
+	"assignment"
 ]
 ```
-Each will have a badge:
+Each will have a badge: 
 
-[![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance)
+[![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance)    [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/sample.json)](./sample)
 
-[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/sample.json)](./sample)
-
-[![reaction](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/processReaction.json)](./process/reaction) 
-[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/analysisNMRspectra.json)](./analysis/NMR)
-
-[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRspectra.json)](./assignment/NMR) [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRdata.json)](./assignment/NMR) 
-    * IR
 
 The exhaustive list of Concepts and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
-More [details](../ontologies).
+[See also.](../ontologies)
 
 ### CHEMeDATA-Schema/Types
 
@@ -66,8 +60,11 @@ Example of a possible "Key type":
 [![Oxidation](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/equation2Ox.json)](./equation) 
 
 
-[See also.](../ontologies)
-[Comments and suggestions](https://github.com/CHEMeDATA/ontologies/issues/new)
+[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/analysisNMRspectra.json)](./analysis/NMR)
+
+[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRspectra.json)](./assignment/NMR) [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRdata.json)](./assignment/NMR) 
+
+[Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
 #### Derived Types
 
 We want to allow anybody to introduce derived types. This will allow to refine the description of the existing types. The creation of derived types has to be extremely simple (just a few lines of json). 
@@ -79,8 +76,7 @@ Schema for community-based types (automatic introduction by pull request)
 
 The community submit "ChemE-Types" on a repository. If a type is "valid" it is introduced. The pertinence is not judged (?), it is the responsability of the person who commits the data.
 
-[See also.](../ontologies)
-[Comments and suggestions](https://github.com/CHEMeDATA/ontologies/issues/new)
+[Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
 ### CHEMeDATA-Schema/View
 
 Schema for the visualization of CHEMeDATA-Schema/Types. 
