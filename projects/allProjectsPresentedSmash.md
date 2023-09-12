@@ -72,7 +72,7 @@ Make collections of chemistry data public. Whether they are personal, institutio
 
 **Audience**: Curators of NMR spectra collections, quality control managers in chemical compound production, *etc.*
 
-**Help needed**: Python developper (A language avoiding compilation, clearly showing the code of the processing and avoiding a browser should reassure the user that data are not leaking but under the tight control speak in favor of python.)
+**Help needed**: Python developer (A language avoiding compilation, clearly showing the code of the processing and avoiding a browser should reassure the user that data are not leaking and remain under the tight control...speaks in favor of python. Could be argued, for sure!)
 
 
 
