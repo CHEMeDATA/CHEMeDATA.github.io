@@ -1,6 +1,6 @@
 ## CHEMeDATA-Schema
 
-The goal is to produce general chemistry schema-based data description of chemistry data files. This project will define the structure of **json objects** describing the content of chemistry files.
+The goal is to produce general chemistry schema-based data description of chemistry data files. This project will define the structure of **JSON objects** describing the content of chemistry files.
 
 
 The CHEMeDATA-Schema formalism has three layers detailed below.
