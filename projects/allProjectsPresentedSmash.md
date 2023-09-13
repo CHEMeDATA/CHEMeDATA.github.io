@@ -3,6 +3,7 @@
 <img src="../images/chemedataLogo_transparent.png" width="100" alt="CHEMeDATA logo" />
 
 Here is a tentative list of projects presented at the [SMASH conference](https://smashnmr.org/) 2023 in Baveno, Italy. It should be considered as a *Work in progress!*. It will evolve depending on the interest expressed by the community, starting with the visitors of our booth.
+
 ## CHEMeDATA-Schema
 
 We introduce **JSON objects** we shall call **CHEMeDATA objects** to collect *key data* and *metadata* of common chemistry files in a structured manner.
@@ -24,6 +25,7 @@ A collection of **CHEMeDATA objects**  will constitute a manifest file describin
 [More details...](./schema.md)
 
 **Note:** Schema are not for general chemists to work with, they serve in the background and allow for the following chemistry-data projects.
+
 ### CHEMeDATA-Finder
 
 Finding chemical information is notoriously difficult. Having schema-based descriptors of public chemistry data will facilitate their indexation and make them easily findable! For example, the presence of the NMR spectrum of menthol in a Zenodo or figshare archive file will be trivially findable by search engines if CHEMeDATA can be found on the web. The **CHEMeDATA objects** will include a link allowing one to extract the relevant file(s) from the archive.
