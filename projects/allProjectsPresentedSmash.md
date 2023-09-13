@@ -87,6 +87,7 @@ Help needed:
 
 - Developer of *CHEMeDATA-Filter* to anonymize, convert, apply selection criteria to collections of chemistry data. Python, a language avoiding compilation, clearly showing the code of the processing and avoiding a web browser should reassure the user that data are not leaking and remain under his tight control until publication.
 - Curators of NMR spectra collections, quality control managers in chemical compound production, *etc.* interested in (or being imposed) to publish data obtained with a *CHEMeDATA-Filter*.
+
 ## CHEMeDATA-Evolution
 
 This project will define a methodology and ontology for the curation, addition, correction, validation and aggregation of CHEMeDATA objects
