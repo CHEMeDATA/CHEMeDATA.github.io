@@ -2,7 +2,7 @@
 
 <img src="../images/chemedataLogo_transparent.png" width="100" alt="CHEMeDATA logo" />
 
-Here is a tentative list of projects presented at the [SMASH conference](https://smashnmr.org/) 2023 in Baveno, Italy. They should be considered as a *Work in progress!*. They will evolve depending on the interest expressed by the community, including the visitors of our booth ... 
+Here are the projects presented at the [SMASH conference](https://smashnmr.org/) 2023 in Baveno, Italy. They should be considered as a *Work in progress!*. They will evolve depending on the interest expressed by the community, including the visitors of our booth ... 
 
 *Come visit us!*
 
@@ -104,4 +104,4 @@ CHEMeDATA ambitions to be to chemistry what NMReDATA was to the NMR assignment o
 
 CHEMeDATA is currently a completely non-profit initiative. Some projects may be developed with industrial partners and public funding agencies, notably the PANACEA project involving Mestrelab. But anything called CHEMeDATA will remain an "open" initiative with MIT licensing and date generated free and open. Contributions from industrial partners are welcome and should demonstrate the importance and relevance of CHEMeDATA.
 
-[Poster presented at the smash conference](../images/JeanneratPoster.pdf)
+[Poster presented at the conference.](../images/JeanneratPoster.pdf)
