@@ -1,6 +1,8 @@
 # CHEMeDATA projects
 
-<img src="images/chemedataLogo_transparent.png" width="100" alt="CHEMeDATA logo" />
+<img src="../images/chemedataLogo_transparent.png" width="100" alt="CHEMeDATA logo" />
+
+
 
 Here is a tentative list of projects presented at the [SMASH conference](https://smashnmr.org/) 2023 in Baveno, Italy. It should be considered as a *Work in progress!*. It will evolve depending on the interest expressed by the community, starting with the visitors of our booth.
 ## CHEMeDATA-Schema
@@ -90,7 +92,7 @@ Help needed:
 
 ## CHEMeDATA-Evolution
 
-This project will define a methodology and ontology for the curation, addition, correction, validation and aggregation of CHEMeDATA objects
+This project will define a methodology and ontology for the curation, addition, correction, validation and aggregation of *CHEMeDATA objects*.
 
 ## Relation to NMReDATA
 
