@@ -3,32 +3,33 @@
 Here is a tentative list of projects presented at the Smash conference 2023 in Baveno, Italy. It should be considered as a *Work in progress!*. It will evolve depending on the interest expressed by the community, starting with the visitors of our booth.
 ## CHEMeDATA-Schema
 
-We introduce **json objects** to contain *key data* and *metadata* of common chemistry files in a structured manner.
+We introduce **JSON objects** we shall call **CHEMeDATA objects** to collect *key data* and *metadata* of common chemistry files in a structured manner.
 
 Tentative examples:
 
-|file or folder|Key information and metadata generated|CHEMeDATA-Visualizer|CHEMeDATA-Standard|
+|File or folder|Key information and metadata generated store in the CHEMeDATA objects[^1]|CHEMeDATA-Visualizer|CHEMeDATA-Standard|
 |---|----|---|--|
-|.cdx/.cdxml file with a single compound|molecular formula, INCHI code, *etc.*|jsmol|.mol|
-|Bruker NMR file folder|Observed nucleus, SNR, *etc.*|nmrium|x/y json|
+|.cdx/.cdxml file with a single compound|Molecular formula, INCHI code, *etc.*|jsmol|.mol|
+|Bruker NMR file folder|Observed nucleus, SNR, *etc.*|nmrium|x/y JSON|
 |etc.||||
 
-Each **json objects** will have a badge to facilitate identification, pass a status and allow for interaction, such as visualation of the object, *etc.*
+[^1] toto
+Each **JSON objects** will have a badge to facilitate visual identification, pass a status and allow for interaction, such as visualation of the object, *etc.*
 
 [![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance) 
 
-A collection of **json objects**  will constitute a manifest file describing the content of an archive files, typically a **.ZIP** files of "electronic supplementary information" submitted with articles for publication or deposited on science repositories such as figshare, Zenodo, *etc.*
+A collection of **JSON objects**  will constitute a manifest file describing the content of an archive files, typically a **.ZIP** files of "electronic supplementary information" submitted with articles for publication or deposited on science repositories such as figshare, Zenodo, *etc.*
 
 [More details...](./schema.md)
 
 **Note:** Schema are not for general chemists to work with, they serve in the background and allow for the following chemistry-data projects ...
 ### CHEMeDATA-Finder
 
-Finding chemical information is notoriously difficult. Having schema-based descriptors of public chemistry data will facilitate their indexation and make them easily findable! For example, the presence of the NMR spectrum of menthol in the archive file of indexed data repositories would be trivially findable by search engines.
+Finding chemical information is notoriously difficult. Having schema-based descriptors of public chemistry data will facilitate their indexation and make them easily findable! For example, the presence of the NMR spectrum of menthol in a Zenodo or figshare archive file will be trivially findable by search engines from its CHEMeDATA.
 
 Help needed:
 - Develop a CHEMeDATA-Crawler of public chemistry archive to generate and publish the corresponding CHEMeDATA.
-- Develop a CHEMeDATA-Extractor to isolate the file(s) or folder of any given indexed CHEMeDATA object out the archived data (using DOI of the archive and location of the file in the repository).
+- Develop a CHEMeDATA-Extractor to isolate the file(s) or folder of any given indexed CHEMeDATA object out the archived data (using DOI of the archive and location of the file(s) in the repository).
 
 ### CHEMeDATA-Viewer
 
@@ -42,7 +43,7 @@ Examples of visualization:
 
 See also *CHEMeDATA-Standard*.
 
-Why do this? TO make sure that when an object is identified (from a repository, for example, interaction are possible with a simple click)
+This project allows to visualize or exploit in other manner the **CHEMeDATA objects** sure that when an object is identified (from a repository, for example, interaction are possible with a simple click)
 
 Help needed:
 - Developers of chemistry visualizer to interface their visualizer with data originating from CHEMeDATA-Extractor or CHEMeDATA-Standard
