@@ -7,124 +7,89 @@ We introduce **JSON objects** we shall call **CHEMeDATA objects** to collect *ke
 
 Tentative examples:
 
-|File or folder|Key information and metadata generated store in the CHEMeDATA objects[^1]|CHEMeDATA-Visualizer|CHEMeDATA-Standard|
+|File or folder|Key information and metadata generated store in the CHEMeDATA objects|CHEMeDATA-Visualizer|CHEMeDATA-Standard|
 |---|----|---|--|
-|.cdx/.cdxml file with a single compound|Molecular formula, INCHI code, *etc.*|jsmol|.mol|
-|Bruker NMR file folder|Observed nucleus, SNR, *etc.*|nmrium|x/y JSON|
+|.cdx/.cdxml file with a single compound|Molecular formula, INCHI code, *etc.*|[JSmol](https://wiki.jmol.org/index.php/Main_Page)|.mol|
+|Bruker NMR file folder|Observed nucleus, SNR, *etc.*|[NMRium](https://www.nmrium.org/)|x/y JSON|
 |etc.||||
 
-[^1] toto
-Each **JSON objects** will have a badge to facilitate visual identification, pass a status and allow for interaction, such as visualation of the object, *etc.*
+Each **CHEMeDATA objects** will have a badge to facilitate visual identification, pass a status and allow for interaction, such as visualation of the object, *etc.*
 
 [![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance) 
 
-A collection of **JSON objects**  will constitute a manifest file describing the content of an archive files, typically a **.ZIP** files of "electronic supplementary information" submitted with articles for publication or deposited on science repositories such as figshare, Zenodo, *etc.*
+
+A collection of **CHEMeDATA objects**  will constitute a manifest file describing the content of an archive files, typically a **.ZIP** files of "electronic supplementary information" submitted with articles for publication or deposited on science repositories such as figshare, Zenodo, *etc.*
 
 [More details...](./schema.md)
 
 **Note:** Schema are not for general chemists to work with, they serve in the background and allow for the following chemistry-data projects ...
 ### CHEMeDATA-Finder
 
-Finding chemical information is notoriously difficult. Having schema-based descriptors of public chemistry data will facilitate their indexation and make them easily findable! For example, the presence of the NMR spectrum of menthol in a Zenodo or figshare archive file will be trivially findable by search engines from its CHEMeDATA.
+Finding chemical information is notoriously difficult. Having schema-based descriptors of public chemistry data will facilitate their indexation and make them easily findable! For example, the presence of the NMR spectrum of menthol in a Zenodo or figshare archive file will be trivially findable by search engines from its CHEMeDATA. A link in the **CHEMeDATA objects** will allow the extraction the relevant file(s) from the archive.
 
 Help needed:
-- Develop a CHEMeDATA-Crawler of public chemistry archive to generate and publish the corresponding CHEMeDATA.
-- Develop a CHEMeDATA-Extractor to isolate the file(s) or folder of any given indexed CHEMeDATA object out the archived data (using DOI of the archive and location of the file(s) in the repository).
+- Develop a CHEMeDATA-Crawler of public chemistry archive to generate and publish the corresponding open CHEMeDATA.
+- Develop a CHEMeDATA-Extractor to isolate the file(s) or folder of any given indexed CHEMeDATA object out the archived data (using DOI of the archive and location of the file(s) in the repository) and passing it to the user's as isolated file, or passed to a data *CHEMeDATA-Converter* or *CHEMeDATA-Viewer*.
 
-### CHEMeDATA-Viewer
+## CHEMeDATA-Viewer
 
-This project will define a list of validated visualizers of the *Key CHEMeDATA-Schema/Types*.
+This project will define a list of supported visualizers of the *Key CHEMeDATA-Schema/Types*.
 
 Examples of visualization: 
+
 - the 3D structures of compounds
 - *flat* 2D structures of organic compounds
 - 1D NMR spectra
 - *etc.*
 
-See also *CHEMeDATA-Standard*.
+See also *CHEMeDATA-Converter*.
 
-This project allows to visualize or exploit in other manner the **CHEMeDATA objects** sure that when an object is identified (from a repository, for example, interaction are possible with a simple click)
+This project allows to visualize or exploit in other manners the **CHEMeDATA objects**. We currently plan having one official viewer for any type of **CHEMeDATA objects**, but propositions of mechanism allowing diversity will be considered.
 
 Help needed:
-- Developers of chemistry visualizer to interface their visualizer with data originating from CHEMeDATA-Extractor or CHEMeDATA-Standard
 
-### CHEMeDATA-Standard
+- Developers of chemistry visualizers to interface their visualizer with data originating from *CHEMeDATA-Extractor*.
+
+## CHEMeDATA-Converter
 
 This project will define a list of standard file format for the *Key CHEMeDATA-Schema/Types*.
 
-The role of a standard for the *Key Types* is to facilitate the visualization of chemistry data. For example, many file format code 3D structures of organic compounds. Having a *prefered* format allows the visualizers to rely on a stable basis to visualize any 3D structures by focusing efforts on the *prefered* format. If a new file format is introduced, the integration in the CHEMeDATA world only requires the author provide a converter to a single format.
+The role of a standard for the *Key Types* is to facilitate the visualization of chemistry data. For example, many file format code 3D structures of organic compounds. Having a *preferred* format allows the visualizers to rely on a stable basis to visualize any 3D structures and focus efforts on the *preferred* format. If a new file format is introduced, the integration in the CHEMeDATA world only requires the author of the new format to provide a converter to a single *preferred* format.
 
 See also *CHEMeDATA-Viewer*.
 
 Help needed:
-- Developers of chemistry data CHEMeDATA-Converter to make file converters electronically accessible so that data extracted from archived can be converted into a *prefered* format and piped results towards a CHEMeDATA-Viewer.
-- Data specialist to design a mecanism to control the exchange of information from a repository to a CHEMeDATA-Viewer via a web-based CHEMeDATA-Converter.
+
+- Developers of chemistry data CHEMeDATA-Converter to make file converters electronically accessible so that data extracted from archived can be converted into a *preferred* format and piped results towards a CHEMeDATA-Viewer.
+- Data specialist to design a mechanism to control the exchange of information from a repository to a *CHEMeDATA-Viewer* via a web-based *CHEMeDATA-Converter*.
 
 ## CHEMeDATA-Archeology
 
 Automatize the extraction of chemical information from publication, thesis, hard copies of spectra, etc.
 
-Goal, make chemical data more searchable.
+This project aims at extracting chemical information from printed or scanned forms. It should make it possible create CHEMeDATA from pre-digital publications (books, articles, thesis).
 
-Input: Article, thesis in pdf format
-
-Output: extracted data in the CHEMeDATA schema format.
 Help needed:
+
 - specialist of text, and image extraction from pdf.
 - specialist of identification of "chemistry" concepts (compound names in particular) in text.
 - specialist of image analysis for the recognition of organic compounds.
 - specialist of image analysis for the generation of spectra from images.
+- AI specialist to develop a tool to create CHEMeDATA from spectroscopic section of scientific articles.
 
 ## CHEMeDATA-Release
 
-### *Goal*
-Make collections of chemistry data public. Whether they are personal, institutional, or industrial collections of chemistry data may require processing, filtering, anonymization, before they can be made public. The project will propose services and tools to facilitated the publication of collections of NMR spectra in a legal manner - this is not a CHEMeDATA-leaks project. 
-
+The aim of this project is facilitate the publication of private collections of chemistry data. Whether they are personal, institutional, or industrial, collections of chemistry data may require processing, filtering, anonymization, before they can be made public. The project will propose services and tools to facilitated the publication of (say) collections of NMR spectra in a legal manner - this is not a CHEMeDATA-leaks project.
 
 Help needed:
-- Curators of NMR spectra collections, quality control managers in chemical compound production, *etc.* interested in (or being required) to publish data following CHEMeDATA-Filter.
-- Developper of CHEMeDATA-Filter to anonymize, convert, apply selection criteria to chemistry data. Python (a language avoiding compilation, clearly showing the code of the processing and avoiding a web browser should reassure the user that data are not leaking and remain under his tight control. (Could be argued, for sure!)
+
+- Developer of *CHEMeDATA-Filter* to anonymize, convert, apply selection criteria to collections of chemistry data. Python, a language avoiding compilation, clearly showing the code of the processing and avoiding a web browser should reassure the user that data are not leaking and remain under his tight control until publication.
+- Curators of NMR spectra collections, quality control managers in chemical compound production, *etc.* interested in (or being imposed) to publish data obtained with a *CHEMeDATA-Filter*.
 
 ## Relation to NMReDATA
 
-CHEMeDATA ambitions to be to chemistry what NMReDATA was to the NMR assignment of small molecules. NMReDATA will be one particular type of CHEMeDATA object. 
-
-### Examples of extracted data
-
-The list of carbon chemical shifts for a compound described in a paper
-
-```json
-CompoundWithNMRshift:{
-	"reference": {
-		"doi": "... doi of the source",
-	},
-	"extraction": {
-		"... information about the method of extraction of the data (manual... software... author...)"
-	},
-	"compound":{
-		"inchi": "inchi of the compound generated during extraction.",
-		"inchiKey": "inchiKey of the compound generated during extraction. ?Needed?",
-		"name": "the name of the compound used in the paper/thesis"
-		},
-	"NMRdata": {
-		"nucleus": "1H",
-		listChemicalShift : [23.3, 45.9]
-	}
-}
-```
-
-A schema of CompoundWithNMRshift will insure consistent format and content of the data. It could make the inchi or the solvent mandatory, but if a data extractor is not capable to fulfill the requirement, it could introduce a CompoundWithNMRshift_Light scheme that would not impose the requirement. 
-
-# Posters
-
-## Projects
-
-## We need you!
-
-Do you have data?
-
-
+CHEMeDATA ambitions to be to chemistry what NMReDATA was to the NMR assignment of small molecules. NMReDATA will be one particular type of CHEMeDATA object.
 
 ## License
 
-CHEMeDATA is currently a completely non-profit initiative. Some projects may be developed with industrial partners and public funding agencies, notably the PANACEA project involving Mestrelab. But anything called CHEMeDATA will remain an "open" initiative with MIT licensing. Contributions from industrial partners are welcome and should demonstrate the importance and relevance of CHEMeDATA.
+CHEMeDATA is currently a completely non-profit initiative. Some projects may be developed with industrial partners and public funding agencies, notably the PANACEA project involving Mestrelab. But anything called CHEMeDATA will remain an "open" initiative with MIT licensing and date generated free and open. Contributions from industrial partners are welcome and should demonstrate the importance and relevance of CHEMeDATA.
