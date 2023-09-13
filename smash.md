@@ -4,6 +4,6 @@ D. Jeannerat will represent the [CHEMeDATA initiative](README.md) at the venue o
 
 <img src="images/chemedataLogo_transparent.png" width="100" alt="CHEMeDATA logo" />
 
-Check out the [list of projects](projects/allProjectsPresentedSmash) presented at the Conference!
+Look at the [projects](projects/allProjectsPresentedSmash) presented at the Conference!
 
 If you want to be updated about our activity, sign up for [the mailing list](https://dashboard.mailerlite.com/forms/379952/83698043057079544/share).
