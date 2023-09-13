@@ -1,39 +1,39 @@
 ## CHEMeDATA-Schema
 
-The goal is to produce general chemistry schema-based data description of chemistry data files. This project will define the structure of **JSON objects** describing the content of chemistry files.
+**WARNING :** This document is under preparation... Come back in a couple of days to find a cleaned-up version!
 
+The goal is to produce general chemistry schema-based data description of chemistry data files. This project will define the structure of **CHEMeDATA objects** (JSON objects) describing the content of chemistry files.
 
 The CHEMeDATA-Schema formalism has three layers detailed below.
+
 - 1 Concepts
 - 2 Key types
 - 3 Derived types
 
-See also : [ontologies](../ontologies). 
+See also : [ontologies](../ontologies).
 [Comments and suggestions would be much appreciated!](https://github.com/CHEMeDATA/ontologies/issues/new)
 
 ### CHEMeDATA-Schema/Concepts
 
-Schema for key chemical concepts called CHEMeDATA-Schema/Concepts: (Sample, transformation, analytics...). See ... for more details.
+Schema for key chemical concepts called CHEMeDATA-Schema/Concepts:
 
-	- Substance
-	- Equation
-	- Sample
-	- Process
-	- Analytics
-	- Assignment (Another term may be more appropriate!)
+- Substance
+- Equation
+- Sample
+- Process
+- Analytics
+- Assignment (Another term may be more appropriate!)
 
-
-Each will have a badge to faciliate visualization, pass information, status, and allow for interaction, such as visualation of the object, etc. 
+Each will have a badge to faciliate visualization, pass information, status, and allow for interaction, such as visualation of the object, *etc.*
 
 [![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance)    [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/sample.json)](./sample)
 
 The exhaustive list of *Concepts* and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
 [See also : ontologies.](../ontologies) [Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
 
-
 ### CHEMeDATA-Schema/Types
 
-The *types* will specify the type of (say) **sample**. There will be a list of schema for instances chemical Concepts.
+The *types* will specify the type of (say) **sample**. There will be a list of schema for instances of chemical Concepts.
 
 
 Example: Solvent* (is simply a type of Compound* at the liquid state. It will be used for the description of liquid-state Sample*)
