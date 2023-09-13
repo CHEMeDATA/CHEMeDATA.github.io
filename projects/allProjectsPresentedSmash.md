@@ -103,3 +103,5 @@ CHEMeDATA ambitions to be to chemistry what NMReDATA was to the NMR assignment o
 ## License
 
 CHEMeDATA is currently a completely non-profit initiative. Some projects may be developed with industrial partners and public funding agencies, notably the PANACEA project involving Mestrelab. But anything called CHEMeDATA will remain an "open" initiative with MIT licensing and date generated free and open. Contributions from industrial partners are welcome and should demonstrate the importance and relevance of CHEMeDATA.
+
+[Poster presented at the smash conference](../images/JeanneratPoster.pdf)
