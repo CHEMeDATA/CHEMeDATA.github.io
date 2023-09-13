@@ -28,7 +28,7 @@ A collection of **CHEMeDATA objects**  will constitute a manifest file describin
 
 **Note:** Schema are not for general chemists to work with, they serve in the background and allow for the following chemistry-data projects.
 
-### CHEMeDATA-Finder
+## CHEMeDATA-Finder
 
 Finding chemical information is notoriously difficult. Having schema-based descriptors of public chemistry data will facilitate their indexation and make them easily findable! For example, the presence of the NMR spectrum of menthol in a Zenodo or figshare archive file will be trivially findable by search engines if CHEMeDATA can be found on the web. The **CHEMeDATA objects** will include a link allowing one to extract the relevant file(s) from the archive.
 
