@@ -10,7 +10,7 @@ The CHEMeDATA-Schema formalism has three layers detailed below.
 - 2 Key types
 - 3 Derived types
 
-See also : [ontologies](../ontologies).
+See also : [ontologies (less up to date)](../ontologies).
 [Comments and suggestions would be much appreciated!](https://github.com/CHEMeDATA/ontologies/issues/new)
 
 ### CHEMeDATA-Schema/Concepts
@@ -35,29 +35,46 @@ More details about the [key concepts](keyconcepts).
 
 ### CHEMeDATA-Schema/Types
 
-The *types* will specify the type of (say) **sample**. There will be a list of schema for instances of chemical Concepts.
+The *types* will specify the types of any general concept. For example, we can have different types of **Sample**. A *Type* exemplifies the concept of **Sample**. For example: a solution sample, a power sample, *etc.* are different *Types* of the concept of **Sample**.
 
+|*Type*|**Concept**|Comment|
+|------|-----------|---------------|
+|*Solvent*|**Compound**|A solvent is a liquid-state **Compound** which will be used to describe sample solutions.|
+|*Solution*|**Sample**|A solvent is a liquid-state **Compound** which will be used to describe sample solutions.|
+|*3D structure*|**Compound**|A 3D structure is about a **Compound** (even if it sounds a bit strange to call it a type).|
 
-Example: Solvent* (is simply a type of Compound* at the liquid state. It will be used for the description of liquid-state Sample*)
-
-Example: structure3Dmol* (Compound* in a mol file)
-
+Types will have 
 Example: compound3D* (compound with an inchi, a compound name and a structure3Dmol*)
 
-Examples: simpleSolutionSample (a ChemE-Type) is a type of "Sample" (a ChemE-Concept see ChemE-Concepts).
+Examples of **CHEMeDATA Object** for a type "*Solution*":
 
-
-"ChemE-type" : "solution sample",
-"ChemE-Concepts" : "sample"
-"author/company/institution..." To be discussed. Who would introduced concepts? Software companies, adademic instituation or research group? Academies? Societies?
-Required-fields : [
-	solvent : "ChemE-Solvent"
-	deuterated : "Yes, no, partial"
-	deuterationLevel : "
+```json
+"CHEMeDATA_solution_sample" : [
+ "solvent" : "water",
+ "components": [{
+  "ChemE-Compound": "glucose",
+  "ChemE-Concentration_mM": 3.5
+ }]
 ]
+```
+
+For NMR sample which should include more properties, we could add properties starting with the properties of CHEMeDATA_solution_sample. We call this a derived object.
+
+```json
+"CHEMeDATA_NMR_sample" : [
+ "solvent" : "water",
+ "deuterated" : "yes",
+ "Deutaration-Level" : 99.9,
+ "components": [{
+  "ChemE-Compound": "glucose",
+  "ChemE-Concentration_mM": 3.5
+ }]
+]
+```
+
 #### Key Types
 
-The key types will be defined by at the initial stage of the introduction of CHEMeDATA-Schema in order to provide a general and broad basis. It will impose some requirements in particular with respect to the visualization and conversion of data into open format (see *CHEMeDATA-Viewer* and *CHEMeDATA-Standard*)
+The key types will be defined at the initial stage of the introduction of CHEMeDATA-Schema in order to provide a general and broad basis. It will impose some requirements in particular with respect to the visualization and conversion of data into open format (see *CHEMeDATA-Viewer* and *CHEMeDATA-Standard*)
 
 The exhaustive list of *key Types* and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
 

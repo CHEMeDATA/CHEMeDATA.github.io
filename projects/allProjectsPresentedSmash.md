@@ -2,7 +2,7 @@
 
 <img src="../images/chemedataLogo_transparent.png" width="100" alt="CHEMeDATA logo" />
 
-Here are the projects presented at the [SMASH conference](https://smashnmr.org/) 2023 in Baveno, Italy. They should be considered as a *Work in progress!*. They will evolve depending on the interest expressed by the community, including the visitors of our booth ... 
+Here are the projects presented at the [SMASH conference](https://smashnmr.org/) 2023 in Baveno, Italy. They should be considered as a *Work in progress!* They will evolve depending on the interest expressed by the community, including the visitors of our booth ... 
 
 *Come visit us!*
 
