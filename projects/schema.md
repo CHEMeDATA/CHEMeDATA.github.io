@@ -40,6 +40,7 @@ The *types* will specify the types of any general concept. For example, we can h
 |*solution*|**Sample**|A solvent is a liquid-state **Compound** which will be used to describe sample solutions.|
 |*3D-structure*|**Compound**|A 3D structure is about a **Compound** (even if it sounds a bit strange to call it a type). This object aims mapping .mol/.sdf files with 3D structures (only) and to be visualized with JSmol.|
 |*[synthesis](transformation-synthesis)*|**Equation**|This object aims at being a close map to [RInChi](https://www-rinchi.ch.cam.ac.uk/).|
+
 #### 2 Key Types
 
 The key types will be defined at the initial stage of the introduction of *CHEMeDATA-Schema* in order to provide a general and broad basis. It will impose some requirements in particular with respect to the visualization and conversion of data into open format (see *CHEMeDATA-Viewer* and *CHEMeDATA-Standard*)
