@@ -1,8 +1,6 @@
 ## CHEMeDATA-Schema
 
-**WARNING :** This document is under preparation... Come back in a couple of days to find a cleaned-up version!
-
-The goal is to produce general chemistry schema-based data description of chemistry data files. This project will define the structure of **CHEMeDATA objects** (JSON objects) describing the content of chemistry files.
+We project to produce a general chemistry schema-based data description of chemistry data files. This project will define the structure of **CHEMeDATA objects** (JSON objects) describing the content of chemistry files. Aggregated, these **CHEMeDATA objects** objects will serve a manifest files that will exposed thus facilitate indexation. 
 
 The CHEMeDATA-Schema formalism has three layers detailed below.
 
@@ -13,7 +11,7 @@ The CHEMeDATA-Schema formalism has three layers detailed below.
 See also : [ontologies (less up to date)](../ontologies).
 [Comments and suggestions would be much appreciated!](https://github.com/CHEMeDATA/ontologies/issues/new)
 
-### CHEMeDATA-Schema/Concepts
+### 1 CHEMeDATA-Schema/Concepts
 
 Schema for key chemical concepts called CHEMeDATA-Schema/Concepts:
 
@@ -43,36 +41,8 @@ The *types* will specify the types of any general concept. For example, we can h
 |*Solution*|**Sample**|A solvent is a liquid-state **Compound** which will be used to describe sample solutions.|
 |*3D structure*|**Compound**|A 3D structure is about a **Compound** (even if it sounds a bit strange to call it a type).|
 
-Types will have 
-Example: compound3D* (compound with an inchi, a compound name and a structure3Dmol*)
 
-Examples of **CHEMeDATA Object** for a type "*Solution*":
-
-```json
-"CHEMeDATA_solution_sample" : [
- "solvent" : "water",
- "components": [{
-  "ChemE-Compound": "glucose",
-  "ChemE-Concentration_mM": 3.5
- }]
-]
-```
-
-For NMR sample which should include more properties, we could add properties starting with the properties of CHEMeDATA_solution_sample. We call this a derived object.
-
-```json
-"CHEMeDATA_NMR_sample" : [
- "solvent" : "water",
- "deuterated" : "yes",
- "Deutaration-Level" : 99.9,
- "components": [{
-  "ChemE-Compound": "glucose",
-  "ChemE-Concentration_mM": 3.5
- }]
-]
-```
-
-#### Key Types
+#### 2 Key Types
 
 The key types will be defined at the initial stage of the introduction of CHEMeDATA-Schema in order to provide a general and broad basis. It will impose some requirements in particular with respect to the visualization and conversion of data into open format (see *CHEMeDATA-Viewer* and *CHEMeDATA-Standard*)
 
@@ -90,7 +60,7 @@ Examples of possible *key types*:
 
 
 [Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
-#### Derived Types
+#### 3 Derived Types
 
 We want to allow anybody to introduce derived types. This will allow to refine the description of the existing types. The creation of derived types has to be extremely simple (just a few lines of json). 
 Schema for community-based types (automatic introduction by pull request)
@@ -106,3 +76,32 @@ Example of a possible *Derived types*:
 [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRdata.json)](./assignment/NMR) 
 
 [Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
+
+### Examples of a key and derived type
+
+Example of **CHEMeDATA Object** for a "*Solution*" type:
+
+```json
+"CHEMeDATA_solution_sample" : [
+ "solvent" : "water",
+ "components": [{
+  "ChemE-Compound" : "glucose",
+  "ChemE-Concentration_mM" : 3.5
+ }]
+]
+```
+
+For NMR sample which should include more properties (about deuteration and the NMR tube), we could add properties starting with the properties of CHEMeDATA_solution_sample. We call this a derived object.
+
+```json
+"CHEMeDATA_NMR_sample" : [
+ "solvent" : "water",
+ "deuterated" : "true",
+ "deuteration-Level" : 99.9,
+ "nmr-tube-diameter-mm" : 5.0,
+ "components": [{
+  "ChemE-Compound": "glucose",
+  "ChemE-Concentration_mM": 3.5
+ }]
+]
+```
