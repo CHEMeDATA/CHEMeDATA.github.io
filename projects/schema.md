@@ -1,6 +1,6 @@
 ## CHEMeDATA-Schema
 
-We project to produce a general chemistry schema-based data description of chemistry data files. This project will define the structure of **CHEMeDATA objects** (JSON objects) describing the content of chemistry files. Aggregated, these **CHEMeDATA objects** objects will serve a manifest files that will exposed thus facilitate indexation. 
+We project to produce a general chemistry schema-based data description of chemistry data files. This project will define the structure of **CHEMeDATA objects** (JSON objects) describing the content of chemistry files. Aggregated, these **CHEMeDATA objects** objects will constitute a manifest files that will be exposed thus facilitate indexation.
 
 The CHEMeDATA-Schema formalism has three layers detailed below.
 
