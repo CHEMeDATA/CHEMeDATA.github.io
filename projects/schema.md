@@ -103,4 +103,6 @@ For NMR sample which should include more properties (about deuteration and the N
 ]
 ```
 
-[Comments and suggestions would be much appreciated!](https://github.com/CHEMeDATA/ontologies/issues/new)
+The mechanism of schema definition will be based on https://json-schema.org. More details will be provided uppon [request!](https://github.com/CHEMeDATA/ontologies/issues/new?title=Request+For+more+information+on+Schema+Definition)
+
+[Comments and suggestions would be much appreciated!](https://github.com/CHEMeDATA/ontologies/issues/new?title=Comment+and+suggestion)
