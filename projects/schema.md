@@ -38,7 +38,7 @@ The *types* will specify the types of any general concept. For example, we can h
 |------|-----------|---------------|
 |*solvent*|**Compound**|A solvent is a liquid-state **Compound** which will be used to describe sample solutions.|
 |*solution*|**Sample**|A solvent is a liquid-state **Compound** which will be used to describe sample solutions, possibly including a [MInChi](https://www.inchi-trust.org/mixtures/)|
-|*3D-structure*|**Compound**|A 3D structure is about a **Compound** (even if it sounds a bit strange to call it a type). This object aims at mapping .mol/.sdf files with 3D structures (only) and to be visualized with JSmol.|
+|*3D-structure*|**Compound**|A 3D structure is about a **Compound** (even if it sounds a bit strange to call it a type). This object aims at mapping .mol/.sdf files with 3D structures and to be visualized with JSmol.|
 |*[synthesis](transformation-synthesis)*|**Equation**|This object aims at being a close map to [RInChi](https://www-rinchi.ch.cam.ac.uk/).|
 
 #### 2 Key Types
