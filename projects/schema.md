@@ -31,6 +31,8 @@ Each will have a badge to faciliate visualization, pass information, status, and
 The exhaustive list of *Concepts* and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
 [See also : ontologies.](../ontologies) [Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
 
+More details about the [key concepts](keyconcepts).
+
 ### CHEMeDATA-Schema/Types
 
 The *types* will specify the type of (say) **sample**. There will be a list of schema for instances of chemical Concepts.
