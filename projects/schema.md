@@ -9,7 +9,7 @@ The CHEMeDATA-Schema formalism has three layers detailed below.
 - 3 Derived types
 
 See also : [ontologies (less up to date)](../ontologies).
-[Comments and suggestions would be much appreciated!](https://github.com/CHEMeDATA/ontologies/issues/new)
+
 
 ### 1 CHEMeDATA-Schema/Concepts
 
@@ -27,7 +27,7 @@ Each will have a badge to faciliate visualization, pass information, status, and
 [![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance)    [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/sample.json)](./sample)
 
 The exhaustive list of *Concepts* and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
-[See also : ontologies.](../ontologies) [Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
+[See also : ontologies.](../ontologies) 
 
 More details about the [key concepts](keyconcepts).
 
@@ -41,39 +41,36 @@ The *types* will specify the types of any general concept. For example, we can h
 |*Solution*|**Sample**|A solvent is a liquid-state **Compound** which will be used to describe sample solutions.|
 |*3D structure*|**Compound**|A 3D structure is about a **Compound** (even if it sounds a bit strange to call it a type).|
 
-
 #### 2 Key Types
 
-The key types will be defined at the initial stage of the introduction of CHEMeDATA-Schema in order to provide a general and broad basis. It will impose some requirements in particular with respect to the visualization and conversion of data into open format (see *CHEMeDATA-Viewer* and *CHEMeDATA-Standard*)
+The key types will be defined at the initial stage of the introduction of *CHEMeDATA-Schema* in order to provide a general and broad basis. It will impose some requirements in particular with respect to the visualization and conversion of data into open format (see *CHEMeDATA-Viewer* and *CHEMeDATA-Standard*)
 
 The exhaustive list of *key Types* and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
 
-Examples of possible *key types*: 
+Examples of possible *key types*:
 
-- the CHEMeDATA-Schema/equation/oxydation: 
+- the CHEMeDATA-Schema/equation/oxydation:
 
-[![Oxidation](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/equation2Ox.json)](./equation) 
+[![Oxidation](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/equation2Ox.json)](./equation)
 
-- the CHEMeDATA-Schema/analytics/spectroscopy/nmr: 
+- the CHEMeDATA-Schema/analytics/spectroscopy/nmr:
 
 [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/analysisNMRspectra.json)](./analysis/NMR)
 
-
-[Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
 #### 3 Derived Types
 
-We want to allow anybody to introduce derived types. This will allow to refine the description of the existing types. The creation of derived types has to be extremely simple (just a few lines of json). 
+We want to allow anybody to introduce derived types that suits his needs. This will allow him to refine the description of the existing types. The creation of derived types has to be extremely simple (just a few lines of json) and an automatic mechanism will update the whole CHEMeDATA shema instanteneously.
 Schema for community-based types (automatic introduction by pull request)
 
 [Illustration of derivation](./derivation)
 
 Anybody should be able to submit derived *CHEMeDATA-Schema/Types* on a devoted repository. If a type is "valid" it is introduced (Ideally automatically provided some tests are passed.). The pertinence is not judged (?), it is the responsability of the person who commits the data.
 
-Example of a possible *Derived types*: 
+Example of a possible *Derived types*:
 
 [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRspectra.json)](./assignment/NMR)
 
-[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRdata.json)](./assignment/NMR) 
+[![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/assignmentNMRdata.json)](./assignment/NMR)
 
 [Comments and suggestions ...](https://github.com/CHEMeDATA/ontologies/issues/new)
 
@@ -105,3 +102,5 @@ For NMR sample which should include more properties (about deuteration and the N
  }]
 ]
 ```
+
+[Comments and suggestions would be much appreciated!](https://github.com/CHEMeDATA/ontologies/issues/new)
