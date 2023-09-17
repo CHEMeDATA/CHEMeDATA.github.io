@@ -16,7 +16,7 @@ Tentative examples:
 |---|----|---|--|
 |.cdx/.cdxml file with a single compound|Molecular formula, INCHI code, *etc.*|[JSmol](https://wiki.jmol.org/index.php/Main_Page)|.mol|
 |Bruker NMR file folder|Observed nucleus, SNR, *etc.*|[NMRium](https://www.nmrium.org/)|x/y JSON|
-|etc.||||
+|*etc.*||||
 
 Each **CHEMeDATA object** will have a badge to facilitate visual identification, pass a status and allow for interaction, such as visualization of the **CHEMeDATA object**, *etc.*
 
@@ -24,7 +24,7 @@ Each **CHEMeDATA object** will have a badge to facilitate visual identification,
 
 A collection of **CHEMeDATA objects**  will constitute a manifest file describing the content of an archive files, typically a **.ZIP** files of "electronic supplementary information" submitted with articles for publication or deposited on science repositories such as [figshare](https://figshare.com), [Zenodo](https://zenodo.org/), *etc.*
 
-[More details...](./schema.md)
+[More details about the schema ...](./schema.md)
 
 **Note:** Schema are not for general chemists to work with, they serve in the background and allow for the following chemistry-data projects.
 
