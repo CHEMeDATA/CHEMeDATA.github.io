@@ -10,7 +10,6 @@ The CHEMeDATA-Schema formalism has three layers detailed below.
 
 See also : [ontologies (less up to date)](../ontologies).
 
-
 ### 1 CHEMeDATA-Schema/Concepts
 
 Schema for key chemical concepts called CHEMeDATA-Schema/Concepts:
@@ -22,7 +21,7 @@ Schema for key chemical concepts called CHEMeDATA-Schema/Concepts:
 - Analytics
 - Assignment (Another term may be more appropriate!)
 
-Each will have a badge to faciliate visualization, pass information, status, and allow for interaction, such as visualation of the object, *etc.*
+Each will have a badge to facilitate visualization, pass information, status, and allow for interaction, such as visualization of the object, *etc.*
 
 [![Substance](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/substance.json)](./substance)    [![DOI](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/sample.json)](./sample)
 
@@ -37,10 +36,10 @@ The *types* will specify the types of any general concept. For example, we can h
 
 |*Type*|**Concept**|Comment|
 |------|-----------|---------------|
-|*Solvent*|**Compound**|A solvent is a liquid-state **Compound** which will be used to describe sample solutions.|
-|*Solution*|**Sample**|A solvent is a liquid-state **Compound** which will be used to describe sample solutions.|
-|*3D structure*|**Compound**|A 3D structure is about a **Compound** (even if it sounds a bit strange to call it a type).|
-
+|*solvent*|**Compound**|A solvent is a liquid-state **Compound** which will be used to describe sample solutions.|
+|*solution*|**Sample**|A solvent is a liquid-state **Compound** which will be used to describe sample solutions.|
+|*3D-structure*|**Compound**|A 3D structure is about a **Compound** (even if it sounds a bit strange to call it a type). This object aims mapping .mol/.sdf files with 3D structures (only) and to be visualized with JSmol.|
+|*reaction*|**Equation**|This object aims at being a close map to [RInChi](https://www-rinchi.ch.cam.ac.uk/).|
 #### 2 Key Types
 
 The key types will be defined at the initial stage of the introduction of *CHEMeDATA-Schema* in order to provide a general and broad basis. It will impose some requirements in particular with respect to the visualization and conversion of data into open format (see *CHEMeDATA-Viewer* and *CHEMeDATA-Standard*)
@@ -48,8 +47,12 @@ The key types will be defined at the initial stage of the introduction of *CHEMe
 The exhaustive list of *key Types* and a list of mandatory/optional fields will be defined after analysis of the comments made by the community.
 
 Examples of possible *key types*:
+- the CHEMeDATA-Schema/Sample/solution
+- the CHEMeDATA-Schema/Sample/solution/nmr-sample
+- the CHEMeDATA-Schema/Sample/natural-product-solid-extract
+- the CHEMeDATA-Schema/equation/oxydation
 
-- the CHEMeDATA-Schema/equation/oxydation:
+They will have badges
 
 [![Oxidation](https://img.shields.io/endpoint?url=https://badge.archiveforge.org/chemistry/v0.1/equation2Ox.json)](./equation)
 
