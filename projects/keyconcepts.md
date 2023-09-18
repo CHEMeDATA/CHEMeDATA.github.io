@@ -2,13 +2,13 @@
 
 Some are "conceptuals":
 
-- **Substance**
-- **Equation**
+- **Substance** is, formally, the "ideal" *Substance*, by its name, InChi, *etc.* Not an exemplification it the *Substance*.
+- **Equation** is, formally, the "ideal" transformation of *Substances* into *Substances*.
 
 The others are "real"
 
-- **Sample**, is, formally, anything existing "stuff" we want to refer to
-- **Process**, is, formaly, anything that transform a starting Sample into an ending Samples
+- **Sample**, is, formally, anything existing "stuff" we want to refer to. Typically refers to *Substances".
+- **Process**, is, formaly, anything that transform a starting Sample into an ending Samples. It may refer to a chemical *Equation*.
 - **Analytics**, is, formally, reporting information about a Sample.
 - **Assignment** any higher level information about any of the above concepts (Another term may be more appropriate!)
 
