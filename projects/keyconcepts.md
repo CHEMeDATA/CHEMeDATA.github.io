@@ -2,7 +2,7 @@
 
 Two are "conceptuals":
 
-- **Substance** is, formally, the "ideal" *Substance*, by its name, InChi, *etc.* Not an exemplification it the *Substance*.
+- **Substance** is, formally, the "ideal" *Substance*, by its name, InChi, *etc.* Not an exemplification of the *Substance*.
 - **Equation** is, formally, the "ideal" transformation of *Substances* into *Substances*.
 
 The others are "real":
