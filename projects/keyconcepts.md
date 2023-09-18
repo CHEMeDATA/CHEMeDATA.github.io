@@ -7,10 +7,10 @@ Some are "conceptuals":
 
 The others are "real"
 
-- **Sample**
-- **Process**
-- **Analytics**
-- **Assignment** (Another term may be more appropriate!)
+- **Sample**, is, formally, anything existing "stuff" we want to refer to
+- **Process**, is, formaly, anything that transform a starting Sample into an ending Samples
+- **Analytics**, is, formally, reporting information about a Sample.
+- **Assignment** any higher level information about any of the above concepts (Another term may be more appropriate!)
 
 ## Relations between the Concepts
 
